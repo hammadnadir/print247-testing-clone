@@ -1,0 +1,90 @@
+.main_inspired {
+    margin-top: 100px;
+
+    @media screen and (max-width: 912px) {
+        margin-top: 80px;
+    }
+
+    @media screen and (max-width: 768px) {
+        margin-top: 60px;
+    }
+
+    @media screen and (max-width: 575px) {
+        margin-top: 50px;
+    }
+    
+    .inspired_data {
+        h3 {
+            font-size: 55px;
+            font-weight: 700;
+            text-align: center;
+            color: black;
+           font-family: "Montserrat";
+
+            @media screen and (max-width: 912px) {
+                font-size: 45px;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 35px;
+            }
+            @media screen and (max-width: 575px) {
+                font-size: 30px;
+            }
+            @media screen and (max-width: 420px) {
+                font-size: 25px;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            color: black;
+            max-width: 650px;
+            margin: auto;
+            font-family: "Montserrat";
+
+            @media screen and (max-width: 768px) {
+                font-size: 16px;
+            }
+            @media screen and (max-width: 575px) {
+                font-size: 14px;
+            }
+        }
+
+        .inpired_grid_boxes {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: auto;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 45px;
+
+            @media screen and (max-width: 912px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            @media screen and (max-width: 768px) {
+                gap: 10px;
+                margin-top: 35px;
+            }
+            @media screen and (max-width: 575px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 7px;
+                margin-top: 30px;
+                margin-bottom: -20px;
+            }
+
+            .inner_inpired_grid_boxes {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    
+}

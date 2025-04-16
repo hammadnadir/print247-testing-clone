@@ -1,0 +1,38 @@
+.html_site_main {
+    padding-top: 203px;
+
+    @media screen and (max-width: 1023px) {
+        padding-top: 110px;
+    }
+    .text-dark{
+        font-weight: 600;
+        font-size: 28px;
+        @media screen and (max-width:1200px) {
+            font-size: 23px;
+        }
+        @media screen and (max-width:1000px) {
+            font-size: 21px;
+        }
+        @media screen and (max-width:1000px) {
+            font-size: 18px;
+        }
+    }
+
+    
+    .Print247-Logo {
+        margin-bottom: 10px;
+    }
+    
+    ul {
+        li {
+            font-size: 14px;
+            padding: 6px;
+            font-weight: 500;
+            line-height: 1.42857143;
+            // margin-bottom: 10px !important;
+            a {
+                color: #333;
+            }
+        }
+    }
+}

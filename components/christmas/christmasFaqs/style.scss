@@ -1,0 +1,145 @@
+.Faq_contactsectionTwo {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 60px;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 30px;
+
+        @media screen and (max-width: 1280px) {
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            font-size: 35px;
+        }
+
+        @media screen and (max-width: 912px) {
+            font-size: 35px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 25px;
+        }
+    }
+
+    hr {
+        margin: 0px;
+        border: 1px solid black;
+        width: 100%;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    .faq_question1 {
+        display: flex;
+        justify-content: center;
+
+        .faq-width {
+            width: 60%;
+
+            @media screen and (max-width: 1024px) {
+                width: 70%;
+            }
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
+
+            .para_contact, .para1_contact {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease-in-out;
+            }
+            
+            .para1_contact {
+                max-height: 200px;
+            }
+
+            .faq-content {
+                transition: max-height 0.3s ease-in-out;
+            }
+            
+        }
+
+        .accordianss {
+            display: flex;
+            justify-content: space-between;
+            gap: 7px;
+            cursor: pointer;
+            align-items: start;
+            padding: 30px 0px;
+
+            .arrow_icon {
+                img {
+                    width: 8px;
+                    height: auto;
+                }
+            }
+
+            .icon_styleOne {
+                transform: rotate(0deg);
+                // transition: all 0.5s ease-in-out;
+            }
+
+            .icon_styleTwo {
+                // transition: all 0.5s ease-in-out;
+                transform: rotate(90deg);
+            }
+        }
+
+        h4 {
+            font-size: 21px;
+            font-weight: 500;
+            color: #000000;
+            margin-bottom: 0px;
+
+            @media screen and (max-width:1024px) {
+                font-size: 18px;
+            }
+
+            @media screen and (max-width:768px) {
+                font-size: 16px;
+            }
+
+            @media screen and (max-width:500px) {
+                font-size: 15px;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            width: 100%;
+            font-weight: 400;
+
+            @media screen and (max-width:1024px) {
+                font-size: 19px;
+            }
+
+            @media screen and (max-width:768px) {
+                text-align: justify;
+                font-size: 16px;
+            }
+
+            @media screen and (max-width:500px) {
+                text-align: justify;
+                font-size: 13px;
+            }
+        }
+    }
+}

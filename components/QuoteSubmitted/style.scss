@@ -1,0 +1,46 @@
+.quote_submitted_bg {
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    height: 100vh;
+    z-index: 2000;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    .quote_submitted_data {
+        max-width: 650px;
+        margin: auto;
+
+        h2 {
+            color: #030303;
+            font-size: 29px;
+            text-align: center;
+            opacity: 1;
+            font-weight: 700;
+        }
+
+        p {
+            color: black;
+            font-size: 16px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .continue_shopping_btn {
+            justify-content: center;
+            display: flex;
+            margin-top: 25px;
+
+            button {
+                background-color: #00A1ED;
+                color: white;
+                font-size: 15px;
+                width: 200px;
+                padding: 12px 0;
+                border-radius: 35px;
+            }
+        }
+    }
+}

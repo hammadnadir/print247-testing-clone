@@ -1,0 +1,173 @@
+.quote_detail_modaal {
+   
+}
+
+.ant-modal-content {
+    width: 70%;
+    .main-contact-inp2 {
+     
+        h2 {
+            font-weight: 500;
+            font-size: 20px;
+            margin-bottom: 20px;
+
+            @media screen and (max-width: 575px) {
+                font-size: 18px;
+            }
+        }
+
+        .contact_text_field {
+
+            input {
+                font-size: 14px;
+                border: 1px solid black;
+            }
+        }
+
+        .contact_two_fields {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+            justify-content: space-between;
+
+            @media screen and (max-width: 575px) {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            .contact_text_field {
+                input {
+                    font-size: 14px;
+                }
+
+            }
+        }
+
+        .contact-checkbox {
+            display: flex;
+            align-items: center !important;
+
+            label {
+                margin-left: 20px;
+                width: 90%;
+                font-size: 16px;
+                cursor: pointer;
+
+                @media screen and (max-width: 575px) {
+                    width: 85%;
+                    font-size: 14px;
+                }
+            }
+
+            input {
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+            }
+
+
+            span {
+                color: #1592E6;
+            }
+        }
+
+        .contact-submitbth {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+            button {
+                width: 195px;
+                padding-top: 15px;
+                padding-bottom: 15px !important;
+                border-radius: 20px;
+                border: none;
+                outline: none;
+                text-decoration: none;
+                cursor: pointer;
+                color: white;
+                background-color: black;
+                margin: auto;
+                justify-content: center;
+                display: flex;
+            }
+
+            .loader_btn {
+                width: 168px;
+                border-radius: 18px;
+                // background-color: #05a0e9;
+                background-color: black;
+                color: white;
+                height: 50px;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .custom-loader {
+                width: 12px;
+                height: 12px;
+                // background: #766DF4;
+                background: #2296da;
+                border-radius: 50%;
+                box-shadow: 20px 0 #766DF422, -20px 0 #2296da;
+                animation: d5 1s infinite linear alternate;
+            }
+
+            @keyframes d5 {
+                0% {
+                    box-shadow: 20px 0 #2296da, -20px 0 #766DF422;
+                    background: #2296da
+                }
+
+                33% {
+                    box-shadow: 20px 0 #2296da, -20px 0 #766DF422;
+                    background: #766DF422
+                }
+
+                66% {
+                    box-shadow: 20px 0 #766DF422, -20px 0 #2296da;
+                    background: #766DF422
+                }
+            }
+
+        }
+
+        p {
+            text-align: center;
+            margin-top: 15px;
+
+            @media screen and (max-width: 575px) {
+                margin-top: 10px;
+            }
+        }
+
+    }
+    .react-tel-input {
+        .form-control {
+            width: 100%;
+            height: 50px !important;
+            // padding: 0px 30px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            border-radius: 30px;
+            border: 1px solid #c2c2c2 !important;
+            outline: none;
+            box-shadow: none;
+
+            @media screen and (max-width: 375px) {
+                height: 45px !important;
+            }
+        }
+
+        .flag-dropdown {
+            // border-bottom-left-radius: 30px;
+            // border-top-left-radius: 30px;
+        }
+    }
+}

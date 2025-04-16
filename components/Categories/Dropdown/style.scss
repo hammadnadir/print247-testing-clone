@@ -1,0 +1,188 @@
+.MainDropDown {
+    width: 100% !important;
+
+    .drop_menues_div {
+
+        .set_show {
+            transition: all 0.8s ease-in-out;
+            transform: rotate(0deg);
+        }
+
+        .set_show2 {
+            transition: all 0.8s ease-in-out;
+            transform: rotate(90deg);
+        }
+
+        .img1 {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            right: 40px;
+            z-index: 7;
+            top: 60%;
+            width: 10px;
+
+            @media screen and (max-width: 414px) {
+                right: 25px;
+                width: 9px;
+            }
+
+            @media screen and (max-width: 320px) {
+                right: 20px;
+            }
+        }
+
+        .img2 {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            right: 40px;
+            z-index: 98768778;
+            top: 65%;
+            width: 17px;
+
+            @media screen and (max-width: 414px) {
+                right: 25px;
+                width: 9px;
+            }
+
+            @media screen and (max-width: 320px) {
+                right: 20px;
+            }
+        }
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        z-index: 2;
+        width: 100% !important;
+        margin-right: auto;
+
+        @media screen and (max-width: 1100px) {
+            margin-left: 10%;
+            width: 90% !important;
+        }
+
+        .hide_dropdown {
+            opacity: 0;
+            max-height: 0;
+        }
+
+        .show_dropdown {
+            opacity: 1;
+            max-height: 500px;
+        }
+
+        .drop_head {
+            border-radius: 28px;
+            color: Black;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 14px 22px;
+            text-align: start;
+            width: 100% !important;
+            position: relative;
+            z-index: 7 !important;
+            margin-bottom: -20px;
+
+            @media screen and (max-width: 1350px) {
+                font-size: 25px !important;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 20px !important;
+            }
+
+            @media screen and (max-width: 575px) {
+                font-size: 16px !important;
+            }
+
+            @media screen and (max-width: 414px) {
+                font-size: 12px !important;
+            }
+        }
+
+        .dropbtn {
+            background-color: white;
+            padding-left: 70px !important;
+            border-radius: 28px;
+            color: Black;
+            font-size: 30px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            padding: 14px 22px;
+            text-align: start;
+            width: 100% !important;
+            position: relative;
+            z-index: 7 !important;
+            margin-bottom: -20px;
+
+            @media screen and (max-width: 1350px) {
+                font-size: 25px !important;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 20px !important;
+            }
+
+            @media screen and (max-width: 575px) {
+                font-size: 16px !important;
+            }
+
+            @media screen and (max-width: 414px) {
+                padding-left: 25px !important;
+                font-size: 12px !important;
+            }
+
+            @media screen and (max-width: 350px) {
+                padding-left: 17px !important;
+            }
+        }
+
+        .dropdown-content {
+            transition: all 0.8s ease-in-out;
+            position: absolute;
+            margin: 10px 0px;
+            z-index: 1;
+            background-color: white;
+            min-width: 160px;
+            width: 100% !important;
+            border-radius: 28px;
+            border-top-right-radius: 0px;
+            border-top-left-radius: 0px;
+            margin-top: -7px;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            overflow-y: scroll;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            .menues_inside {
+                color: #333;
+                padding: 0px 70px;
+                text-decoration: none;
+                display: block;
+                font-weight: bold;
+                font-size: 20px;
+                cursor: pointer;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 16px;
+                }
+
+                @media screen and (max-width: 414px) {
+                    padding: 0px 25px;
+                    font-size: 12px;
+                }
+
+                @media screen and (max-width: 350px) {
+                    padding: 0px 17px;
+                }
+            }
+        }
+    }
+}

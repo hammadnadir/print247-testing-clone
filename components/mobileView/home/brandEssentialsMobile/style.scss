@@ -1,0 +1,162 @@
+.main_brandslider {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  background-color: #ffffff;
+
+  h2 {
+    font-size: clamp(30px, 3vw, 60px);
+    margin-top: 30px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    font-family: "Montserrat";
+
+    @media screen and (max-width: 1024px) {
+      font-size: 40px;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: 575px) {
+      font-size: 25px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .grid_brandslider {
+    gap: 10px;
+
+    @media screen and (max-width: 767px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media screen and (max-width: 725px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .slide_mainimges {
+    cursor: pointer;
+
+    .slider_img {
+      margin: auto;
+      width: 100%;
+      height: auto;
+    }
+
+    .main_roundeded{
+      .slider_img2 {
+        margin: auto;
+        width: 80%;
+        height: auto;
+      }
+
+      .home_roundeded {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding-top: 10px;
+
+        .title_headings {
+          padding-left: 25px;
+          font-size: 20px;
+          font-weight: 600;
+          color: black;
+
+          @media screen and (max-width: 1320px) {
+            padding-left: 12px;
+            font-size: 18px;
+          }
+
+          @media screen and (max-width: 1100px) {
+            padding-left: 8px;
+            font-size: 17px;
+          }
+
+          @media screen and (max-width: 1024px) {
+            padding-left: 8px;
+            font-size: 20px;
+          }
+
+          @media screen and (max-width: 912px) {
+            padding-left: 8px;
+            font-size: 18px;
+          }
+
+          @media screen and (max-width: 768px) {
+            padding-left: 5px;
+            font-size: 16px;
+          }
+          @media screen and (max-width: 575px) {
+            font-size: 12px;
+            text-align: left;
+            margin-bottom: 0px;
+          }
+        }
+
+        .arrowslide {
+          width: 15px;
+          height: auto;
+          margin-right: 25px;
+
+          @media screen and (max-width: 1320px) {
+            margin-right: 12px;
+          }
+
+          @media screen and (max-width: 1100px) {
+            margin-right: 8px;
+          }
+
+          @media screen and (max-width: 768px) {
+            margin-right: 5px;
+          }
+          @media screen and (max-width: 575px) {
+            margin-right: 2px;
+            width: 10px;
+          }
+          @media screen and (max-width: 320px) {
+            margin-right: 0px;
+          }
+        }
+      }
+
+      .title_para {
+        font-size: 16px;
+        font-weight: 400;
+        padding-top: 12px;
+        padding-left: 25px;
+        text-align: left;
+
+        @media screen and (max-width: 1320px) {
+          padding-left: 12px;
+          font-size: 14px;
+        }
+
+        @media screen and (max-width: 1100px) {
+          padding-left: 8px;
+          padding-top: 8px;
+        }
+
+        @media screen and (max-width: 1024px) {
+          padding-left: 8px;
+          font-size: 16px;
+          padding-top: 5px;
+        }
+
+        @media screen and (max-width: 768px) {
+          padding-left: 5px;
+          font-size: 14px;
+          padding-top: 0px;
+        }
+        @media screen and (max-width: 575px) {
+          padding-left: 2px;
+          font-size: 10px;
+          padding-top: 0px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+.main_marquee_social {
+  padding-top: 60px;
+  // background-color: #e5e5e5;
+  background-color: #ffffff;
+
+  // @media screen and (max-width: 1550px) {
+  //   padding-top: 150px;
+  // }
+  // @media screen and (max-width: 1024px) {
+  //   padding-top: 120px;
+  // }
+  // @media screen and (max-width: 912px) {
+  //   padding-top: 100px;
+  // }
+
+  .marquee_social {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    @media screen and (max-width: 768px) {
+      gap: 18px;
+    }
+
+    @media screen and (max-width: 575px) {
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+
+  .linkdin-cam {
+    background-color: #2ba3ff;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+
+    @media screen and (max-width: 1024px) {
+      width: 35px;
+      height: 35px;
+    }
+
+    img {
+      width: 17px;
+      height: 17px;
+
+      @media screen and (max-width: 1024px) {
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+
+  .social-marquee1 {
+    display: flex;
+    border: 1px solid black;
+    // width: 16%;
+    width: 250px;
+    border-radius: 30px;
+    align-items: center;
+    height: 60px;
+    padding: 0px 20px;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1024px) {
+      height: 50px;
+    }
+    @media screen and (max-width: 575px) {
+      width: 100%;
+    }
+
+    p {
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 0px !important;
+    }
+
+    .inner_social_marquee {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+
+      @media screen and (max-width: 768px) {
+        gap: 10px;
+      }
+
+      @media screen and (max-width: 575px) {
+        gap: 25px;
+      }
+    }
+  }
+
+  .social_marquee2 {
+    margin: auto;
+    width: 75%;
+
+    @media screen and (max-width: 1550px) {
+      width: 70%;
+    }
+
+    @media screen and (max-width: 1280px) {
+      width: 68%;
+    }
+
+    @media screen and (max-width: 1024px) {
+      width: 65%;
+    }
+
+    @media screen and (max-width: 912px) {
+      width: 58%;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 55%;
+    }
+
+    @media screen and (max-width: 650px) {
+      width: 53%;
+    }
+
+    @media screen and (max-width: 575px) {
+      width: 100%;
+    }
+
+    img {
+      margin-right: 100px;
+
+      @media screen and (max-width: 1550px) {
+        width: 60px;
+        height: auto;
+        margin-right: 60px;
+      }
+
+      @media screen and (max-width: 1024px) {
+        width: 50px;
+        height: auto;
+        margin-right: 50px;
+      }
+
+      @media screen and (max-width: 768px) {
+        margin-right: 42px;
+        width: 42px;
+        height: auto;
+      }
+    }
+  }
+
+}

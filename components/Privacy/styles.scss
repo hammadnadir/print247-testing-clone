@@ -1,0 +1,119 @@
+.privacy_main {
+    width: 70%;
+    margin: auto;
+    padding-top: 150px;
+    margin-bottom: 60px !important;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding-top: 110px;
+    }
+
+    .main_policy {
+
+        .inner_policy {
+
+            .headpolicy {
+
+                h1 {
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: 700;
+                    margin-top: 80px;
+
+                    @media screen and (max-width: 1025px) {
+                        font-size: 40px;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        font-size: 30px;
+                        margin-top: 40px;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 30px;
+                        margin-top: 0px;
+                    }
+                }
+
+                h3 {
+                    font-size: 20px;
+                    color: black;
+                    font-weight: 500;
+                    margin-top: 60px;
+                }
+
+                p {
+                    color: black;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-top: 25px;
+
+                    @media screen and (max-width: 768px) {
+                        font-size: 16px;
+                    }
+                }
+
+                .main_sub_data {
+
+                    h4 {
+                        font-size: 30px;
+                        font-weight: 700;
+                        margin-top: 60px;
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 25px;
+                            margin-top: 35px;
+                        }
+
+                        @media screen and (max-width: 575px) {
+                            margin-top: 0px;
+                            font-size: 22px;
+                        }
+                    }
+
+                    .bottom_subdata {
+
+                        .headsubdata {
+
+                            h2 {
+                                color: black;
+                                font-size: 25px;
+                                font-weight: 600;
+                                margin-top: 35px;
+
+                                @media screen and (max-width: 768px) {
+                                    font-size: 20px;
+                                }
+
+                                @media screen and (max-width: 575px) {
+                                    font-size: 18px;
+                                }
+                            }
+
+                            p {
+                                color: black;
+                                font-size: 18px;
+                                font-weight: 500;
+                                margin-top: 25px;
+
+                                @media screen and (max-width: 768px) {
+                                    font-size: 16px;
+                                }
+
+                                @media screen and (max-width: 575px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

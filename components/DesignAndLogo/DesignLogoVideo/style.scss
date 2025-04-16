@@ -1,0 +1,29 @@
+.main_DesignLogoVideo{
+    .video_part{
+        video{
+            border-bottom-left-radius: 130px;
+            border-bottom-right-radius: 130px;
+
+            @media screen and (max-width: 1024px) {
+                border-bottom-left-radius: 90px;
+                border-bottom-right-radius: 90px;
+            }
+            @media screen and (max-width: 912px) {
+                border-bottom-left-radius: 80px;
+                border-bottom-right-radius: 80px;
+            }
+            @media screen and (max-width: 768px) {
+                border-bottom-left-radius: 70px;
+                border-bottom-right-radius: 70px;
+            }
+            @media screen and (max-width: 575px) {
+                border-bottom-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+            }
+            @media screen and (max-width: 400px) {
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 30px;
+            }
+        }
+    }
+}

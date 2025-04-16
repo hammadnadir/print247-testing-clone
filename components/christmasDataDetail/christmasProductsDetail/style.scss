@@ -1,0 +1,230 @@
+.background-detail {
+    background-color: #f1f1f1;
+    padding-bottom: 100px !important;
+
+    .without_boxes {
+        padding-top: 280px;
+
+        @media screen and (max-width:1023px) {
+            padding-top: 120px;
+        }
+    }
+
+    .with_boxes {
+        padding-top: 360px;
+
+        @media screen and (max-width:1023px) {
+            padding-top: 220px;
+        }
+    }
+
+    .main-secction {
+        display: flex;
+        grid-template-columns: auto auto;
+        gap: 70px;
+        align-items: top;
+
+        @media screen and (max-width: 1024px) {
+            flex-direction: column;
+        }
+
+        @media screen and (max-width: 1650px) {
+            gap: 90px;
+        }
+
+        @media screen and (max-width: 1450px) {
+            gap: 90px;
+        }
+
+        @media screen and (max-width: 1380px) {
+            gap: 110px;
+        }
+
+        @media screen and (max-width: 1100px) {
+            gap: 75px;
+        }
+
+        @media screen and (max-width: 1250px) {
+            font-size: 13px;
+        }
+
+        @media screen and (max-width: 1150px) {
+            font-size: 11px;
+        }
+
+        .outer_outside_box {
+            display: flex;
+            gap: 40px;
+            position: relative;
+
+            .adjust_section_width {
+                width: 75%;
+
+                @media screen and (max-width: 1024px) {
+                    width: 70%;
+                }
+
+                @media screen and (max-width: 700px) {
+                    width: 100% !important;
+                }
+            }
+
+            @media screen and (max-width: 1024px) {
+                flex-direction: column;
+            }
+
+            .inner_top_boxes {
+                position: absolute;
+                top: -200px;
+                width: 100%;
+
+                @media screen and (max-width:1024px) {
+                    top: -150px;
+                }
+            }
+
+            .outsidee-boxes {
+                display: flex;
+                margin-bottom: 20px;
+                margin-top: 50px;
+                gap: 3px;
+
+                img {
+
+                    @media screen and (max-width:575px) {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+
+                .boxes1 {
+                    background-color: #e8e8e8;
+                    padding: 11px 0;
+                    text-align: center;
+                    width: 100%;
+                    cursor: pointer;
+
+                    h4 {
+                        font-size: 18px;
+
+                        @media screen and (max-width: 1650px) {
+                            font-size: 16px;
+                        }
+
+                        @media screen and (max-width: 1450px) {
+                            font-size: 15px;
+                        }
+
+                        @media screen and (max-width: 1250px) {
+                            font-size: 13px;
+                        }
+
+                        @media screen and (max-width: 1150px) {
+                            font-size: 11px;
+                        }
+
+                        @media screen and (max-width: 1024px) {
+                            font-size: 15px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 13px;
+                        }
+
+                        @media screen and (max-width: 480px) {
+                            font-size: 10px;
+                        }
+
+                        @media screen and (max-width: 350px) {
+                            font-size: 8px;
+                        }
+                    }
+                }
+
+                .boxes {
+                    background-color: white;
+                    padding: 11px 0;
+                    text-align: center;
+                    font-size: 18px;
+                    width: 100%;
+                    cursor: pointer;
+
+                    h4 {
+                        font-size: 18px;
+
+                        @media screen and (max-width: 1650px) {
+                            font-size: 16px;
+                        }
+
+                        @media screen and (max-width: 1450px) {
+                            font-size: 15px;
+                        }
+
+                        @media screen and (max-width: 1250px) {
+                            font-size: 13px;
+                        }
+
+                        @media screen and (max-width: 1150px) {
+                            font-size: 11px;
+                        }
+
+                        @media screen and (max-width: 1024px) {
+                            font-size: 15px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 13px;
+                        }
+
+                        @media screen and (max-width: 480px) {
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .main_products_envv {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            justify-content: center;
+            text-align: center;
+
+
+            @media screen and (max-width: 1550px) {
+                display: grid;
+                grid-template-columns: auto auto;
+                gap: 8px;
+            }
+
+            @media screen and (max-width: 1024px) {
+                margin-bottom: 60px;
+                margin-top: 20px;
+                gap: 5px;
+            }
+
+            @media screen and (max-width: 768px) {
+                display: grid;
+                grid-template-columns: auto auto;
+
+            }
+
+            @media screen and (max-width: 575px) {
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+
+            .bottom {
+                .image_env {
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,164 @@
+.main_dielines {
+    background-color: #F1F1F1;
+
+    .head_dielines {
+        padding-top: 75px;
+
+        h1 {
+            font-size: 55px;
+            font-weight: 700;
+            text-align: center;
+            color: black;
+
+            @media screen and (max-width: 1400px) {
+                font-size: 45px;
+            }
+
+            @media screen and (max-width: 1024px) {
+                font-size: 40px;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 35px;
+            }
+            @media screen and (max-width: 575px) {
+                font-size: 30px;
+            }
+            @media screen and (max-width: 375px) {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .main_dielines_images {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        padding-top: 103px;
+        padding-bottom: 112px;
+
+        @media screen and (max-width: 575px) {
+          flex-direction: column;
+          padding-top: 60px;
+        }
+        @media screen and (max-width: 350px) {
+            gap: 25px;
+        }
+
+        .dielines_images {
+            img {
+                position: static !important;
+            }
+
+            .die_img{
+                @media screen and (max-width: 1700px) {
+                    width: 850px;
+                    height: 730px;
+                }
+
+                @media screen and (max-width: 1550px) {
+                    width: 820px;
+                    height: 700px;
+                }
+
+                @media screen and (max-width: 1400px) {
+                    width: 750px;
+                    height: 640px;
+                }
+                @media screen and (max-width: 1300px) {
+                    width: 630px;
+                    height: 540px;
+                }
+                @media screen and (max-width: 1150px) {
+                    width: 560px;
+                    height: 470px;
+                }
+                @media screen and (max-width: 1024px) {
+                    width: 510px;
+                    height: 440px;
+                }
+                @media screen and (max-width: 950px) {
+                    width: 450px;
+                    height: 390px;
+                }
+                @media screen and (max-width: 840px) {
+                    width: 400px;
+                    height: 350px;
+                }
+                @media screen and (max-width: 750px) {
+                    width: 330px;
+                    height: 280px;
+                }
+                @media screen and (max-width: 640px) {
+                    width: 300px;
+                    height: 250px;
+                }
+                @media screen and (max-width: 350px) {
+                    width: 270px;
+                    height: 220px;
+                }
+                @media screen and (max-width: 300px) {
+                    width: 240px;
+                    height: 200px;
+                }
+            }
+            .die1_img{
+                @media screen and (max-width: 1700px) {
+                    width: 334px;
+                    height: 246px;
+                }
+                @media screen and (max-width: 1550px) {
+                    width: 314px;
+                    height: 226px;
+                }
+                @media screen and (max-width: 1400px) {
+                    width: 304px;
+                    height: 216px;
+                }
+                @media screen and (max-width: 1300px) {
+                    width: 290px;
+                    height: 200px;
+                }
+                @media screen and (max-width: 1150px) {
+                    width: 260px;
+                    height: 180px;
+                }
+                @media screen and (max-width: 1024px) {
+                    width: 250px;
+                    height: 170px;
+                }
+                @media screen and (max-width: 950px) {
+                    width: 220px;
+                    height: 150px;
+                }
+                @media screen and (max-width: 840px) {
+                    width: 200px;
+                    height: 140px;
+                }
+                @media screen and (max-width: 750px) {
+                    width: 150px;
+                    height: 120px;
+                }
+                @media screen and (max-width: 640px) {
+                    width: 130px;
+                    height: 110px;
+                }
+                @media screen and (max-width: 575px) {
+                    width: 140px;
+                    height: 120px;
+                }
+                @media screen and (max-width: 350px) {
+                    width: 170px;
+                    height: 140px;
+                    margin: auto;
+                    display: grid;
+                }
+
+                @media screen and (max-width: 280px) {
+                    width: 160px;
+                    height: 130px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,147 @@
+.main_creating {
+padding-bottom: 130px;
+position: relative;
+z-index: 222;
+background-color: white;
+margin-top: 50px !important;
+
+@media screen and (max-width: 768px) {
+  padding-bottom: 20px;
+  margin-top: 20px !important;
+}
+@media screen and (max-width: 575px) {
+  padding-bottom: 60px;
+  margin-top: 15px !important;
+}
+
+  small {
+    color: #00a1ed;
+    font-size: 80px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    letter-spacing: 0px;
+    overflow-y: hidden !important;
+    font-family: "Montserrat";
+
+    @media screen and (max-width: 1024px) {
+      font-size: 80px;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 60px;
+    }
+
+    @media screen and (max-width: 575px) {
+      font-size: 40px;
+    }
+  }
+
+  .rfm-marquee-container{
+    overflow-y: hidden !important;
+  }
+
+  .print247 {
+    margin-top: 40px;
+
+    @media screen and (max-width: 575px) {
+      margin-top: 12px;
+    }
+
+    h2 {
+      font-size: 55px;
+      font-weight: 700;
+      text-align: center;
+      font-family: "Montserrat";
+      margin-bottom: 10px;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 45px;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 38px;
+      }
+
+      @media screen and (max-width: 575px) {
+        font-size: 32px;
+      }
+
+      @media screen and (max-width: 575px) {
+        font-size: 22px;
+      }
+    }
+
+    p {
+      max-width: 600px;
+      margin: auto;
+      font-size: 17px;
+      padding-top: 9px;
+      text-align: center;
+
+      @media screen and (max-width: 575px) {
+        font-size: 14px;
+      }
+
+      @media screen and (max-width: 420px) {
+        font-size: 12px;
+      }
+    }
+
+    .main_boxes {
+      margin-top: 35px !important;
+      display: flex;
+      overflow-y: hidden;
+
+      .video_player {
+        width: 320px;
+
+        height: auto;
+        object-fit: cover;
+        margin: 0px 5px !important;
+        overflow-y: hidden;
+        border-radius: 20px;
+
+        @media screen and (max-width: 1024px) {
+          width: 230px;
+          height: 400px;
+        }
+
+        @media screen and (max-width: 768px) {
+          width: 230px;
+          height: 240px;
+          margin: 0px 3px !important;
+          border-radius: 10px;
+        }
+
+        @media screen and (max-width: 575px) {
+          width: 158px;
+          height: 168px;
+          margin: 0px 3px !important;
+          border-radius: 10px;
+        }
+      }
+
+      .playButtonSet {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        img {
+          width: 60px;
+          height: auto;
+
+          @media screen and (max-width: 768px) {
+            width: 45px;
+            height: auto;
+          }
+
+          @media screen and (max-width: 575px) {
+            width: 30px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}

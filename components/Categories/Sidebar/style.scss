@@ -1,0 +1,193 @@
+.sidebar {
+    min-width: 380px !important;
+    height: 100%;
+    background-color: white !important;
+    border-radius: 20px;
+    margin-bottom: 73px;
+    padding-bottom: 40px;
+
+    @media screen and (max-width: 1100px) {
+        display: none;
+    }
+
+    @media screen and (max-width: 1550px) {
+        min-width: 380px !important;
+    }
+
+    @media screen and (max-width: 1480px) {
+        min-width: 320px !important;
+    }
+
+    @media screen and (max-width: 1340px) {
+        min-width: 300px !important;
+    }
+
+    @media screen and (max-width: 1220px) {
+        min-width: 280px !important;
+
+    }
+
+    .underlinehr {
+        margin-top: 28px;
+        border: 1px solid black;
+        margin-bottom: -25px;
+    }
+
+    .sidebar_data2 {
+        width: 100% !important;
+        padding-top: 53px;
+        color: black !important;
+        padding-left: 50px;
+        padding-right: 20px;
+
+        p {
+            margin-top: 20px;
+            font-size: 17px;
+            font-weight: 500 !important;
+
+            @media screen and (max-width: 1350px) {
+                font-size: 15px !important;
+            }
+
+            @media screen and (max-width: 1150px) {
+                font-size: 13px !important;
+            }
+        }
+
+        h5 {
+            font-size: 22px;
+            font-weight: 700;
+            color: black;
+
+            @media screen and (max-width: 1350px) {
+                font-size: 22px !important;
+            }
+        }
+    }
+
+    h5 {
+        font-size: 22px;
+        font-weight: 700;
+        color: black;
+
+        @media screen and (max-width: 1350px) {
+            font-size: 22px !important;
+        }
+    }
+
+    .underline {
+        margin-top: 28px;
+    }
+
+    .sidebar_datas {
+        padding-top: 28px;
+        color: black !important;
+        padding-left: 50px;
+        width: 350px;
+
+        p {
+            margin-top: 20px;
+            font-weight: 500;
+        }
+
+        h5 {
+            font-size: 25px;
+        }
+    }
+}
+
+
+.ham_iconss {
+    position: absolute;
+    top: 13px;
+
+    @media screen and (min-width: 1101px) {
+        display: none;
+    }
+
+    @media screen and (max-width: 320px) {
+        left: -10px;
+    }
+
+    img {
+
+        @media screen and (max-width: 320px) {
+            width: 14px !important;
+            height: auto !important;
+        }
+    }
+}
+
+
+.showed1 {
+    right: 0;
+    transition: right 0.8s ease-in-out;
+    width: 100%;
+
+}
+
+.hidden1 {
+    right: 106%;
+    transition: right 0.8s ease-in-out;
+}
+
+
+// ###################### Mobile View Styling ######################
+
+.sidebarrTwo {
+    position: fixed;
+    min-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    top: 0;
+    width: 100% !important;
+    background-color: rgb(219, 219, 220);
+    z-index: 796789687867877;
+
+    .main_close_icon {
+        text-align: end;
+        padding-top: 30px;
+        padding-right: 30px;
+    }
+
+    h5 {
+        font-size: 22px;
+        font-weight: 700;
+        color: black;
+
+        @media screen and (max-width: 1350px) {
+            font-size: 22px !important;
+        }
+        @media screen and (max-width: 400px) {
+            font-size: 15px !important;
+        }
+    }
+
+    .underline {
+        margin-top: 28px;
+    }
+
+    .sidebar_datas {
+        padding-top: 20px;
+        color: black ;
+        padding-left: 50px;
+        width: 350px;
+
+        p {
+            margin-top: 20px;
+            font-weight: 600;
+            @media screen and (max-width: 400px) {
+                font-size: 12px ;
+            }
+        }
+
+        h5 {
+            font-size: 25px;
+
+            @media screen and (max-width: 1350px) {
+                font-size: 22px ;
+            }
+        }
+    }
+}

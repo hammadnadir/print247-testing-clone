@@ -1,0 +1,212 @@
+.premiem-cards-products {
+
+    .buisness-heading {
+        font-size: clamp(55px, 3vw, 22px);
+        font-weight: 700;
+        color: black;
+        margin-bottom: 60px;
+      
+    }
+
+    .buisness-object-layout {
+        padding-top: 130px;
+
+        h4 {
+            font-size: clamp(55px, 3vw, 22px);
+            font-weight: 700;
+            color: black;
+            text-align: center;
+            padding-bottom: 50px;
+
+            @media screen and (max-width: 1300px) {
+                font-size: 42px;
+            }
+            @media screen and (max-width: 1024px) {
+                font-size: 35px;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 27px;
+            }
+            @media screen and (max-width: 575px) {
+                font-size: 22px;
+            }
+        }
+
+        .main_second_portion {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 25px;
+            padding-top: 30px;
+            padding-bottom: 70px;
+
+            @media screen and (max-width: 768px) {
+                grid-template-columns: auto auto;
+            }
+
+            @media screen and (max-width: 575px) {
+                grid-template-columns: auto;
+                justify-content: center !important;
+            }
+
+            .bottom {
+                margin: auto;
+
+                .head_and_image {
+                    display: flex;
+                    flex-direction: column;
+
+                    img {
+                        max-width: 100%;
+                        max-height: 100%;
+                        cursor: pointer;
+                    }
+
+                    .shimmer {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    .head {
+                        h3 {
+                            padding-top: 16px;
+                            text-align: center;
+                            font-size: 22px;
+                            font-weight: 600;
+                            margin-bottom: 15px;
+
+                            @media screen and (max-width: 1700px) {
+                                font-size: 20px !important;
+                            }
+
+                            @media screen and (max-width: 1150px) {
+                                font-size: 18px !important;
+                            }
+
+                            @media screen and (max-width: 575px) {
+                                font-size: 16px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main_productss {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 25px;
+
+        @media screen and (max-width: 768px) {
+            grid-template-columns: auto auto;
+        }
+
+        @media screen and (max-width: 575px) {
+            grid-template-columns: auto;
+            justify-content: center !important;
+        }
+
+        .bottom {
+            margin: auto;
+
+            .head_and_image_packages {
+                display: flex;
+                flex-direction: column;
+
+
+                .head_sub_business_image {
+                    position: relative;
+
+                    img {
+                        max-width: 100%;
+                        max-height: 100%;
+                        cursor: pointer;
+                    }
+
+                    .btn_pop {
+                        position: absolute;
+                        top: 60px;
+                        right: 22px;
+
+                        button {
+                            padding-top: 7px;
+                            padding-bottom: 7px;
+                            padding-left: 11px;
+                            padding-right: 11px;
+                            color: white;
+                            background: #00A1ED;
+                            border-radius: 10px;
+                        }
+                    }
+
+                    .headsubbusiness {
+                        border: 1px solid black;
+                        padding-top: 8px;
+                        padding-bottom: 8px;
+                        padding-left: 34px;
+                        padding-right: 34px;
+                        border-bottom-left-radius: 35px;
+                        border-bottom-right-radius: 35px;
+                        background-color: black;
+                        color: white;
+                        position: absolute;
+                        top: 100%;
+                        width: 100%;
+
+                        h3 {
+                            padding-top: 8px;
+                            text-align: center;
+                            font-size: 23px;
+                            font-weight: 500;
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 18px;
+                            }
+                        }
+
+                        p {
+                            text-align: center;
+                            font-size: 17px;
+                            font-weight: 500;
+                            color: white;
+                            padding-top: 6px;
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                }
+
+                .shimmer {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .head {
+                    h3 {
+                        padding-top: 16px;
+                        text-align: center;
+                        font-size: 22px;
+                        font-weight: 600;
+                        margin-bottom: 15px;
+
+                        @media screen and (max-width: 1700px) {
+                            font-size: 20px !important;
+                        }
+
+                        @media screen and (max-width: 1150px) {
+                            font-size: 18px !important;
+                        }
+
+                        @media screen and (max-width: 575px) {
+                            font-size: 16px !important;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

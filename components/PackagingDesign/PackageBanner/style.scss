@@ -1,0 +1,48 @@
+.main_packagebanner {
+    background-color: #f1f1f1;
+    padding-top: 150px;
+
+    h2 {
+        font-size: 50px;
+        color: black;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 150px;
+
+        @media screen and (max-width: 1024px) {
+            font-size: 45px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 40px;
+        }
+        @media screen and (max-width: 575px) {
+            font-size: 35px;
+        }
+        @media screen and (max-width: 375px) {
+            font-size: 25px;
+        }
+    }
+
+    p {
+        width: 605px;
+        color: black;
+        font-size: 18px;
+        font-weight: 400;
+        margin: auto;
+        text-align: center;
+        padding-top: 32px;
+        padding-bottom: 52px;
+
+        @media screen and (max-width: 700px) {
+            width: 570px;
+        }
+        @media screen and (max-width: 650px) {
+            width: 100%;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 15px;
+        }
+    }
+}

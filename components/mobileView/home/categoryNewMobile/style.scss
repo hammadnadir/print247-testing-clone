@@ -1,0 +1,123 @@
+.main_catsliderMob {
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    background-color: #FFFFFF;
+
+    h2 {
+        font-size: clamp(30px, 3vw, 60px);
+        margin-top: 30px;
+        font-weight: 700;
+        margin-bottom: 60px;
+        font-family: "Montserrat";
+
+        @media screen and (max-width: 1024px) {
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 25px;
+            margin-bottom: 30px;
+            margin-top: 45px;
+        }
+    }
+
+    p {
+        max-width: 1100px;
+        margin: auto;
+        font-size: 17px;
+        text-align: center;
+    
+        @media screen and (max-width: 575px) {
+          font-size: 14px;
+        }
+    
+        @media screen and (max-width: 420px) {
+          font-size: 12px;
+        }
+      }
+    
+    .grid_catslider {
+        gap: 10px;
+
+        @media screen and (max-width: 767px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        @media screen and (max-width: 725px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .slide_mobImgesCat {
+        cursor: pointer;
+
+        .slider_imgMobCat {
+            margin: auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .main_roundedCatMob {
+
+            .slider_img2 {
+                margin: auto;
+                width: 80%;
+                height: auto;
+            }
+
+            .home_roundedCatMob {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                padding-top: 10px;
+
+                .title_headingMobCat {
+                    padding-left: 25px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: black;
+
+                    @media screen and (max-width: 1320px) {
+                        padding-left: 12px;
+                        font-size: 18px;
+                    }
+
+                    @media screen and (max-width: 1100px) {
+                        padding-left: 8px;
+                        font-size: 17px
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        padding-left: 8px;
+                        font-size: 20px
+                    }
+
+                    @media screen and (max-width: 912px) {
+                        padding-left: 8px;
+                        font-size: 18px
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        padding-left: 5px;
+                        font-size: 16px
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        padding-left: 2px;
+                        font-size: 12px
+                    }
+                }
+
+            }
+
+        }
+    }
+
+}

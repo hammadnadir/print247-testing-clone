@@ -1,0 +1,600 @@
+.ant-steps-vertical .ant-steps-item-tail:last-child {
+    display: none;
+}
+
+.main_our_process {
+    margin-top: 75px;
+
+    @media screen and (max-width: 1280px) {
+        margin-top: 65px;
+    }
+
+    .inner_our_process {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+
+        @media screen and (max-width: 1280px) {
+            gap: 50px;
+        }
+
+        @media screen and (max-width: 850px) {
+            gap: 30px;
+        }
+
+        .steps_section {
+            .process_heading {
+                color: #00A1ED;
+                font-size: 40px;
+                font-weight: 700;
+                margin-bottom: 10px;
+
+                @media screen and (max-width: 1700px) {
+                    font-size: 32px;
+                }
+
+                @media screen and (max-width: 1480px) {
+                    font-size: 28px;
+                }
+
+                @media screen and (max-width: 1280px) {
+                    font-size: 25px;
+                }
+            }
+
+            .process_tit {
+                font-size: 18px;
+                font-weight: 700;
+                color: black;
+                margin-bottom: 0px;
+                cursor: pointer;
+                display: flex !important;
+                width: 100% !important;
+
+                @media screen and (max-width: 1700px) {
+                    font-size: 16px;
+                }
+
+                @media screen and (max-width: 1280px) {
+                    font-size: 14px;
+                }
+
+            }
+
+            .process_des {
+                font-size: 16px;
+                font-weight: 400;
+                color: black;
+                max-width: 400px;
+                cursor: pointer;
+
+                @media screen and (max-width: 1700px) {
+                    font-size: 14px;
+                    max-width: 320px;
+                }
+
+                @media screen and (max-width: 1100px) {
+                    max-width: 280px;
+                    font-size: 12px;
+                }
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 11px;
+                }
+
+            }
+
+            .custom-icon {
+                font-size: 24px;
+                transition: all 0.3s ease;
+            }
+
+            .custom-icon.black {
+                color: black;
+            }
+
+            .ant-steps.ant-steps-vertical>.ant-steps-item>.ant-steps-item-container>.ant-steps-item-tail {
+                position: absolute;
+                top: 35px;
+                left: 50%;
+                inset-inline-start: 15px;
+                width: 1px;
+                height: 80px;
+                // background-color: #7e7e7e !important;
+                background-color: black !important;
+                z-index: -1;
+
+                @media screen and (max-width: 1700px) {
+                    height: 70px;
+                    top: 38px;
+                }
+
+                @media screen and (max-width: 1100px) {
+                    height: 62px;
+                    top: 40px;
+                }
+            }
+
+            .ant-steps.ant-steps-vertical>.ant-steps-item.ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-tail,
+            .ant-steps.ant-steps-vertical>.ant-steps-item.ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-tail {
+                // background-color: #adadad !important;
+                background-color: black !important;
+            }
+
+            .ant-steps .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-tail::after {
+                background-color: transparent;
+            }
+
+            .ant-steps-item-title {
+                display: flex !important;
+                width: 100% !important;
+            }
+        }
+
+        // GREAT TEAM LEADING
+
+        .main_great_team {
+            width: 50%;
+
+            @media screen and (max-width: 1280px) {
+                width: 55%;
+            }
+
+            .great_team_heading {
+                color: black;
+                font-size: 40px;
+                font-weight: 700;
+
+                @media screen and (max-width: 1700px) {
+                    font-size: 32px;
+                }
+
+                @media screen and (max-width: 1480px) {
+                    font-size: 28px;
+                }
+
+                @media screen and (max-width: 1280px) {
+                    font-size: 25px;
+                }
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 22px;
+                }
+
+                @media screen and (max-width: 912px) {
+                    font-size: 19px;
+                }
+
+                @media screen and (max-width: 850px) {
+                    font-size: 17px;
+                }
+            }
+
+            .great_team_para {
+                font-size: 16px;
+                font-weight: 500;
+                color: black;
+                margin: 20px 0px;
+
+                @media screen and (max-width: 1700px) {
+                    font-size: 14px;
+                }
+
+                @media screen and (max-width: 1350px) {
+                    font-size: 12px;
+                }
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 11px;
+                }
+                @media screen and (max-width: 912px) {
+                    margin: 10px 0px;
+                }
+            }
+
+            .main_grid_team_box {
+                width: 80%;
+
+                @media screen and (max-width: 1700px) {
+                    width: 90%;
+                }
+
+                @media screen and (max-width: 1480px) {
+                    width: 100%;
+                }
+
+                .team_box_quote {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 20px;
+                    background-color: #CEC6FE;
+                    padding: 18px 25px;
+                    border-radius: 25px;
+                    align-items: center;
+                    margin-bottom: 8px;
+
+                    @media screen and (max-width: 1024px) {
+                        border-radius: 20px;
+                    }
+                    @media screen and (max-width: 912px) {
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 10px;
+                        padding: 15px 20px;
+                        border-radius: 15px;
+                    }
+
+                    .team_box_para_quote{
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: black;
+                        margin-bottom: 0px;
+                        max-width: 250px;
+
+                        @media screen and (max-width: 1850px) {
+                            font-size: 18px;
+                            max-width: 230px;
+                        }
+                        @media screen and (max-width: 1700px) {
+                            font-size: 16px;
+                            max-width: 220px;
+                        }
+                        @media screen and (max-width: 1280px) {
+                            font-size: 14px;
+                            max-width: 190px;
+                        }
+                        @media screen and (max-width: 1024px) {
+                            font-size: 12px;
+                        }
+                        @media screen and (max-width: 912px) {
+                            font-size: 12px;
+                            max-width: 100%;
+                            text-align: center;
+                        }
+                        @media screen and (max-width: 768px) {
+                            font-size: 11px;
+                            max-width: 100%;
+                            text-align: center;
+                        }
+                      
+                    }
+
+                    button{
+                        background-color: transparent;
+                        border: 1px solid black;
+                        border-radius: 20px;
+                        color: black;
+                        padding: 11px 0px;
+                        width: 230px;
+                        font-size: 14px;
+
+                        @media screen and (max-width: 1280px) {
+                            font-size: 12px;
+                            width: 200px;
+                        }
+                        @media screen and (max-width: 1024px) {
+                            font-size: 10px;
+                            width: 160px;
+                        }
+                        @media screen and (max-width: 912px) {
+                            padding: 9px 0px;
+                        }
+                    }
+                }
+
+                .grid_team_box {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    gap: 7px;
+
+                    // @media screen and (max-width: 1700px) {
+                    //     width: 90%;
+                    // }
+
+                    // @media screen and (max-width: 1480px) {
+                    //     width: 100%;
+                    // }
+
+                    @media screen and (max-width: 1024px) {
+                        gap: 7px;
+                    }
+
+                    @media screen and (max-width: 912px) {
+                        gap: 5px;
+                    }
+
+                    .team_box1 {
+                        padding: 25px 20px;
+                        width: 100%;
+                        height: 167px;
+                        border-radius: 25px;
+                        background-color: #F2606A;
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+
+                        @media screen and (max-width: 1280px) {
+                            height: 150px;
+                            padding: 25px 15px;
+                        }
+
+                        @media screen and (max-width: 1024px) {
+                            height: 130px;
+                            border-radius: 15px;
+                            padding: 18px 9px;
+                        }
+
+                        .team_box_para {
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: black;
+                            margin-bottom: 0px;
+
+                            @media screen and (max-width: 1700px) {
+                                font-size: 14px;
+                            }
+
+                            @media screen and (max-width: 1350px) {
+                                font-size: 12px;
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                font-size: 11px;
+                            }
+
+                            @media screen and (max-width: 850px) {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+
+                    .team_box2 {
+                        padding: 25px 20px;
+                        width: 100%;
+                        height: 167px;
+                        border-radius: 25px;
+                        background-color: #F1D9CD;
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+
+                        @media screen and (max-width: 1280px) {
+                            height: 150px;
+                            padding: 25px 15px;
+                        }
+
+                        @media screen and (max-width: 1024px) {
+                            height: 130px;
+                            border-radius: 15px;
+                            padding: 18px 9px;
+                        }
+
+                        .team_box_para {
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: black;
+                            margin-bottom: 0px;
+
+                            @media screen and (max-width: 1700px) {
+                                font-size: 14px;
+                            }
+
+                            @media screen and (max-width: 1350px) {
+                                font-size: 12px;
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                font-size: 11px;
+                            }
+
+                            @media screen and (max-width: 850px) {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+
+                    .team_box3 {
+                        padding: 25px 20px;
+                        width: 100%;
+                        height: 167px;
+                        border-radius: 25px;
+                        background-color: #FFD539;
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+
+                        @media screen and (max-width: 1280px) {
+                            height: 150px;
+                            padding: 25px 15px;
+                        }
+
+                        @media screen and (max-width: 1024px) {
+                            height: 130px;
+                            border-radius: 15px;
+                            padding: 18px 9px;
+                        }
+
+                        .team_box_para {
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: black;
+                            margin-bottom: 0px;
+
+                            @media screen and (max-width: 1700px) {
+                                font-size: 14px;
+                            }
+
+                            @media screen and (max-width: 1350px) {
+                                font-size: 12px;
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                font-size: 11px;
+                            }
+
+                            @media screen and (max-width: 850px) {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+
+                    .team_box4 {
+                        padding: 25px 20px;
+                        width: 100%;
+                        height: 167px;
+                        border-radius: 25px;
+                        background-color: #55CCFF;
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+
+                        @media screen and (max-width: 1280px) {
+                            height: 150px;
+                            padding: 25px 15px;
+                        }
+
+                        @media screen and (max-width: 1024px) {
+                            height: 130px;
+                            border-radius: 15px;
+                            padding: 18px 9px;
+                        }
+
+                        .team_box_para {
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: black;
+                            margin-bottom: 0px;
+
+                            @media screen and (max-width: 1700px) {
+                                font-size: 14px;
+                            }
+
+                            @media screen and (max-width: 1350px) {
+                                font-size: 12px;
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                font-size: 11px;
+                            }
+
+                            @media screen and (max-width: 850px) {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+
+                    .team_box5 {
+                        padding: 25px 20px;
+                        width: 100%;
+                        height: 167px;
+                        border-radius: 25px;
+                        background-color: #F4D9E2;
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+
+                        @media screen and (max-width: 1280px) {
+                            height: 150px;
+                            padding: 25px 15px;
+                        }
+
+                        @media screen and (max-width: 1024px) {
+                            height: 130px;
+                            border-radius: 15px;
+                            padding: 18px 9px;
+                        }
+
+                        .team_box_para {
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: black;
+                            margin-bottom: 0px;
+
+                            @media screen and (max-width: 1700px) {
+                                font-size: 14px;
+                            }
+
+                            @media screen and (max-width: 1350px) {
+                                font-size: 12px;
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                font-size: 11px;
+                            }
+
+                            @media screen and (max-width: 850px) {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+
+                    .team_box6 {
+                        padding: 25px 20px;
+                        width: 100%;
+                        height: 167px;
+                        border-radius: 25px;
+                        background-color: #CEC6FE;
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+
+                        @media screen and (max-width: 1280px) {
+                            height: 150px;
+                            padding: 25px 15px;
+                        }
+
+                        @media screen and (max-width: 1024px) {
+                            height: 130px;
+                            border-radius: 15px;
+                            padding: 18px 9px;
+                        }
+
+                        .team_box_para {
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: black;
+                            margin-bottom: 0px;
+
+                            @media screen and (max-width: 1700px) {
+                                font-size: 14px;
+                            }
+
+                            @media screen and (max-width: 1350px) {
+                                font-size: 12px;
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                font-size: 11px;
+                            }
+
+                            @media screen and (max-width: 850px) {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .printed_para {
+                font-size: 16px;
+                font-weight: 500;
+                color: black;
+                margin-top: 20px;
+
+                @media screen and (max-width: 1700px) {
+                    font-size: 14px;
+                }
+
+                @media screen and (max-width: 1350px) {
+                    font-size: 12px;
+                }
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}

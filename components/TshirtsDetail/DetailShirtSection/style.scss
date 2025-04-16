@@ -1,0 +1,841 @@
+.backgroundd-detailsectionn {
+    background-color: #F1F1F1;
+    padding-top: 280px;
+    padding-bottom: 100px !important;
+
+    @media screen and (max-width: 1024px) {
+        padding-top: 150px;
+    }
+    .main-detailsections {
+        display: flex;
+        gap: 70px;
+        align-items: top;
+
+        @media screen and (max-width: 1024px) {
+            flex-direction: column;
+        }
+
+        @media screen and (max-width: 1650px) {
+            gap: 90px;
+        }
+
+        @media screen and (max-width: 1450px) {
+            gap: 90px;
+        }
+
+        @media screen and (max-width: 1380px) {
+            gap: 110px;
+        }
+
+        @media screen and (max-width: 1100px) {
+            gap: 75px;
+        }
+
+        @media screen and (max-width: 1250px) {
+            font-size: 13px;
+        }
+
+        @media screen and (max-width: 1150px) {
+            font-size: 11px;
+        }
+
+
+        .main-outside-boxes {
+            width: 40%;
+
+            @media screen and (max-width: 1024px) {
+                width: 70%;
+            }
+
+            @media screen and (max-width: 700px) {
+                width: 100% !important;
+            }
+
+
+        }
+
+        .inner-detaill {
+
+            .style {
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            .outside-boxes-shirt {
+                display: flex;
+                margin-bottom: 20px;
+                gap: 3px;
+
+                .boxess1 {
+                    background-color: #E8E8E8;
+                    padding: 15px 0;
+                    text-align: center;
+                    width: 70%;
+
+                    h4 {
+                        font-size: 18px;
+                        padding-top: 6px;
+
+                        @media screen and (max-width: 1650px) {
+                            font-size: 16px;
+                        }
+
+                        @media screen and (max-width: 1450px) {
+                            font-size: 15px;
+                        }
+
+                        @media screen and (max-width: 1250px) {
+                            font-size: 13px;
+                        }
+
+                        @media screen and (max-width: 1150px) {
+                            font-size: 11px;
+                        }
+                    }
+                }
+
+                .boxess {
+                    background-color: white;
+                    padding: 15px 0;
+                    text-align: center;
+                    font-size: 18px;
+                    width: 70%;
+
+                    h4 {
+                        font-size: 18px;
+                        padding-top: 6px;
+
+                        @media screen and (max-width: 1650px) {
+                            font-size: 16px;
+                        }
+
+                        @media screen and (max-width: 1450px) {
+                            font-size: 15px;
+                        }
+
+                        @media screen and (max-width: 1250px) {
+                            font-size: 13px;
+                        }
+
+                        @media screen and (max-width: 1150px) {
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .inner-detaill2 {
+
+            .color {
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            .color-types {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+
+                .color-imgg {
+                    border: 1px solid transparent;
+
+                    img {
+                        cursor: pointer;
+                        margin: 3px;
+                    }
+                }
+
+                .color-img {
+                    border: 1px solid black;
+                    border-radius: 50%;
+
+                }
+            }
+
+
+        }
+
+        .main-custommailer {
+            width: 55%;
+
+            @media screen and (max-width: 1024px) {
+                width: 79%;
+            }
+
+            h2 {
+                font-size: 45px;
+                font-weight: 700;
+
+                @media screen and (max-width: 700px) {
+                    font-size: 35px;
+                }
+            }
+
+            .summaryy {
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 16px;
+                }
+            }
+
+            .star {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                p {
+                    margin-bottom: 0% !important;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        // p {
+        //     margin-top: 10px;
+        // }
+
+        .inner-detail {
+            display: flex;
+            // gap: 100px;
+
+            .first-row-detail {
+                width: 30%;
+
+                h3 {
+                    font-size: 18px;
+
+                    @media screen and (max-width: 1280px) {
+                        font-size: 15px;
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        font-size: 16px;
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        font-size: 14px;
+                    }
+                }
+
+                .checkbox {
+                    align-items: center;
+                    width: 70%;
+
+                }
+
+            }
+
+        }
+
+        .weight-section {
+            display: flex !important;
+            gap: 10px;
+            // margin-top: 15px;
+
+            .inner-weight-section {
+
+                input {
+                    border: none;
+                    text-decoration: none;
+                    outline: none;
+                    padding-left: 5px;
+                    width: 140px;
+                    margin-top: 7px;
+
+                    @media screen and (max-width: 1450px) {
+                        width: 100px;
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        width: 85px;
+                    }
+
+                    @media screen and (max-width: 600px) {
+                        width: 65px;
+                    }
+                }
+            }
+        }
+
+
+        .mainsecond-row-detail {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+
+            .second-row-detail {
+                margin-top: 20px;
+                width: 30%;
+
+                h3 {
+                    font-size: 18px;
+
+                    @media screen and (max-width: 1280px) {
+                        font-size: 15px;
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        font-size: 16px;
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        font-size: 14px;
+                    }
+                }
+
+            }
+
+            .select-option {
+                width: 70%;
+
+                select {
+                    border: none;
+                    border-bottom: 1px solid black !important;
+                    background: transparent;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    width: 400px;
+                    background-image: url(/image/drop_icon.png);
+                    background-position: right;
+                    background-position-y: 50%;
+                    background-position-x: calc(100% - 25px);
+                    background-repeat: no-repeat;
+
+                    @media screen and (max-width: 1280px) {
+                        width: 330px;
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        width: 290px;
+                    }
+
+                }
+
+            }
+
+        }
+
+
+        .mainthird-row-detaill {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+
+            .third-row-detaill {
+                margin-top: 20px;
+                width: 30%;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 600;
+
+                    @media screen and (max-width: 1280px) {
+                        font-size: 15px;
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        font-size: 16px;
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        font-size: 14px;
+                    }
+                }
+
+            }
+
+            .select-optionn {
+                width: 70%;
+
+                select {
+                    border: none;
+                    border-bottom: 1px solid black !important;
+                    background: transparent;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    width: 400px;
+                    background-image: url(/image/drop_icon.png);
+                    background-position: right;
+                    background-position-y: 50%;
+                    background-position-x: calc(100% - 25px);
+                    background-repeat: no-repeat;
+                    font-weight: 600;
+
+                    @media screen and (max-width: 1280px) {
+                        width: 330px;
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        width: 290px;
+                    }
+                }
+
+            }
+
+        }
+
+
+        .mainfourth-row-detaill {
+            display: flex;
+            align-items: center;
+            margin-top: 18px;
+
+            .fourth-row-detaill {
+                margin-top: 20px;
+                width: 30%;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 600;
+
+                    @media screen and (max-width: 1280px) {
+                        font-size: 15px;
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        font-size: 16px;
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        font-size: 14px;
+                    }
+                }
+
+
+
+            }
+
+            .sizes-shirt {
+                display: flex;
+                gap: 20px;
+
+                .inner-sizes-blue {
+                    border: 1px solid #00A1ED;
+                    text-align: center;
+                    padding: 12px 18px;
+                    cursor: pointer;
+
+                    h7 {
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                }
+
+                .inner-sizes-shirt {
+                    border: 1px solid black;
+                    text-align: center;
+                    padding: 12px 18px;
+                    cursor: pointer;
+
+                    h7 {
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+        }
+
+
+        .mainfifth-row-detaill {
+            display: flex;
+            align-items: center;
+            margin-top: 22px;
+
+            .fifth-row-detaill {
+                margin-top: 20px;
+                width: 30%;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 600;
+
+                    @media screen and (max-width: 1280px) {
+                        font-size: 15px;
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        font-size: 16px;
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        font-size: 14px;
+                    }
+                }
+
+
+
+            }
+
+            .qty-shirt {
+                display: flex;
+                gap: 20px;
+
+                .inner-qty-shirt {
+                    border: 1px solid black;
+                    text-align: center;
+                    padding: 12px 13px;
+                    cursor: pointer;
+
+                    h7 {
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+
+                    input{
+                        background: transparent;
+                        border: none;
+                        outline: none;
+                        text-decoration: none;
+                        width: 23px !important;
+                    }
+                }
+                .inner-qty-shirtblue {
+                    border: 1px solid #00A1ED;
+                    text-align: center;
+                    padding: 12px 13px;
+                    cursor: pointer;
+
+                    h7 {
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+        }
+
+
+        .mainsixth-row-detaill {
+            display: flex;
+            align-items: center !important;
+            margin-top: 22px;
+
+            .sixth-row-detaill {
+                margin-top: 20px;
+                width: 30%;
+
+                h3 {
+                    font-size: 18px !important;
+                    font-weight: 600;
+
+                    @media screen and (max-width: 1280px) {
+                        font-size: 15px !important;
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        font-size: 16px !important;
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        font-size: 14px !important;
+                    }
+                }
+
+
+            }
+
+            .price-shirt {
+                display: flex;
+                gap: 30px;
+
+                p{
+                    margin-bottom: 0%;
+                }
+            }
+
+        }
+
+        .discountt {
+            display: flex;
+            align-items: center;
+            gap: 120px;
+
+            p {
+                color: #FF0000;
+                font-size: 18px;
+                margin-top: 30px;
+                font-weight: 600;
+            }
+
+            .size-chart {
+                p {
+                    color: #00A1ED;
+                    font-size: 18px;
+                    margin-top: 30px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+
+        .artwork-button {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 15px;
+
+            .shirtsub-upload1 {
+
+                button {
+                    background-color: transparent;
+                    color: #00A1ED;
+                    border-radius: 20px;
+                    width: 318px;
+                    padding: 19px 0;
+                    outline: none;
+                    border: 1px solid black;
+                    outline: none !important;
+                    text-decoration: none !important;
+                    cursor: pointer;
+                    font-size: 25px;
+                    font-weight: 600;
+
+                    @media screen and (max-width: 1350px) {
+                        width: 238px;
+                        padding: 18px 0;
+                    }
+
+                    @media screen and (max-width: 720px) {
+                        width: 200px;
+                        padding: 17px 0;
+                    }
+                }
+
+            }
+
+            .shirtsub-upload2 {
+
+                button {
+                    background-color: transparent;
+                    color: #FF0000;
+                    border-radius: 20px;
+                    width: 197px;
+                    padding: 16px 0 !important;
+                    border: 1px solid black;
+                    outline: none !important;
+                    text-decoration: none !important;
+                    cursor: pointer;
+                    font-size: 30px;
+                    font-weight: 600;
+
+                    @media screen and (max-width: 1350px) {
+                        width: 238px;
+                        padding: 14px 0;
+                    }
+
+                    @media screen and (max-width: 720px) {
+                        width: 200px;
+                        padding: 13px 0;
+                    }
+                }
+            }
+
+            .share {
+
+                img {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .discountt-button {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .buttonn-upload1 {
+
+                button {
+                    background-color: #00A1ED;
+                    color: white;
+                    border-radius: 20px;
+                    width: 290px;
+                    padding: 27px 0;
+                    outline: none;
+                    border: none !important;
+                    outline: none !important;
+                    text-decoration: none !important;
+                    cursor: pointer;
+
+                    @media screen and (max-width: 1350px) {
+                        width: 238px;
+                        padding: 22px 0;
+                    }
+
+                    @media screen and (max-width: 720px) {
+                        width: 200px;
+                        padding: 19px 0;
+                    }
+                }
+
+            }
+
+            .button-upload2 {
+
+                .hide_img {
+                    right: 0;
+                    top: 50%;
+                    transform: translate(0%, -50%);
+                    opacity: 0;
+                    transition: all 0.5s ease-in-out;
+                }
+
+                .show_img {
+                    transition: all 0.5s ease-in-out;
+                    right: 12px;
+                    top: 50%;
+                    transform: translate(0%, -50%);
+                    opacity: 1;
+                }
+
+                .change_width {
+                    width: 213px;
+                }
+
+                .ini_width {
+                    width: 230px;
+                }
+
+                button {
+                    background-color: black;
+                    color: white;
+                    border-radius: 20px;
+                    width: 290px;
+                    padding: 27px 0;
+                    border: none !important;
+                    outline: none !important;
+                    text-decoration: none !important;
+                    cursor: pointer;
+
+                    @media screen and (max-width: 1350px) {
+                        width: 238px;
+                        padding: 22px 0;
+                    }
+
+                    @media screen and (max-width: 720px) {
+                        width: 200px;
+                        padding: 19px 0;
+                    }
+                }
+            }
+        }
+
+        .dieline-template {
+            margin-top: 30px;
+        }
+
+        .Shipping-Delivery {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+        }
+
+    }
+
+
+    .main_products_shirtss {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 15px;
+        justify-content: center;
+        text-align: center;
+  
+  
+        @media screen and (max-width: 1550px) {
+          display: grid;
+          grid-template-columns: auto auto;
+        }
+  
+        @media screen and (max-width: 1024px) {
+          margin-bottom: 40px;
+        }
+  
+        @media screen and (max-width: 768px) {
+          display: grid;
+          grid-template-columns: auto auto;
+  
+        }
+  
+        @media screen and (max-width: 575px) {
+          display: grid;
+          grid-template-columns: auto auto;
+        }
+
+        .bottom-shirts {
+
+            .image_shirt {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    // @media screen and (max-width: 1650px) {
+                    //     width: 260px;
+                    //     height: auto;
+                    //   }
+          
+                    //   @media screen and (max-width: 1450px) {
+                    //     width: 230px;
+                    //     height: auto;
+                    //   }
+          
+                    //   @media screen and (max-width: 1300px) {
+                    //     width: 215px;
+                    //     height: auto;
+                    //   }
+          
+                    //   @media screen and (max-width: 1250px) {
+                    //     width: 200px;
+                    //     height: auto;
+                    //   }
+          
+                    //   @media screen and (max-width: 1150px) {
+                    //     width: 180px;
+                    //     height: auto;
+                    //   }
+          
+                    //   @media screen and (max-width: 1024px) {
+                    //     width: 300px;
+                    //     height: auto;
+                    //   }
+          
+                    //   @media screen and (max-width: 920px) {
+                    //     width: 270px;
+                    //     height: auto;
+                    //   }
+          
+                    //   @media screen and (max-width: 768px) {
+                    //     width: 250px;
+                    //     height: auto;
+                    //   }
+          
+                    //   @media screen and (max-width: 575px) {
+                    //     width: 200px;
+                    //     height: auto;
+                    //   }
+          
+                    //   @media screen and (max-width: 480px) {
+                    //     width: 170px;
+                    //     height: auto;
+                    //   }
+          
+                    //   @media screen and (max-width: 420px) {
+                    //     width: 140px;
+                    //     height: auto;
+                    //   }
+          
+                    //   @media screen and (max-width: 320px) {
+                    //     width: 120px;
+                    //     height: auto;
+                    //   }
+
+                }
+            }
+
+
+        }
+    }
+}

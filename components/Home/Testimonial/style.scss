@@ -1,0 +1,217 @@
+.testimonial_heading {
+    position: relative;
+    z-index: 555;
+
+    h2 {
+        font-size: 50px;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        @media screen and (max-width: 1550px) {
+            font-size: 45px;
+        }
+
+        @media screen and (max-width: 1320px) {
+            font-size: 42px;
+        }
+
+        @media screen and (max-width: 1280px) {
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            font-size: 35px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 25px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 25px;
+            padding-top: 22px;
+            padding-bottom: 30px;
+        }
+
+        // @media screen and (max-width: 420px) {
+        //     font-size: 20px;
+        // }
+    }
+
+}
+
+.main_testimonial {
+    position: relative;
+    z-index: 555;
+    background-color: white;
+
+    .card_testimonial {
+        border: 1px solid #141414;
+        border-radius: 38px;
+        padding: 25px 35px;
+        max-width: 400px;
+        margin-right: 18px;
+        margin-bottom: 20px;
+
+        @media screen and (max-width: 1550px) {
+            max-width: 400px;
+            // padding: 35px 35px;
+        }
+
+        @media screen and (max-width: 1420px) {
+            max-width: 400px;
+            padding: 25px 30px;
+        }
+
+        @media screen and (max-width: 1280px) {
+            max-width: 380px;
+            padding: 25px 30px;
+        }
+
+        @media screen and (max-width: 912px) {
+            max-width: 360px;
+            padding: 25px 25px;
+        }
+
+        @media screen and (max-width: 768px) {
+            max-width: 340px;
+            padding: 25px 20px;
+            margin-right: 14px;
+            border-radius: 35px;
+        }
+
+        @media screen and (max-width: 575px) {
+            max-width: 300px;
+            padding: 22px 15px;
+            margin-right: 10px;
+            border-radius: 30px;
+        }
+        
+
+        // .testimonial_brands{
+        //     width: 100px;
+        //     height: auto;
+        // }
+
+        .testimonial_star {
+            width: 90px;
+            height: auto;
+            @media screen and (max-width: 768px) {
+                width: 90px;
+                height: auto;
+            }
+        }
+
+        .testimonial_date {
+            padding-top: 15px;
+            font-size: 12px;
+            font-family: "Montserrat";
+            color: black;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            @media screen and (max-width: 1280px) {
+                font-size: 11px;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 10px;
+            }
+
+            @media screen and (max-width: 575px) {
+                font-size: 10px;
+            }
+        }
+
+        .testimonial_review {
+            padding-top: 18px;
+            height: 125px;
+
+            @media screen and (max-width: 1550px) {
+                height: 100px;
+            }
+            @media screen and (max-width: 912px) {
+                height: 120px;
+            }
+            @media screen and (max-width: 768px) {
+                height: 90px;
+            }
+            @media screen and (max-width: 575px) {
+                padding-top: 14px;
+                height: 100px;
+            }
+            @media screen and (max-width: 420px) {
+                padding-top: 14px;
+                height: 90px;
+            }
+
+            .review_para {
+                font-size: 14px;
+                color: black;
+                font-family: "Montserrat";
+                font-weight: 400;
+                margin-bottom: 0px !important;
+
+                @media screen and (max-width: 1550px) {
+                    font-size: 13px;
+                }
+                @media screen and (max-width: 768px) {
+                    font-size: 12px;
+                }
+                @media screen and (max-width: 420px) {
+                    font-size: 11px;
+                }
+            }
+        }
+
+        span {
+            font-size: 18px;
+            font-family: "Montserrat";
+            font-weight: 500;
+            color: black;
+            padding-top: 24px;
+
+            @media screen and (max-width: 1280px) {
+                font-size: 16px;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+                padding-top: 15px;
+            }
+
+            @media screen and (max-width: 575px) {
+                font-size: 13px;
+                padding-top: 12px;
+            }
+        }
+
+        .review_post {
+            small {
+                font-size: 14px;
+                font-family: "Montserrat";
+                font-weight: 400;
+                color: black;
+                padding-top: 7px;
+
+                @media screen and (max-width: 1280px) {
+                    font-size: 12px;
+                    padding-top: 5px;
+                }
+
+                @media screen and (max-width: 575px) {
+                    font-size: 11px;
+                    padding-top: 3px;
+                }
+
+            }
+        }
+    }
+}

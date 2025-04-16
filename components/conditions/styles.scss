@@ -1,0 +1,101 @@
+.condition_main {
+    width: 70%;
+    margin: auto;
+    padding-top: 150px;
+    margin-bottom: 60px !important;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding-top: 110px;
+    }
+
+    .main_condition {
+
+        .inner_condition {
+
+            .headcondition {
+
+                h1 {
+                    text-align: center;
+                    font-size: 55px;
+                    font-weight: 700;
+                    margin-top: 80px;
+
+                    @media screen and (max-width: 1025px) {
+                        font-size: 40px;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        font-size: 30px;
+                        margin-top: 40px;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 25px;
+                        margin-top: 0px;
+                    }
+
+                    @media screen and (max-width: 420px) {
+                        font-size: 22px;
+                        margin-top: 0px;
+                    }
+                }
+
+                h3 {
+                    font-size: 20px;
+                    color: black;
+                    font-weight: 500;
+                    margin-top: 60px;
+                }
+
+                .main_sub_data {
+
+                    .bottom_subdata {
+
+                        .headsubdata {
+
+                            h2 {
+                                color: black;
+                                font-size: 30px;
+                                font-weight: 700;
+                                margin-top: 50px;
+
+                                @media screen and (max-width: 768px) {
+                                    font-size: 22px;
+                                }
+
+                                @media screen and (max-width: 575px) {
+                                    font-size: 18px;
+                                }
+                            }
+
+                            p {
+                                color: black;
+                                font-size: 20px;
+                                font-weight: 500;
+                                margin-top: 30px;
+
+                                @media screen and (max-width: 768px) {
+                                    font-size: 18px;
+                                }
+
+                                @media screen and (max-width: 575px) {
+                                    font-size: 16px;
+                                }
+
+                                @media screen and (max-width: 420px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

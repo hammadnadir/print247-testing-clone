@@ -1,0 +1,134 @@
+.main_business {
+    padding-top: 110px;
+    padding-bottom: 40px;
+    background-color: white;
+
+    @media screen and (max-width:550px) {
+        padding-top: 50px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 60px;
+        margin: auto;
+       font-family: "Montserrat";
+        font-weight: 600;
+        width: 1100px;
+
+        @media screen and (max-width:1280px) {
+            font-size: 40px;
+            width: 768px;
+        }
+
+        @media screen and (max-width:768px) {
+            font-size: 30px;
+            width: 550px;
+        }
+
+        @media screen and (max-width:550px) {
+            font-size: 30px;
+            width: 350px;
+        }
+
+        @media screen and (max-width:414px) {
+            font-size: 30px;
+            width: 300px;
+        }
+
+        @media screen and (max-width:375px) {
+            font-size: 30px;
+            width: 300px;
+        }
+
+        @media screen and (max-width:330px) {
+            font-size: 25px;
+            width: 180px;
+        }
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        width: 828px;
+        margin: auto;
+        margin-top: 11px;
+
+        @media screen and (max-width:1280px) {
+            font-size: 22px;
+            font-weight: 500;
+            width: 628px;
+        }
+
+        @media screen and (max-width:768px) {
+            font-size: 20px;
+            width: 450px;
+        }
+
+        @media screen and (max-width:550px) {
+            font-size: 16px;
+            width: 250px;
+        }
+
+        @media screen and (max-width:414px) {
+            font-size: 14px;
+            width: 200px;
+        }
+    }
+
+    .brand {
+        display: flex;
+        justify-content: center;
+        background-color: #F3F5F7;
+        flex-direction: column;
+        row-gap: 40px;
+        width: 1100px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 38px !important;
+        padding: 50px 40px;
+
+        @media screen and (max-width:1280px) {
+            font-size: 40px;
+            width: 768px;
+        }
+
+        @media screen and (max-width: 768px) {
+            row-gap: 30px;
+            padding: 40px 20px;
+            font-size: 30px;
+            width: 550px;
+        }
+
+        @media screen and (max-width: 575px) {
+            row-gap: 25px;
+            padding: 0px 0px;
+            font-size: 30px;
+            width: 85%;
+        }
+
+        @media screen and (max-width:330px) {
+            font-size: 25px;
+        }
+
+        .logos_cm {
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                margin-right: 100px;
+                width: 130px;
+
+                @media screen and (max-width: 768px) {
+                    width: 100px;
+                    margin-right: 60px;
+                }
+
+                @media screen and (max-width: 575px) {
+                    width: 80px;
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+}

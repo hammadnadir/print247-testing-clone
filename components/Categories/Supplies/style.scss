@@ -1,0 +1,92 @@
+.main_supplies {
+    background-color: white;
+
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        color: black;
+        text-align: center;
+        padding-bottom: 90px;
+        padding-top: 87px;
+       font-family: "Montserrat";
+
+        @media screen and (max-width: 1024px) {
+            font-size: 35px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 25px;
+        }
+
+        @media screen and (max-width: 414px) {
+            font-size: 22px;
+        }
+    }
+
+    .supplies_box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 25px;
+
+        @media screen and (max-width: 1500px) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        @media screen and (max-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media screen and (max-width: 575px) {
+            grid-template-columns: 1fr;
+        }
+
+        .bottom {
+            margin-bottom: 20px;
+
+            .head_and_image {
+                .image {
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .head {
+                    text-align: center;
+                    padding-top: 22px;
+
+                    @media screen and (max-width: 575px) {
+                        padding-top: 16px;
+                    }
+
+                    h3 {
+                        font-size: 21px;
+
+                        @media screen and (max-width: 1024px) {
+                            font-size: 18px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 18px;
+                        }
+
+                        @media screen and (max-width: 575px) {
+                            font-size: 17px;
+                        }
+
+                        @media screen and (max-width: 375px) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

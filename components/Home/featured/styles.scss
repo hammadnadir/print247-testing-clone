@@ -1,0 +1,343 @@
+.main_featured {
+  margin-top: 70px;
+  overflow: hidden;
+
+  .content {
+    position: relative;
+    overflow: hidden;
+    border-radius: 55px;
+
+    @media screen and (max-width:1680px) {
+      border-radius: 40px;
+    }
+
+    @media screen and (max-width:1500px) {
+      border-radius: 30px;
+    }
+
+    @media screen and (max-width:1300px) {
+      border-radius: 20px;
+    }
+
+    @media screen and (max-width:1024px) {
+      border-radius: 10px;
+    }
+
+    .content-image {
+      @media screen and (max-width: 1100px) {
+        height: 100%;
+      }
+    }
+
+    .content-overlay {
+      background: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0;
+      transition: all 0.4s ease-in-out 0s;
+    }
+
+    &:hover {
+      .content-overlay {
+        opacity: 1;
+      }
+
+      .content-details {
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+      }
+    }
+
+    .content-image {
+      @media screen and (max-width: 1100px) {
+        width: 100%;
+      }
+    }
+
+    .content-details {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: all 0.3s ease-in-out 0s;
+
+      &:hover {
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+      }
+
+      h3 {
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+        width: 70%;
+        margin: auto;
+
+        @media screen and (max-width: 1024px) {
+          font-size: 17px;
+        }
+        @media screen and (max-width: 768px) {
+          font-size: 14px;
+        }
+        @media screen and (max-width: 414px) {
+          font-size: 11px;
+        }
+        @media screen and (max-width: 320px) {
+          font-size: 10px;
+        }
+      }
+
+      p {
+        color: #fff;
+        font-size: 0.8em;
+        padding-top: 10px;
+
+        @media screen and (max-width: 414px) {
+          font-size: 10px;
+        }
+        @media screen and (max-width: 320px) {
+          font-size: 8px;
+        }
+      }
+    }
+
+    // Individual animations
+    .fadeIn-bottom {
+      top: 80%;
+    }
+
+    .fadeIn-top {
+      top: 20%;
+    }
+
+    .fadeIn-left {
+      left: 20%;
+    }
+
+    .fadeIn-right {
+      left: 80%;
+    }
+  }
+
+  .featured {
+    h2 {
+      font-size: 60px;
+      text-align: center;
+      font-weight: 700;
+     font-family: "Montserrat";
+
+      @media screen and (max-width: 1280px) {
+        font-size: 50px;
+      }
+
+      @media screen and (max-width: 1024px) {
+        font-size: 40px;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 30px;
+      }
+
+      @media screen and (max-width: 575px) {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .featured_box {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr 1.02fr;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    margin-top: 65px;
+
+    @media screen and (max-width: 1300px) {
+      gap: 7px;
+    }
+
+    @media screen and (max-width: 912px) {
+      gap: 6px;
+    }
+
+    .content-image {
+      width: 100% !important;
+    }
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+
+    .first_Section {
+
+      a {
+        color: white !important;
+      }
+
+      h4 {
+        color: white;
+      }
+    }
+
+    .section_two {
+      display: flex;
+      flex-direction: column;
+      gap: 10px !important;
+
+      @media screen and (max-width: 1300px) {
+        gap: 7px !important;
+      }
+
+      @media screen and (max-width: 912px) {
+        gap: 6px !important;
+      }
+
+      a {
+        color: white !important;
+      }
+
+      h4 {
+        color: white;
+      }
+    }
+
+    .third_section {
+      display: block;
+      display: flex;
+      flex-direction: column;
+      gap: 10px !important;
+
+      @media screen and (max-width: 1300px) {
+        gap: 7px !important;
+      }
+
+      @media screen and (max-width: 912px) {
+        gap: 6px !important;
+      }
+
+      a {
+        color: white !important;
+      }
+
+      h4 {
+        color: white;
+      }
+    }
+
+    .second {
+      display: flex;
+      gap: 10px;
+
+      @media screen and (max-width: 1300px) {
+        gap: 7px;
+      }
+
+      @media screen and (max-width: 912px) {
+        gap: 6px;
+      }
+    }
+
+
+  }
+
+  .featured_box2 {
+    margin-top: 50px;
+    display: grid;
+    gap: 8px;
+
+    @media screen and (min-width:769px) {
+      display: none;
+    }
+
+    @media screen and (max-width:450px) {
+      gap: 6px;
+    }
+
+    .res_section1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+
+      @media screen and (max-width:450px) {
+        gap: 6px;
+      }
+
+      .res_section1_data1 {
+        display: grid;
+        gap: 8px;
+
+        @media screen and (max-width:450px) {
+          gap: 6px;
+        }
+      }
+    }
+
+    .res_section2 {}
+
+    .res_section3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+
+      @media screen and (max-width:450px) {
+        gap: 6px;
+      }
+    }
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    @media screen and (max-width: 1024px) {
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 872px) {
+      margin-top: 5px;
+    }
+
+    @media screen and (max-width: 767px) {
+      margin-top: 25px;
+    }
+
+    button {
+      font-size: 16px;
+      padding: 13px 53px;
+      border-radius: 20px;
+      background: #141414 0% 0% no-repeat padding-box;
+      color: white;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 13px;
+        padding: 13px 43px;
+      }
+
+      @media screen and (max-width: 872px) {
+        font-size: 13px;
+        padding: 9px 23px;
+      }
+
+      @media screen and (max-width: 767px) {
+        font-size: 16px;
+        padding: 9px 33px;
+      }
+
+      @media screen and (max-width: 414px) {
+        font-size: 13px;
+        padding: 9px 23px;
+      }
+    }
+  }
+}

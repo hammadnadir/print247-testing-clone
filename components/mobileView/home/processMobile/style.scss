@@ -1,0 +1,139 @@
+.main_processmob {
+  margin: auto;
+  justify-content: center;
+  background-color: #ffffff;
+
+  .our_process {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    small {
+      font-size: 35px;
+      color: #00a1ed;
+      font-weight: 600;
+      font-family: "Montserrat";
+
+      @media screen and (max-width: 768px) {
+        font-size: 30px;
+      }
+      @media screen and (max-width: 575px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .product_selection {
+    margin-top: 75px;
+
+    @media screen and (max-width: 1280px) {
+      margin-top: 30px;
+    }
+
+    span {
+      font-size: 65px;
+      font-weight: 700;
+      line-height: 120%;
+      font-family: "Montserrat";
+      text-align: left;
+
+      @media screen and (max-width: 1550px) {
+        font-size: 48px;
+      }
+      @media screen and (max-width: 1280px) {
+        font-size: 40px;
+      }
+      @media screen and (max-width: 575px) {
+        font-size: 30px;
+      }
+      @media screen and (max-width: 375px) {
+        font-size: 28px;
+      }
+    }
+
+    p {
+      max-width: 320px;
+      font-size: 17px;
+      font-weight: 400;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      text-align: left;
+
+      @media screen and (max-width: 1320px) {
+        max-width: 280px;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 15px;
+      }
+      @media screen and (max-width: 575px) {
+        font-size: 12px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+      }
+    }
+  }
+
+  .slide_mainimg {
+    padding: 0px 20px;
+    margin: auto;
+    cursor: pointer;
+    gap: 55px;
+
+    @media screen and (max-width: 575px) {
+      padding: 0px 0px;
+    }
+
+    .slider_img {
+      margin: auto;
+      width: 100%;
+      height: auto;
+      border-radius: 35px;
+    }
+  }
+
+  // SLICK STYLING
+
+  .slick-dots {
+    display: none !important;
+  }
+
+  .slick-prev {
+    left: 25%;
+    top: 110%;
+    width: 80px;
+    height: 35px;
+
+    @media screen and (max-width: 414px) {
+      left: 23%;
+      top: 110%;
+      width: 72px;
+      height: 32px;
+    }
+    @media screen and (max-width: 375px) {
+      left: 20%;
+      top: 110%;
+      width: 72px;
+      height: 32px;
+    }
+  }
+
+  .slick-next {
+    right: 25%;
+    top: 110%;
+    width: 80px;
+    height: 35px;
+
+    @media screen and (max-width: 414px) {
+      right: 23%;
+      top: 110%;
+      width: 72px;
+      height: 32px;
+    }
+    @media screen and (max-width: 375px) {
+      right: 20%;
+      top: 110%;
+      width: 72px;
+      height: 32px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.quote_design_artwork {
+    padding: 15px 0px 30px 0px;
+    .ant-upload-btn {
+        border-radius: 12px !important;
+    }
+    .artwork_data {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+
+        .ant_upload_plus_icon {
+            width: 33px;
+            height: 33px;
+            background-color: #34A0F2;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0px !important;
+
+        }
+        .ant_upload_text {
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 0 !important;
+        }
+
+        .ant_upload_format {
+            font-size: 11px;
+            margin-bottom: 0 !important;
+        }
+    }
+}

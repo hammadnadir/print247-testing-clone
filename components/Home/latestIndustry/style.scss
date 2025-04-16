@@ -1,0 +1,807 @@
+.new_industry_supplies {
+    margin-top: 80px;
+
+    @media screen and (max-width: 1550px) {
+        margin-top: 60px;
+    }
+
+    @media screen and (max-width: 1280px) {
+        margin-top: 50px;
+    }
+
+    @media screen and (max-width: 912px) {
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: 50px;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+
+        @media screen and (max-width: 1550px) {
+            font-size: 45px;
+        }
+
+        @media screen and (max-width: 1320px) {
+            font-size: 42px;
+        }
+
+        @media screen and (max-width: 1280px) {
+            font-size: 35px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 25px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 22px;
+            max-width: 270px;
+            margin: auto;
+        }
+
+        @media screen and (max-width: 420px) {
+            font-size: 20px;
+        }
+    }
+
+    .industry_grid_main {
+        padding-top: 70px;
+
+        @media screen and (max-width: 1420px) {
+            padding-top: 35px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            padding-top: 25px;
+        }
+
+        .industry_grid_1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+
+            @media screen and (max-width: 1420px) {
+                column-gap: 15px;
+            }
+
+            @media screen and (max-width: 1280px) {
+                column-gap: 10px;
+            }
+
+            @media screen and (max-width: 1024px) {
+                column-gap: 7px;
+            }
+
+            @media screen and (max-width: 680px) {
+                column-gap: 4px;
+            }
+
+            .inner_industry_grid_1 {
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .coming_soon {
+                    position: absolute;
+                    top: 8%;
+                    right: -8%;
+                    transform: translate(-50%, -50%);
+
+                    @media screen and (max-width: 1420px) {
+                        top: 10%;
+                        right: -8%;
+                    }
+
+                    @media screen and (max-width: 1280px) {
+                        top: 12%;
+                        right: -11%;
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        top: 12%;
+                        right: -13%;
+                    }
+
+                    @media screen and (max-width: 912px) {
+                        top: 13%;
+                        right: -15%;
+                    }
+
+                    .coming_soon_bg {
+                        background-color: white;
+                        width: 120px;
+                        padding: 10px 12px;
+                        border-radius: 19px;
+                        opacity: 0.8;
+
+                        @media screen and (max-width: 1280px) {
+                            width: 100px;
+                        }
+
+                        @media screen and (max-width: 912px) {
+                            width: 90px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            width: 80px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            color: black;
+                            font-weight: 500;
+                            text-align: center;
+                            margin-bottom: 0px;
+                            opacity: 1;
+
+                            @media screen and (max-width: 1280px) {
+                                font-size: 10px;
+                            }
+
+                            @media screen and (max-width: 912px) {
+                                font-size: 9px;
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 8px;
+                            }
+                        }
+                    }
+
+                    &.new-stock {
+                        p {
+                            color: #2C9EEB;
+                        }
+                    }
+
+                    &.coming-soon-stock {
+                        p {
+                            color: black;
+                        }
+                    }
+                }
+
+                .industry_details {
+                    max-width: 420px;
+                    padding-top: 15px;
+
+                    @media screen and (max-width: 1024px) {
+                        padding-top: 10px;
+                    }
+
+                    .indus_title_arr {
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 20px;
+                        align-items: center;
+
+                        h3 {
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: black;
+                            margin-bottom: 0px;
+
+                            @media screen and (max-width: 1550px) {
+                                font-size: 18px;
+                            }
+
+                            @media screen and (max-width: 1320px) {
+                                font-size: 16px;
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                font-size: 14px;
+                            }
+
+                            @media screen and (max-width: 912px) {
+                                font-size: 12px;
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 11px;
+                            }
+
+                            @media screen and (max-width: 680px) {
+                                font-size: 10px;
+                            }
+
+                            @media screen and (max-width: 620px) {
+                                font-size: 9px;
+                            }
+                        }
+
+                        img {
+                            width: 20px;
+                            height: auto;
+
+                            @media screen and (max-width: 1320px) {
+                                width: 16px
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                width: 13px
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                width: 10px
+                            }
+                        }
+                    }
+
+                    p {
+                        font-size: 15px;
+                        padding-top: 15px;
+                        color: black;
+                        font-weight: 400;
+
+                        @media screen and (max-width: 1550px) {
+                            font-size: 13px;
+                        }
+
+                        @media screen and (max-width: 1320px) {
+                            font-size: 11px;
+                            padding-top: 12px;
+                        }
+
+                        @media screen and (max-width: 1280px) {
+                            font-size: 11px;
+                            padding-top: 10px;
+                        }
+
+                        @media screen and (max-width: 912px) {
+                            font-size: 10px;
+                            padding-top: 7px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .industry_grid_2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+
+            @media screen and (max-width: 1420px) {
+                column-gap: 15px;
+            }
+
+            @media screen and (max-width: 1280px) {
+                column-gap: 10px;
+            }
+
+            @media screen and (max-width: 1024px) {
+                column-gap: 7px;
+            }
+
+            @media screen and (max-width: 680px) {
+                column-gap: 4px;
+            }
+
+            .inner_industry_grid_2 {
+                position: relative;
+
+                .coming_soon {
+                    position: absolute;
+                    top: 8%;
+                    right: -8%;
+                    transform: translate(-50%, -50%);
+
+                    @media screen and (max-width: 1420px) {
+                        top: 10%;
+                        right: -8%;
+                    }
+
+                    @media screen and (max-width: 1280px) {
+                        top: 12%;
+                        right: -11%;
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        top: 12%;
+                        right: -13%;
+                    }
+
+                    @media screen and (max-width: 912px) {
+                        top: 13%;
+                        right: -15%;
+                    }
+
+                    .coming_soon_bg {
+                        background-color: white;
+                        width: 120px;
+                        padding: 10px 12px;
+                        border-radius: 19px;
+                        opacity: 0.8;
+
+                        @media screen and (max-width: 1280px) {
+                            width: 100px;
+                        }
+
+                        @media screen and (max-width: 912px) {
+                            width: 90px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            width: 80px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            color: black;
+                            font-weight: 500;
+                            text-align: center;
+                            margin-bottom: 0px;
+                            opacity: 1;
+
+                            @media screen and (max-width: 1280px) {
+                                font-size: 10px;
+                            }
+
+                            @media screen and (max-width: 912px) {
+                                font-size: 9px;
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 8px;
+                            }
+                        }
+                    }
+
+                    &.new-stock {
+                        p {
+                            color: #2C9EEB;
+                        }
+                    }
+
+                    &.coming-soon-stock {
+                        p {
+                            color: black;
+                        }
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .industry_details {
+                    max-width: 420px;
+                    padding-top: 15px;
+
+                    @media screen and (max-width: 1024px) {
+                        padding-top: 10px;
+                    }
+
+                    .indus_title_arr {
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 20px;
+                        align-items: center;
+
+                        h3 {
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: black;
+                            margin-bottom: 0px;
+
+                            @media screen and (max-width: 1550px) {
+                                font-size: 18px;
+                            }
+
+                            @media screen and (max-width: 1320px) {
+                                font-size: 16px;
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                font-size: 14px;
+                            }
+
+                            @media screen and (max-width: 912px) {
+                                font-size: 12px;
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 11px;
+                            }
+
+                            @media screen and (max-width: 680px) {
+                                font-size: 10px;
+                            }
+
+                            @media screen and (max-width: 620px) {
+                                font-size: 9px;
+                            }
+                        }
+
+                        img {
+                            width: 20px;
+                            height: auto;
+
+                            @media screen and (max-width: 1320px) {
+                                width: 16px
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                width: 13px
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                width: 10px
+                            }
+                        }
+                    }
+
+                    p {
+                        font-size: 15px;
+                        padding-top: 15px;
+                        color: black;
+                        font-weight: 400;
+
+                        @media screen and (max-width: 1550px) {
+                            font-size: 13px;
+                        }
+
+                        @media screen and (max-width: 1320px) {
+                            font-size: 11px;
+                            padding-top: 12px;
+                        }
+
+                        @media screen and (max-width: 1280px) {
+                            font-size: 11px;
+                            padding-top: 10px;
+                        }
+
+                        @media screen and (max-width: 912px) {
+                            font-size: 10px;
+                            padding-top: 7px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .industry_grid_3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+
+            @media screen and (max-width: 1420px) {
+                column-gap: 15px;
+            }
+
+            @media screen and (max-width: 1280px) {
+                column-gap: 10px;
+            }
+
+            @media screen and (max-width: 1024px) {
+                column-gap: 7px;
+            }
+
+            @media screen and (max-width: 680px) {
+                column-gap: 4px;
+            }
+
+            .inner_industry_grid_3 {
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .coming_soon {
+                    position: absolute;
+                    top: 8%;
+                    right: -8%;
+                    transform: translate(-50%, -50%);
+
+                    @media screen and (max-width: 1420px) {
+                        top: 10%;
+                        right: -8%;
+                    }
+
+                    @media screen and (max-width: 1280px) {
+                        top: 12%;
+                        right: -11%;
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        top: 12%;
+                        right: -13%;
+                    }
+
+                    @media screen and (max-width: 912px) {
+                        top: 13%;
+                        right: -15%;
+                    }
+
+                    .coming_soon_bg {
+                        background-color: white;
+                        width: 120px;
+                        padding: 10px 12px;
+                        border-radius: 19px;
+                        opacity: 0.8;
+
+                        @media screen and (max-width: 1280px) {
+                            width: 100px;
+                        }
+
+                        @media screen and (max-width: 912px) {
+                            width: 90px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            width: 80px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            color: black;
+                            font-weight: 500;
+                            text-align: center;
+                            margin-bottom: 0px;
+                            opacity: 1;
+
+                            @media screen and (max-width: 1280px) {
+                                font-size: 10px;
+                            }
+
+                            @media screen and (max-width: 912px) {
+                                font-size: 9px;
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 8px;
+                            }
+                        }
+                    }
+
+                    &.new-stock {
+                        p {
+                            color: #2C9EEB;
+                        }
+                    }
+
+                    &.coming-soon-stock {
+                        p {
+                            color: black;
+                        }
+                    }
+                }
+
+                .industry_details {
+                    max-width: 420px;
+                    padding-top: 15px;
+
+                    @media screen and (max-width: 1024px) {
+                        padding-top: 10px;
+                    }
+
+                    .indus_title_arr {
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 20px;
+                        align-items: center;
+
+                        h3 {
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: black;
+                            margin-bottom: 0px;
+
+                            @media screen and (max-width: 1550px) {
+                                font-size: 18px;
+                            }
+
+                            @media screen and (max-width: 1320px) {
+                                font-size: 16px;
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                font-size: 14px;
+                            }
+
+                            @media screen and (max-width: 912px) {
+                                font-size: 12px;
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 11px;
+                            }
+
+                            @media screen and (max-width: 680px) {
+                                font-size: 10px;
+                            }
+
+                            @media screen and (max-width: 620px) {
+                                font-size: 9px;
+                            }
+                        }
+
+                        img {
+                            width: 20px;
+                            height: auto;
+
+                            @media screen and (max-width: 1320px) {
+                                width: 16px
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                width: 13px
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                width: 10px
+                            }
+
+                        }
+                    }
+
+                    p {
+                        font-size: 15px;
+                        padding-top: 15px;
+                        color: black;
+                        font-weight: 400;
+
+                        @media screen and (max-width: 1550px) {
+                            font-size: 13px;
+                        }
+
+                        @media screen and (max-width: 1320px) {
+                            font-size: 11px;
+                            padding-top: 12px;
+                        }
+
+                        @media screen and (max-width: 1280px) {
+                            font-size: 11px;
+                            padding-top: 10px;
+                        }
+
+                        @media screen and (max-width: 912px) {
+                            font-size: 10px;
+                            padding-top: 7px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .slick-dots {
+        li {
+            width: 13px;
+            height: 13px;
+            margin: 0 5px;
+
+            button {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                background-color: #474747;
+                transition: all 0.3s ease;
+            }
+
+            button:before {
+                display: none;
+            }
+
+            &.slick-active button {
+                background-color: #8AE1F8;
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    .slick-prev,
+    .slick-next {
+        &::before {
+            display: none;
+        }
+    }
+
+    .slick-prev {
+        left: -15px;
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+
+        @media screen and (max-width: 1550px) {
+            width: 45px;
+            height: 45px;
+        }
+
+        @media screen and (max-width: 1420px) {
+            width: 40px;
+            height: 40px;
+        }
+
+        @media screen and (max-width: 1320px) {
+            width: 35px;
+            height: 35px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            width: 30px;
+            height: 30px;
+        }
+
+        @media screen and (max-width: 912px) {
+            left: -10px;
+        }
+
+        @media screen and (max-width: 575px) {
+            left: -6px;
+            opacity: 0.4;
+            transition: opacity 0.3s ease;
+        }
+
+        @media screen and (max-width: 420px) {
+            left: -4px;
+        }
+    }
+
+    .slick-next {
+        right: -15px;
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+
+        @media screen and (max-width: 1550px) {
+            width: 45px;
+            height: 45px;
+        }
+
+        @media screen and (max-width: 1420px) {
+            width: 40px;
+            height: 40px;
+        }
+
+        @media screen and (max-width: 1320px) {
+            width: 35px;
+            height: 35px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            width: 30px;
+            height: 30px;
+        }
+
+        @media screen and (max-width: 912px) {
+            right: -10px;
+        }
+
+        @media screen and (max-width: 575px) {
+            right: -6px;
+            opacity: 0.4;
+            transition: opacity 0.3s ease;
+        }
+
+        @media screen and (max-width: 420px) {
+            right: -4px;
+        }
+    }
+}

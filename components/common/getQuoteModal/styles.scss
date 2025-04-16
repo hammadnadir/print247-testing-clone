@@ -1,0 +1,462 @@
+.exective_css {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 0px;
+  font-family: "Montserrat";
+
+  @media screen and (max-width: 575px) {
+    font-size: 13px;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 10px;
+  }
+}
+
+.dieline_modal {
+  padding: 0px 30px;
+  z-index: 8777777777777777777777777777777777777;
+
+  @media screen and (max-width: 575px) {
+    padding: 0px 15px;
+  }
+
+  pre {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Montserrat";
+
+    @media screen and (max-width: 575px) {
+      font-size: 25px;
+    }
+  }
+
+  .main-contact-inp {
+    margin-top: 45px;
+
+    @media screen and (max-width: 575px) {
+      margin-top: 25px;
+    }
+
+    h2 {
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: 20px;
+
+      @media screen and (max-width: 575px) {
+        font-size: 18px;
+      }
+    }
+
+    .contact_text_field {
+      input {
+        font-size: 14px;
+        border: 1px solid black;
+      }
+    }
+
+    .contact_two_fields {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      width: 100%;
+      justify-content: space-between;
+
+      @media screen and (max-width: 575px) {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .contact_text_field {
+        input {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .contact-checkbox {
+      display: flex;
+      align-items: center !important;
+
+      label {
+        margin-left: 20px;
+        width: 90%;
+        font-size: 16px;
+
+        @media screen and (max-width: 575px) {
+          width: 85%;
+          font-size: 14px;
+        }
+      }
+
+      span {
+        color: #1592e6;
+      }
+    }
+
+    .contact-submit {
+      button {
+        width: 195px;
+        padding-top: 15px;
+        padding-bottom: 15px !important;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        background-color: black;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+      }
+    }
+
+    p {
+      text-align: center;
+      margin-top: 15px;
+
+      @media screen and (max-width: 575px) {
+        margin-top: 10px;
+      }
+    }
+  }
+
+}
+
+
+.btn_data {
+  background-color: black;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 20px;
+  width: 180px;
+  padding: 10px 0;
+  outline: none;
+  border: none !important;
+  outline: none !important;
+  text-decoration: none !important;
+  cursor: pointer;
+
+  @media screen and (max-width: 1350px) {
+    width: 238px;
+    padding: 22px 0;
+  }
+
+  @media screen and (max-width: 720px) {
+    width: 220px;
+    padding: 19px 0;
+  }
+
+  // @media screen and (max-width: 575px) {
+  //   width: 100%;
+  //   padding: 19px 0;
+  // }
+}
+
+.ant-modal-content {
+  width: 70%;
+  // border: 10px solid gray;
+}
+
+.main-contact-inp2 {
+
+  .quote_detail_label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    label {
+      @media screen and (max-width: 768px) {
+        font-size: 13px;
+      }
+    }
+  }
+
+}
+
+.nfc_para {
+  p {
+    font-size: 15px;
+    color: #020303;
+    padding: 10px 0;
+    text-align: left !important;
+
+    @media screen and (max-width: 768px) {
+      font-size: 13px;
+    }
+
+    @media screen and (max-width: 620px) {
+      font-size: 12px;
+    }
+
+    @media screen and (max-width: 420px) {
+      font-size: 11px;
+    }
+  }
+
+}
+
+.interested_button {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding-bottom: 10px;
+
+  @media screen and (max-width: 575px) {
+    gap: 10px;
+  }
+
+  @media screen and (max-width: 375px) {
+    gap: 5px;
+  }
+
+  .inner_interested1 {
+    background: white 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 22px;
+    opacity: 1;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+    @media screen and (max-width: 768px) {
+      font-size: 13px;
+    }
+
+    @media screen and (max-width: 620px) {
+      font-size: 12px;
+    }
+
+    @media screen and (max-width: 420px) {
+      font-size: 10px;
+    }
+
+    @media screen and (max-width: 375px) {
+      font-size: 9px;
+    }
+  }
+
+  .inner_interested2 {
+    background: white 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 22px;
+    opacity: 1;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+    @media screen and (max-width: 768px) {
+      font-size: 13px;
+    }
+
+    @media screen and (max-width: 620px) {
+      font-size: 12px;
+    }
+
+    @media screen and (max-width: 420px) {
+      font-size: 10px;
+    }
+
+    @media screen and (max-width: 375px) {
+      font-size: 9px;
+    }
+  }
+
+  .inner_interested1.selected {
+    background-color: #E6E6E6;
+    color: black;
+  }
+
+  .inner_interested2.selected {
+    background-color: #E6E6E6;
+    color: black;
+  }
+
+}
+
+.custom_mailer_data {
+  padding-top: 4px;
+
+  h2 {
+    text-align: left;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    color: #030303;
+    opacity: 1;
+  }
+}
+
+.custom_mailer_detail {
+
+  .data_custom_mailer {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 10px;
+
+    @media screen and (max-width: 768px) {
+      gap: 20px;
+    }
+
+    @media screen and (max-width: 575px) {
+      gap: 15px;
+    }
+
+    @media screen and (max-width: 550px) {
+      gap: 20px;
+    }
+
+    @media screen and (max-width: 420px) {
+      gap: 15px;
+    }
+
+    h4 {
+      font-size: 15px;
+      color: #484747;
+      font-weight: normal;
+
+      @media screen and (max-width: 768px) {
+        font-size: 13px;
+      }
+
+      @media screen and (max-width: 620px) {
+        font-size: 12px;
+      }
+
+      @media screen and (max-width: 420px) {
+        font-size: 11px;
+      }
+    }
+  }
+
+  .material_custom_mailer {
+    max-height: 230px;
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+
+  /* width */
+  .material_custom_mailer::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  .material_custom_mailer::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .material_custom_mailer::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  .material_custom_mailer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  .material_data {
+    display: flex;
+    padding: 3px 0;
+    align-items: center;
+    gap: 10px;
+
+    span {
+      font-size: 15px;
+      color: #484747;
+      font-weight: normal;
+      margin-bottom: 0px;
+
+      @media screen and (max-width: 768px) {
+        font-size: 13px;
+      }
+
+      @media screen and (max-width: 620px) {
+        font-size: 12px;
+      }
+
+      @media screen and (max-width: 420px) {
+        font-size: 11px;
+      }
+    }
+
+    h4 {
+      font-size: 15px;
+      color: #484747;
+      font-weight: normal;
+      margin-bottom: 0px;
+
+      @media screen and (max-width: 768px) {
+        font-size: 13px;
+      }
+
+      @media screen and (max-width: 620px) {
+        font-size: 12px;
+      }
+
+      @media screen and (max-width: 420px) {
+        font-size: 11px;
+      }
+    }
+
+  }
+
+}
+
+.back_button {
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+
+  h5 {
+    font-size: 15px;
+    color: #1592e6;
+
+    @media screen and (max-width: 768px) {
+      font-size: 13px;
+    }
+
+    @media screen and (max-width: 620px) {
+      font-size: 12px;
+    }
+  }
+
+  .quote_submit_btn {
+    background: #00A1ED;
+    display: flex;
+    justify-content: center;
+    border-radius: 22px;
+    width: 129px;
+    opacity: 1;
+    padding: 11px 0;
+    color: white;
+    font-size: 14px;
+
+    @media screen and (max-width: 620px) {
+      font-size: 12px;
+    }
+  }
+}

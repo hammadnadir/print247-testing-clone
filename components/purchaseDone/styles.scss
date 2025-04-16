@@ -1,0 +1,88 @@
+.thanks_page {
+    background-color: #ECECEC;
+    height: 100vh;
+    padding: 50px 50px;
+
+    @media screen and (max-width: 575px) {
+        padding: 0px 0px;
+        background-color: white;
+    }
+
+    .white_back {
+        background-color: white;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        padding: 130px 20px;
+
+        @media screen and (min-width: 920px) and (max-width: 1024px) {
+            padding: 70px 30px;
+        }
+
+        @media screen and (max-width: 575px) {
+            width: 100%;
+            padding: 90px 30px;
+        }
+
+        .shopping_cart {
+
+            img{
+                display: flex;
+                margin: auto;
+            }
+
+            h2{
+                text-align: center;
+                font-size: 25px;
+                font-weight: 700;
+                padding-top: 35px;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 22px;
+                }
+            }
+
+            p{
+                text-align: center;
+                font-size: 17px;
+                color: #717171;
+                padding-top: 19px;
+                margin-bottom: 0%;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 15px;
+                }
+            }
+
+            .shopping_btn {
+                justify-content: center;
+                margin: auto;
+                display: flex;
+                margin-top: 45px;
+
+                button {
+                    background-color: #141414;
+                    color: white;
+                    padding: 15px 0;
+                    width: 260px;
+                    cursor: pointer;
+                    outline: none;
+                    text-decoration: none;
+                    border: none;
+                    border-radius: 20px;
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 14px;
+                    }
+                    @media screen and (max-width: 375px) {
+                        font-size: 12px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

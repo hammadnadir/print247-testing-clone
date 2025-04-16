@@ -1,0 +1,191 @@
+.product_detail_campign {
+    padding-top: 120px;
+    min-height: 100vh;
+    .form_Section_main {
+      @media screen and (max-width: 1100px) {
+      border-radius: 37px 37px 0px 0px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      width: 100%;
+      margin-top: -120px;
+      background-color: rgba(48, 46, 46, 0.57)!important;
+      backdrop-filter: blur( 42px );
+      -webkit-backdrop-filter: blur( 42px );
+      }
+      @media screen and (max-width: 800px) {  
+        margin-top: -90px;
+        }
+    }
+    @media screen and (max-width: 1100px) {
+      height: auto;
+     
+      
+      width: 100%;
+    }
+  
+    .containers {
+      width: 85%;
+      margin: auto !important;
+      margin: 0px;
+      max-width: none;
+      padding: 0px;
+      @media screen and (max-width: 1100px) {
+        width: 100%;
+      }
+    }
+    .product_detail_slider {
+      width: 45%;
+      border-radius: 62px;
+      position: relative;
+      @media screen and (max-width: 1100px) {
+        width: 100%;
+      }
+    }
+    .product_detail_slider img {
+      width: 100%;
+      height: 85vh;
+      border-radius: 62px;
+      // object-fit: cover;
+      @media screen and (max-width: 1550px) {
+        height: 90vh;
+      }
+      @media screen and (max-width: 1400px) {
+        height: 80vh;
+      }
+      @media screen and (max-width: 1100px) {
+        width: 100%;
+        height: 80vh;
+      }
+    }
+    .slider_container {
+      position: relative;
+      display: flex;
+      border-radius: 0px;
+    }
+    .slick-dots {
+      position: absolute;
+      left: 40px !important; /* Adjust this value to move the dots further left */
+      top: 44%;
+      width: 100%;
+      //   transform: translateY(-50%);
+      display: flex !important;
+      flex-direction: column !important;
+      //   align-items: center;
+      justify-content: start;
+      @media screen and (max-width: 1100px) {
+        left: 0px !important;
+      }
+      li {
+        margin: 5px 0; /* Spacing between dots */
+        button {
+          &:before {
+            font-size: 12px;
+            color: white; /* Dot color */
+            opacity: 1;
+          }
+          @media screen and (max-width: 1100px) {
+            display: none;
+          }
+        }
+  
+        &.slick-active {
+          button:before {
+            color: white; /* Active dot color */
+          }
+        }
+      }
+    }
+  
+    .flex_Section {
+      display: flex;
+      width: 100%;
+      gap: 130px;
+      // justify-content: space-between;
+      align-items: center;
+  
+      @media screen and (max-width: 1600px) {
+        gap: 90px;
+      }
+      @media screen and (max-width: 1100px) {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+      }
+    }
+  
+  
+    .form_section_data {
+      max-width: 615px;
+  
+      // padding-top: 50px;
+  
+      @media screen and (max-width: 1600px) {
+        max-width: 505px;
+      }
+      @media screen and (max-width: 1400px) {
+        max-width: 400px;
+      }
+      @media screen and (max-width: 1100px) {
+        margin: auto;
+        padding: 20px 0px;
+        // position: relative;
+        // background-color: gray;
+        max-width: 400px;
+        width: 100%;
+       
+      }
+      @media screen and (max-width: 768px) {
+        margin: auto;
+        padding: 20px;
+        // position: relative;
+        // background-color: gray;
+        max-width: 400px;
+        width: 100%;
+       
+      }
+    }
+    .slide_icon img{
+      display: none;
+      @media screen and (max-width: 1100px) {
+      display: block;
+      }
+    }
+    .form_section_data h2 {
+      font-size: 49px;
+      font-weight: 600;
+      position: relative;
+      color: black;
+     font-family: "Montserrat";
+  
+      @media screen and (max-width: 1600px) {
+        font-size: 35px;
+      }
+      @media screen and (max-width: 1400px) {
+        font-size: 35px;
+      }
+      @media screen and (max-width: 1100px) {
+        font-size: 30px;
+        color: white;
+        padding-top: 19px;
+      }
+      @media screen and (max-width: 600px) {
+        font-size: 25px;
+        color: white;
+        padding-top: 19px;
+      }
+    }
+    .form_section_data p {
+      font-family: "Montserrat";
+      font-size: 16px;
+      @media screen and (max-width: 1100px) {
+        color: white;
+        // margin-bottom: 130px;
+        font-size: 13px;
+      }
+      @media screen and (max-width: 600px) {
+        color: white;
+        // margin-bottom: 130px;
+        font-size: 12px;
+      }
+    }
+  }

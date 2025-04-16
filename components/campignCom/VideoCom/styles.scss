@@ -1,0 +1,126 @@
+.newabout_main_pack {
+  width: 100%;
+  // background-color: #f3f3f3;
+  // background-color: #F8F8F8;
+  background-color: #FFFFFF;
+  margin-top: 26px;
+
+  .about_video {
+    width: 100% !important;
+    position: relative;
+
+    video {
+      border-radius: 30px;
+      width: 100% !important;
+
+      // @media screen and (max-width: 1024px) {
+      //   border-bottom-left-radius: 100px;
+      //   border-bottom-right-radius: 100px;
+      // }
+      // @media screen and (max-width: 768px) {
+      //   border-bottom-left-radius: 85px;
+      //   border-bottom-right-radius: 85px;
+      // }
+      // @media screen and (max-width: 575px) {
+      //   border-bottom-left-radius: 60px;
+      //   border-bottom-right-radius: 60px;
+      // }
+      // @media screen and (max-width: 450px) {
+      //   border-bottom-left-radius: 50px;
+      //   border-bottom-right-radius: 50px;
+      // }
+    }
+
+    .ring_absolute {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .ringlogo {
+        @keyframes spin {
+          to {
+            transform: rotate(360deg);
+          }
+        }
+
+        animation: spin infinite 8s linear;
+
+        @media screen and (max-width: 912px) {
+          width: 120px;
+        }
+
+        @media screen and (max-width: 768px) {
+          width: 100px;
+        }
+
+        @media screen and (max-width: 575px) {
+          width: 80px;
+        }
+      }
+
+      .play_absolute {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-48px, -50px);
+
+        @media screen and (max-width: 912px) {
+          // transform: translate(-39px, -39px);
+          transform: translate(-40px, -43px);
+        }
+
+        @media screen and (max-width: 768px) {
+          // transform: translate(-33px, -34px);
+          transform: translate(-35px, -38px);
+        }
+
+        @media screen and (max-width: 575px) {
+          // transform: translate(-24px, -24px);
+          transform: translate(-28px, -30px);
+        }
+
+        .img_div {
+          background: rgba(255, 255, 255, 0.2);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          border-radius: 50%;
+          // padding: 35px;
+          width: 96px;
+          height: 99px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+          @media screen and (max-width: 912px) {
+            width: 82px;
+            height: 85px;
+          }
+
+          @media screen and (max-width: 768px) {
+            width: 72px;
+            height: 75px;
+          }
+
+          @media screen and (max-width: 575px) {
+            width: 57px;
+            height: 60px;
+          }
+
+          img{
+           @media screen and (max-width: 768px) {
+            width: 19px;
+            height: auto;
+           }
+           @media screen and (max-width: 575px) {
+            width: 16px;
+            height: auto;
+           }
+          }
+        }
+      }
+    }
+  }
+}

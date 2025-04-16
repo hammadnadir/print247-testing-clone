@@ -1,0 +1,56 @@
+.shipping_policy_main {
+    width: 70%;
+    margin: auto;
+    padding-top: 250px;
+    margin-bottom: 60px !important;
+
+    @media screen and (max-width: 1280px) {
+        padding-top: 210px;
+        width: 85%;
+    }
+
+    @media screen and (max-width: 1024px) {
+        padding-top: 180px;
+        width: 100%;
+    }
+    @media screen and (max-width: 768px) {
+        padding-top: 150px;
+        width: 100%;
+    }
+
+    .title_refund_policy{
+        text-align: center;
+        font-size: 55px;
+        font-weight: 700;
+
+        @media screen and (max-width: 1280px) {
+            font-size: 48px;
+        }
+        @media screen and (max-width: 1025px) {
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 30px;
+        }
+    }
+
+    .refund_policy_para {
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 25px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 16px;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 14px;
+        }
+    }
+}

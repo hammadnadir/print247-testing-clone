@@ -1,0 +1,50 @@
+.fullcategory {
+  width: 100%;
+  background-color: white;
+  margin-top: -70px;
+  display: flex;
+  justify-content: space-between;
+  .ant-tabs-nav
+  .ant-tabs-ink-bar-animated {
+    transition: width 1.5s,left 1.5s,right 1.5s !important;
+    height: 3px;
+    
+}
+:where(.css-dev-only-do-not-override-1c0na6j).ant-tabs .ant-tabs-ink-bar {
+ 
+  background: #00a1ed !important;
+ 
+}
+
+
+  
+  .fullchild {
+    height: 145px;
+    display: flex;
+    align-items: end;
+    padding-top: 70px;
+    font-size: 16px !important;
+    font-weight: 600;
+    text-align: center;
+    gap: 30px;
+    justify-content: space-evenly;
+    color: black !important;
+
+
+    p {
+      padding-bottom: 24px;
+    }
+  }
+
+  .menues_inside p {
+    margin: 0px !important;
+    color: black;
+  }
+
+  .active-category {
+    border-bottom: 3px solid #00a1ed;
+  }
+  .in-active-category {
+    border-bottom: 3px solid transparent;
+  }
+}

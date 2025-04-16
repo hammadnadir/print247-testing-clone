@@ -1,0 +1,453 @@
+.carouselMylar {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(254deg, #F1F1F1 0%, #E4E5FC 100%) !important;
+    padding-bottom: 60px !important;
+
+    @media screen and (max-width: 1100px) {
+        height: auto !important;
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .width_set_form_mylar {
+        width: 35%;
+        margin-Left: 100px;
+        position: absolute;
+        z-index: 10;
+
+        @media screen and (max-width: 1600px) {
+            margin-Left: 75px;
+        }
+
+        @media screen and (max-width: 1420px) {
+            margin-Left: 65px;
+            width: 40%;
+        }
+
+        @media screen and (max-width: 1320px) {
+            margin-Left: 55px;
+        }
+
+        @media screen and (max-width: 1100px) {
+            width: 100%;
+            margin-Left: 0px;
+            top: 70%;
+            position: unset !important;
+        }
+
+        @media screen and (max-width: 640px) {
+            width: 100%;
+        }
+
+        .form_bg_color_mylar {
+            // background-color: white;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            padding: 40px;
+            border-radius: 0px 0px 33px 33px;
+            padding-top: 150px;
+
+            @media screen and (max-width: 1320px) {
+                padding-top: 100px;
+            }
+
+            @media screen and (max-width: 1100px) {
+                padding-top: 0px;
+            }
+
+            @media screen and (max-width: 575px) {
+                padding: 20px;
+            }
+
+            .form_Section_mylarTwo {
+                transition: all 1s ease-in-out;
+
+                @media screen and (max-width: 1100px) {
+                    width: 100%;
+                }
+
+                .form_section_mylar {
+                    width: 100%;
+                    max-width: 600px;
+
+                    @media screen and (max-width: 1480px) {
+                        max-width: 500px;
+                    }
+
+                    @media screen and (max-width: 1280px) {
+                        max-width: 400px;
+                    }
+
+                    @media screen and (max-width: 1100px) {
+                        margin: auto !important;
+                        padding: 30px 0px;
+                        max-width: 530px;
+                        width: 100%;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        margin: auto !important;
+                        padding: 20px 0px;
+                        max-width: 450px;
+                        width: 100%;
+                    }
+
+                    .slide_icon img {
+                        display: none;
+
+                        @media screen and (max-width: 1100px) {
+                            display: block;
+                        }
+                    }
+
+                    .custom_name {
+                        h2 {
+                            font-size: 45px;
+                            font-weight: 700;
+                            margin-bottom: 0% !important;
+                            padding: 8px 0px;
+
+                            @media screen and (max-width: 1450px) {
+                                font-size: 30px;
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 28px;
+                            }
+
+                            @media screen and (max-width: 575px) {
+                                font-size: 25px;
+                            }
+
+                        }
+                    }
+
+                    .starting_price {
+                        p {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #00A1ED;
+                            margin-bottom: 0%;
+
+                            @media screen and (max-width: 1550px) {
+                                font-size: 14px;
+                            }
+
+                            @media screen and (max-width: 1420px) {
+                                font-size: 13px;
+                            }
+
+                        }
+                    }
+
+                    .terms_cond {
+                        p {
+                            font-size: 10px;
+                            color: #403F3F;
+                            padding-top: 4px;
+                        }
+                    }
+
+                    .inner_star1 {
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+
+                        @media screen and (max-width: 1420px) {
+                            gap: 12px;
+                        }
+
+                        @media screen and (max-width: 1024px) {
+                            gap: 20px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            gap: 9px;
+                        }
+
+                        @media screen and (max-width: 410px) {
+                            gap: 5px;
+                        }
+
+                        .star_reviews {
+
+                            p {
+                                font-size: 13px;
+                                font-family: "Montserrat";
+                                font-weight: 300;
+                                margin-bottom: 0px;
+                                color: black;
+
+                                @media screen and (max-width: 1420px) {
+                                    font-size: 12px;
+                                }
+
+                                @media screen and (max-width: 1320px) {
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+
+                        .star_reviewsTwo {
+
+                            p {
+                                font-size: 13px;
+                                font-family: "Montserrat";
+                                font-weight: 300;
+                                margin-bottom: 0px;
+                                color: black;
+
+                                @media screen and (max-width: 1420px) {
+                                    font-size: 12px;
+                                }
+
+                                @media screen and (max-width: 1320px) {
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                    }
+
+                    .text_description {
+
+                        .text_para {
+                            font-size: 14px;
+                            font-weight: 300;
+                            margin-bottom: 20px !important;
+                            color: #403F3F;
+
+                            @media screen and (max-width: 1700px) {
+                                margin-bottom: 15px !important;
+                            }
+
+                            @media screen and (max-width: 1550px) {
+                                font-size: 12px;
+                            }
+
+                            @media screen and (max-width: 1420px) {
+                                font-size: 11px;
+                            }
+
+                            @media screen and (max-width: 1320px) {
+                                margin-bottom: 10px !important;
+                            }
+
+                            @media screen and (max-width: 575px) {
+                                font-size: 12px;
+                            }
+                        }
+
+                        .text_dis {
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #8CA507 !important;
+                            padding-bottom: 8px;
+
+                            @media screen and (max-width: 1320px) {
+                                font-size: 11px;
+                            }
+                        }
+                    }
+
+                    .check_items_main {
+                        margin-top: 20px;
+
+                        @media screen and (max-width: 1500px) {
+                            margin-top: 15px;
+                        }
+
+                        @media screen and (max-width: 1320px) {
+                            margin-top: 10px;
+                        }
+
+                        .check_items {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 10px;
+
+                            @media screen and (max-width: 1500px) {
+                                margin-top: 10px;
+                            }
+
+                            @media screen and (max-width: 1320px) {
+                                margin-top: 13px;
+                            }
+
+                            img {
+                                width: 15px;
+                                height: 15px;
+
+                                @media screen and (max-width: 1100px) {
+                                    content: url('/image/whitecheck.png');
+                                }
+                            }
+
+                            p {
+                                font-size: 14px;
+                                font-weight: normal;
+                                font-family: "Montserrat";
+                                margin-bottom: 0px !important;
+                                color: black;
+
+                                @media screen and (max-width: 1500px) {
+                                    font-size: 13px;
+                                }
+
+                                @media screen and (max-width: 1100px) {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+
+                    .folding_cart_campaign_price {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                        padding-top: 8px;
+                        padding-bottom: 4px;
+
+                        @media screen and (max-width: 1420px) {
+                            gap: 10px;
+                        }
+
+                        @media screen and (max-width: 575px) {
+                            gap: 7px;
+                        }
+
+                        h2 {
+                            font-size: 20px;
+                            color: #00A1ED;
+                            font-weight: normal;
+                            margin-bottom: 0px;
+
+                            @media screen and (max-width: 1420px) {
+                                font-size: 15px;
+                            }
+
+                            @media screen and (max-width: 575px) {
+                                font-size: 13px;
+                            }
+                        }
+
+                        p {
+                            font-size: 10px;
+                            color: black;
+                            margin-bottom: 0px;
+
+                            @media screen and (max-width: 1420px) {
+                                font-size: 9px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sliderWrapper_mylar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        height: 100vh;
+
+        @media screen and (max-width: 1100px) {
+            height: 90vh;
+            padding-top: 50px;
+        }
+
+        @media screen and (max-width: 768px) {
+            height: 55vh;
+        }
+
+        @media screen and (max-width: 575px) {
+            height: 50vh;
+            padding-top: 70px;
+        }
+
+        @media screen and (max-width: 480px) {
+            height: 55vh;
+            padding-top: 65px;
+        }
+
+        .carouselTrack_mylar {
+            display: flex;
+            transition: transform 0.8s ease-in-out;
+            will-change: transform;
+
+            .slide_mylar {
+                min-width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                @media screen and (max-width: 1100px) {
+                    justify-content: center;
+                }
+
+                @media screen and (max-width: 575px) {
+                    justify-content: flex-end;
+                }
+
+                .image {
+                    width: 55%;
+                    height: auto;
+                    object-fit: contain;
+
+                    @media screen and (max-width: 1100px) {
+                        width: 65%;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        width: 90%;
+                    }
+
+                    @media screen and (max-width: 640px) {
+                        width: 92%;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .thumbnails_new_mylar {
+            display: flex;
+            flex-direction: column;
+            margin-right: 30px;
+            gap: 10px;
+
+            .thumbnail {
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.3s ease-in-out;
+                border: 1px solid transparent;
+
+                @media screen and (max-width: 1280px) {
+                    width: 45px;
+                    height: 45px;
+                }
+
+                &.active {
+                    border-color: #484848;
+                }
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}

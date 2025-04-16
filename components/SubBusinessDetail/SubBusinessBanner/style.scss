@@ -1,0 +1,51 @@
+.main_Business_banner {
+    .background_image {
+        img {
+            width: 100%;
+        }
+    }
+
+    .top_sectionb {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0%, -50%);
+
+        .banner_detail {
+            width: 45%;
+
+            h1 {
+                color: #FFFFFF;
+                font-size: clamp(30px, 3vw, 70px);
+                margin-bottom: 19px;
+                fill: none;
+                border: 2px black;
+            }
+
+            h2 {
+                font-weight: 700;
+                font-size: clamp(30px, 3vw, 70px);
+                color: #000000;
+            }
+
+            p {
+                color: black !important;
+                font-size: clamp(15px, 2vw, 20px);
+                margin-bottom: 35px;
+                width: 62%;
+                font-weight: 300;
+            }
+
+            button {
+                border-radius: 20px;
+                background-color: transparent;
+                width: 213px;
+                height: 52px;
+                border: 1px solid #ffffff;
+                color: #ffffff;
+            }
+        }
+    }
+
+}

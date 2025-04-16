@@ -1,0 +1,28 @@
+.main_featureproduct {
+
+    .main_box {
+        margin-top: 120px;
+        margin-bottom: 45px;
+
+        @media screen and (max-width: 575px) {
+            margin-top: 65px;
+        }
+
+        .bottom {
+            margin-bottom: 15px;
+
+            .feature_and_image {
+
+                .image {
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}

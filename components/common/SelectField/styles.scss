@@ -1,0 +1,15 @@
+.main_select {
+    select {
+        width: 100%;
+        outline: none;
+        border-radius: 30px;
+        height: 60px;
+        border: 1px solid #c2c2c2;
+        padding: 0px 30px;
+        color: #C2C2C2;
+        margin-bottom: 20px;
+    }
+    .errors{
+        border: 1px solid red
+    }
+}

@@ -1,0 +1,151 @@
+.main_product_page_data {
+  .main_productss {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-top: 0px;
+
+    @media screen and (max-width: 1100px) {
+      margin-top: 50px;
+    }
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: auto auto;
+    }
+
+    @media screen and (max-width: 575px) {
+      grid-template-columns: auto;
+      justify-content: center !important;
+    }
+
+    .bottom {
+      margin: auto;
+
+      .head_and_image {
+        display: flex;
+        flex-direction: column;
+        // .image {
+        //   .shimmer_div {
+        //     max-width: 100%;
+        //     max-height: 100%;
+        //   }
+        // }
+
+        img {
+          max-width: 100%;
+          max-height: 100%;
+          cursor: pointer;
+        }
+
+        .shimmer {
+          width: 100%;
+          height: 100%;
+        }
+
+        .head {
+          h3 {
+            padding-top: 16px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 15px;
+
+            @media screen and (max-width: 1700px) {
+              font-size: 20px !important;
+            }
+
+            @media screen and (max-width: 1150px) {
+              font-size: 18px !important;
+            }
+
+            @media screen and (max-width: 575px) {
+              font-size: 16px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* Shimmer effect */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  // width: 100%;
+  // height: 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.skeleton-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
+
+  @media screen and (max-width: 1700px) {
+    width: 290px;
+    height: 290px;
+  }
+  @media screen and (max-width: 1500px) {
+    width: 270px;
+    height: 270px;
+  }
+  @media screen and (max-width: 1400px) {
+    width: 250px;
+    height: 250px;
+  }
+  @media screen and (max-width: 1300px) {
+    width: 230px;
+    height: 230px;
+  }
+  @media screen and (max-width: 1220px) {
+    width: 210px;
+    height: 210px;
+  }
+  @media screen and (max-width: 1100px) {
+    width: 260px;
+    height: 260px;
+  }
+  @media screen and (max-width: 970px) {
+    width: 240px;
+    height: 260px;
+  }
+  @media screen and (max-width: 880px) {
+    width: 220px;
+    height: 240px;
+  }
+  @media screen and (max-width: 800px) {
+    width: 200px;
+    height: 220px;
+  }
+  @media screen and (max-width: 575px) {
+    width: 320px;
+    height: 320px;
+  }
+}
+.skeleton-text {
+  width: 200px; 
+  height: 24px; 
+  background: #f0f0f0;
+  animation: shimmer 1.5s infinite linear;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 200px 0;
+  }
+}

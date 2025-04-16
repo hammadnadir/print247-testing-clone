@@ -1,0 +1,556 @@
+.carts_page_main2 {
+    background-color: #F1F1F1;
+    padding-top: 230px !important;
+    padding-bottom: 130px !important;
+
+    @media screen and (max-width: 575px) {
+        padding: 0px;
+        padding-top: 160px !important;
+    }
+
+    .container {
+
+        @media screen and (min-width: 913px) and (max-width: 4000px) {
+            width: 80%;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 912px) {
+            width: 85%;
+        }
+
+        @media screen and (min-width: 270px) and (max-width: 575px) {
+            width: 90%;
+        }
+    }
+
+    .empty_cart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: fit-content;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 120px;
+
+        h2 {
+            font-size: clamp(20px, 2vw, 50px);
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        button {
+            width: 230px;
+            padding: 22px 0;
+            cursor: pointer;
+            color: white;
+            border: none;
+            outline: none;
+            text-decoration: none;
+            // width: 290px;
+            // width: 100%;
+            background-color: #00a1ed;
+            border-radius: 20px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+
+            @media screen and (max-width: 768px) {
+                padding: 17px 0;
+            }
+
+            @media screen and (max-width: 400px) {
+                width: 100%;
+            }
+        }
+    }
+
+    .detail-carts {
+        width: 100%;
+        margin-bottom: -55px;
+        padding-bottom: 30px;
+
+        .cart-heading {
+            text-align: center !important;
+            font-size: 45px;
+            font-weight: 700;
+            padding-bottom: 35px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 40px;
+            }
+
+            @media screen and (max-width: 575px) {
+                font-size: 30px;
+            }
+        }
+
+        .cart-line {
+            border: 1px solid;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .main-carttSection {
+            display: flex;
+            gap: 50px;
+            justify-content: space-between;
+            // overflow-y: scroll;
+
+            @media screen and (max-width: 991px) {
+                flex-direction: column;
+            }
+
+            .innerr-cartSection {
+                width: 70%;
+
+                @media screen and (max-width: 1500px) {
+                    width: 90% !important;
+                }
+
+                @media screen and (max-width: 991px) {
+                    width: 100% !important;
+                }
+            }
+
+            .custom-mailer-boxx {
+                display: flex;
+                gap: 75px;
+
+                @media screen and (max-width: 1500px) {
+                    gap: 40px;
+                }
+
+                @media screen and (max-width: 1410px) {
+                    gap: 20px;
+                }
+
+                @media screen and (max-width: 1280px) {
+                    gap: 10px;
+                }
+
+                @media screen and (max-width: 1000px) {
+                    gap: 12px;
+                }
+
+                @media screen and (max-width: 991px) {
+                    margin-top: 40px;
+                    justify-content: center;
+                    gap: 70px;
+                }
+
+                @media screen and (max-width: 670px) {
+                    gap: 50px;
+                }
+
+                @media screen and (max-width: 620px) {
+                    gap: 40px;
+                }
+
+                @media screen and (max-width: 575px) {
+                    gap: 20px;
+                    flex-direction: column;
+                }
+
+                @media screen and (max-width: 480px) {
+                    gap: 16px;
+                }
+
+                @media screen and (max-width: 375px) {
+                    gap: 8px;
+                }
+
+                h5 {
+                    font-size: 18px;
+
+                    @media screen and (max-width: 1150px) {
+                        font-size: 16px;
+                    }
+
+                    @media screen and (max-width: 991px) {
+                        font-size: 18px !important;
+                    }
+
+                    @media screen and (max-width: 840px) {
+                        font-size: 16px !important;
+                    }
+
+                    @media screen and (max-width: 800px) {
+                        font-size: 14px !important;
+                    }
+
+                    @media screen and (max-width: 767px) {
+                        font-size: 17px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 15px !important;
+                    }
+
+                    @media screen and (max-width: 375px) {
+                        font-size: 13px !important;
+                    }
+                }
+
+                h3 {
+                    font-size: 23px;
+                    margin-bottom: 20px;
+
+                    @media screen and (max-width: 375px) {
+                        font-size: 19px !important;
+                    }
+                }
+
+                h4 {
+                    font-size: 18px !important;
+
+                    @media screen and (max-width: 1150px) {
+                        font-size: 16px !important;
+                    }
+
+                    @media screen and (max-width: 991px) {
+                        font-size: 18px !important;
+                    }
+
+                    @media screen and (max-width: 840px) {
+                        font-size: 16px !important;
+                    }
+
+                    @media screen and (max-width: 800px) {
+                        font-size: 14px !important;
+                    }
+
+                    @media screen and (max-width: 767px) {
+                        font-size: 17px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 15px !important;
+                    }
+
+                    @media screen and (max-width: 375px) {
+                        font-size: 13px !important;
+                    }
+                }
+
+                .illustrate-img {
+                    display: flex;
+                    height: fit-content;
+                    gap: 10px;
+
+                    @media screen and (max-width: 575px) {
+                        gap: 15px !important;
+                    }
+
+                    img {
+                        @media screen and (max-width: 1050px) {
+                            height: auto;
+                            width: 90px !important;
+                            height: 90px !important;
+                        }
+
+                        @media screen and (max-width: 991px) {
+                            height: auto;
+                            width: 110px !important;
+                            height: 110px !important;
+                        }
+
+                        @media screen and (max-width: 620px) {
+                            height: auto;
+                            width: 80px !important;
+                            height: 80px !important;
+                        }
+
+                        @media screen and (max-width: 450px) {
+                            height: auto;
+                            width: 75px !important;
+                            height: 75px !important;
+                        }
+
+                        // @media screen and (max-width: 345px) {
+                        //     height: auto;
+                        //     width: 60px !important;
+                        // }
+                    }
+
+                }
+
+                .main-bin-edit {
+                    display: flex;
+                    gap: 30px;
+                    align-items: center;
+                    justify-content: flex-start;
+
+                    @media screen and (max-width: 375px) {
+                        gap: 11px;
+                    }
+
+                    .bin-edit {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+
+                        @media screen and (max-width: 375px) {
+                            gap: 3px;
+                        }
+
+
+                        img {
+                            cursor: pointer;
+
+                            @media screen and (max-width: 400px) {
+                                width: 16px;
+                                height: 17px;
+                            }
+                        }
+
+                        p {
+                            margin-bottom: 0%;
+                            cursor: pointer;
+
+                            @media screen and (max-width: 1300px) {
+                                font-size: 14px;
+                            }
+
+                            @media screen and (max-width: 1050px) {
+                                font-size: 13px;
+                            }
+
+                            @media screen and (max-width: 840px) {
+                                font-size: 12px;
+                            }
+
+                            @media screen and (max-width: 375px) {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+
+                }
+
+                .inner-mailer-boxx {
+                    min-width: 500px;
+
+                    @media screen and (max-width:1440px) {
+                        width: auto;
+                        min-width: 0px;
+                    }
+                }
+            }
+
+            .subtotal-data {
+
+                h3 {
+                    color: #00A1ED;
+                    font-size: 22px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 19px;
+                    }
+                }
+            }
+
+            .edit-button-setting {
+
+                .inner-subtotal {
+                    background-color: white;
+                    border-radius: 13px;
+                    padding-top: 25px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-bottom: 25px;
+                    width: 460px;
+
+                    @media screen and (max-width: 1500px) {
+                        width: 400px;
+                    }
+
+                    @media screen and (max-width: 1370px) {
+                        width: 360px;
+                    }
+
+                    @media screen and (max-width: 1130px) {
+                        width: 300px;
+                    }
+
+                    @media screen and (max-width: 991px) {
+                        width: 460px;
+                    }
+
+                    @media screen and (max-width: 670px) {
+                        width: 420px;
+                    }
+
+                    @media screen and (max-width: 620px) {
+                        width: 380px;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        width: 340px;
+                    }
+
+                    @media screen and (max-width: 450px) {
+                        width: 300px;
+                    }
+
+                    @media screen and (max-width: 375px) {
+                        width: 270px;
+                    }
+
+                    @media screen and (max-width: 335px) {
+                        width: 240px;
+                    }
+
+                    @media screen and (max-width: 300px) {
+                        width: 230px;
+                    }
+
+                    @media screen and (max-width: 1200px) {
+                        padding-left: 30px;
+                        padding-right: 30px;
+                    }
+
+                    @media screen and (max-width: 1000px) {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+
+                    @media screen and (max-width: 991px) {
+                        margin: auto;
+                    }
+
+                    @media screen and (max-width: 767px) {
+                        padding-left: 30px;
+                        padding-right: 30px;
+                    }
+
+                    @media screen and (max-width: 400px) {
+                        padding-left: 25px;
+                        padding-right: 25px;
+                    }
+
+                    @media screen and (max-width: 300px) {
+                        padding-left: 15px;
+                        padding-right: 15px;
+                    }
+
+
+                    .inner-subtotal-data {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .data-styling {
+
+                            h4 {
+                                font-size: 19px;
+                                font-weight: 700;
+
+                                @media screen and (max-width: 1300px) {
+                                    font-size: 17px;
+                                }
+
+                                @media screen and (max-width: 912px) {
+                                    font-size: 15px;
+                                }
+                            }
+
+                            p {
+                                font-size: 19px;
+                                font-weight: 700;
+
+                                @media screen and (max-width: 1300px) {
+                                    font-size: 17px;
+                                }
+
+                                @media screen and (max-width: 912px) {
+                                    font-size: 15px;
+                                }
+                            }
+
+                        }
+                    }
+
+
+                    .shopping-button1 {
+
+                        button {
+                            background-color: #00A1ED;
+                            width: 390px;
+                            padding: 25px 0;
+                            color: white;
+                            cursor: pointer;
+                            border-radius: 20px;
+                            outline: none;
+                            border: none;
+                            display: flex;
+                            justify-content: center;
+                            margin: auto;
+
+                            @media screen and (max-width: 1500px) {
+                                width: 100%;
+                            }
+
+                            @media screen and (max-width: 1130px) {
+                                padding: 18px 0;
+                            }
+
+                            @media screen and (max-width: 1050px) {
+                                font-size: 13px;
+                            }
+
+                        }
+                    }
+
+                    .shopping-button2 {
+                        margin-top: 10px;
+
+                        button {
+                            background-color: #E9E9E9;
+                            width: 390px;
+                            padding: 25px 0;
+                            color: #707070;
+                            cursor: pointer;
+                            border-radius: 20px;
+                            outline: none;
+                            border: none;
+                            display: flex;
+                            justify-content: center;
+                            margin: auto;
+
+                            @media screen and (max-width: 1500px) {
+                                width: 100%;
+                            }
+
+                            @media screen and (max-width: 1130px) {
+                                padding: 18px 0;
+                            }
+
+                            @media screen and (max-width: 1050px) {
+                                font-size: 13px;
+                            }
+
+                            // @media screen and (max-width: 900px) {
+                            //     padding: 15px 0;
+                            // }
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    h6 {
+        color: #00A1ED;
+        font-size: 18px;
+        padding-top: 50px;
+        margin-left: 120px;
+
+        @media screen and (max-width: 767px) {
+            margin-left: 0px;
+            text-align: center;
+            padding-top: 35px;
+        }
+    }
+
+}

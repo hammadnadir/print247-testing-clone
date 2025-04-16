@@ -1,0 +1,89 @@
+.main_featurebanner {
+
+    .background_feature_image {
+        position: relative;
+
+        img {
+            height: 970px !important;
+            position: static !important;
+            width: 100%;
+
+            @media screen and (max-width: 1024px) {
+                height: 770px !important;
+            }
+
+            @media screen and (max-width: 768px) {
+                height: 570px !important;
+            }
+        }
+    }
+
+    .top_section {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        @media screen and (min-width: 913px) and (max-width: 1024px) {
+            top: 60%;
+        }
+
+        @media screen and (max-width: 912px) {
+            top: 35%;
+        }
+
+        @media screen and (max-width: 768px) {
+            top: 40%;
+        }
+
+        .main_feature_detail {
+
+            h1 {
+                font-size: 60px;
+                font-weight: 700;
+                color: white;
+                text-align: center;
+               font-family: "Montserrat";
+                fill: none;
+                -webkit-text-stroke: 2px white;
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 45px;
+                }
+
+                @media screen and (max-width: 768px) {
+                    font-size: 30px;
+                    -webkit-text-stroke: 1.5px white;
+                    -webkit-background-clip: text;
+                }
+                @media screen and (max-width: 575px) {
+                    font-size: 25px;
+                    -webkit-text-stroke: 0.8px white;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                }
+            }
+
+            h2 {
+                font-size: 60px;
+                font-weight: 700;
+                color: white;
+                text-align: center;
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 45px;
+                }
+
+                @media screen and (max-width: 768px) {
+                    font-size: 30px;
+                }
+                @media screen and (max-width: 575px) {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}

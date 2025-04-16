@@ -1,0 +1,370 @@
+.main-readMore {
+    padding-top: 200px;
+
+    @media screen and (max-width: 1300px) {
+        padding-top: 170px;
+    }
+
+    @media screen and (max-width: 450px) {
+        padding-top: 70px;
+    }
+
+    .readmore-width {
+        width: 70%;
+        margin: auto;
+
+        @media screen and (max-width: 1420px) {
+            width: 80% !important;
+        }
+
+        @media screen and (max-width: 1280px) {
+            width: 90% !important;
+        }
+
+        @media screen and (max-width: 768px) {
+            width: 100% !important;
+        }
+
+        .readMore-social {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            padding-top: 50px;
+        }
+
+        .Retail-Store {
+
+            @media screen and (max-width: 768px) {
+                margin-top: 13px;
+            }
+
+            h1 {
+                font-size: 50px;
+                text-align: center;
+                font-weight: 700;
+                margin-top: 24px;
+                // width: 60%;
+                margin: auto;
+
+                @media screen and (max-width: 1550px) {
+                    font-size: 45px;
+                }
+
+                @media screen and (max-width: 1300px) {
+                    width: 85%;
+                    font-size: 40px;
+                }
+
+                @media screen and (max-width: 1200px) {
+                    width: 90%;
+                }
+
+                @media screen and (max-width: 1024px) {
+                    width: 100%;
+                    font-size: 35px;
+                }
+
+                @media screen and (max-width: 768px) {
+                    font-size: 30px;
+                }
+
+                @media screen and (max-width: 575px) {
+                    font-size: 25px;
+                }
+            }
+
+            span {
+                justify-content: center;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                margin-top: 20px;
+            }
+        }
+
+
+        .readMore-subdata {
+            margin-top: 50px;
+
+            img {
+                width: 100% !important;
+            }
+
+            span{
+                @media screen and (max-width: 575px) {
+                    font-size: 18px !important;
+                }
+            }
+
+            p {
+                font-size: 20px;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 17px;
+                }
+
+                @media screen and (max-width: 375px) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .readMore-img {
+        margin-top: 20px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .readmore-width {
+        width: 70%;
+        margin: auto;
+
+        .Tiein-Digital {
+            margin-top: 45px;
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 22px;
+                }
+            }
+
+            p {
+                font-size: 20px;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 17px;
+                }
+
+                @media screen and (max-width: 375px) {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .Send-Purpose {
+            margin-top: 45px;
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 22px;
+                }
+            }
+
+            p {
+                font-size: 20px;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 17px;
+                }
+
+                @media screen and (max-width: 375px) {
+                    font-size: 15px;
+                }
+            }
+
+            .main-purpose-img {
+                display: flex;
+                justify-content: center;
+
+                @media screen and (max-width: 575px) {
+                    flex-direction: column;
+                }
+
+                .purpose-img1 {
+
+                    img {
+                        width: 490px;
+                        height: auto;
+
+                        @media screen and (max-width: 1100px) {
+                            width: 450px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 990px) {
+                            width: 400px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 870px) {
+                            width: 360px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 780px) {
+                            width: 320px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 690px) {
+                            width: 280px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 650px) {
+                            width: 250px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 575px) {
+                            width: 300px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 500px) {
+                            width: 270px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 430px) {
+                            width: 220px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 370px) {
+                            width: 190px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 330px) {
+                            width: 160px;
+                            height: auto;
+                        }
+                    }
+                }
+
+                .purpose-img2 {
+
+                    img {
+                        width: 490px;
+                        height: auto;
+
+                        @media screen and (max-width: 1100px) {
+                            width: 450px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 990px) {
+                            width: 400px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 870px) {
+                            width: 360px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 780px) {
+                            width: 320px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 690px) {
+                            width: 280px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 650px) {
+                            width: 250px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 575px) {
+                            width: 300px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 500px) {
+                            width: 270px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 430px) {
+                            width: 220px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 370px) {
+                            width: 190px;
+                            height: auto;
+                        }
+
+                        @media screen and (max-width: 330px) {
+                            width: 160px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .Maintain-Brand {
+            margin-top: 45px;
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 22px;
+                }
+            }
+
+            p {
+                font-size: 20px;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 17px;
+                }
+
+                @media screen and (max-width: 375px) {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .Quality-Prints {
+            margin-top: 45px;
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 22px;
+                }
+            }
+
+            p {
+                font-size: 20px;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 17px;
+                }
+
+                @media screen and (max-width: 375px) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

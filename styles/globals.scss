@@ -1,0 +1,1147 @@
+// Common  
+@import "../components/common/Header/style.scss";
+@import "../components/common/Footer/style.scss";
+@import "../components/common/MenuBar/style.scss";
+@import "../components/common/TextField/styles.scss";
+@import "../components/common/SelectField/styles.scss";
+@import "../components/common/EstimatedModal/styles.scss";
+@import "../components/common/ShippingModal/styles.scss";
+@import "../components/common/ShareModal/styles.scss";
+@import "../components/common/ContactModal/style.scss";
+@import "../components/common/RequestMessage/styles.scss";
+@import "../components/common/TextFieldIcon/styles.scss";
+@import "../components/Details/attributs/styles.scss";
+@import "../components/common/detailSelect/styles.scss";
+@import "../components/Search/style.scss";
+@import "../components/common/helpModal/styles.scss";
+@import "../components/common/cartModal/styles.scss";
+@import "../components/common/quoteDetailModal/styles.scss";
+@import "../components/common/whatsappIcon/style.scss";
+@import "../components/common/topline/styles.scss";
+@import "../components/common/getQuoteModal/styles.scss";
+
+
+
+// Home
+
+@import "../components/Home/banner/style.scss";
+@import "../components/Home/about/style.scss";
+@import "../components/Home/categories/styles.scss";
+
+// Quote
+
+@import "../components/quote-design/header/styles.scss";
+@import "../components/quote-design/topData/styles.scss";
+@import "../components/quote-design/productSelect/styles.scss";
+@import "../components/quote-design/common/SelectField/styles.scss";
+@import "../components/quote-design/common/TextField/styles.scss";
+@import "../components/quote-design/productTypes/styles.scss";
+@import "../components/quote-design/productDetails/styles.scss";
+@import "../components/quote-design/artwork/styles.scss";
+
+
+// LATEST HOME DESIGN 2025
+
+@import "../components/Home/latestPackaging/style.scss";
+@import "../components/Home/latestCreation/style.scss";
+@import "../components/Home/latestBrand/style.scss";
+@import "../components/Home/latestSmarterBranding/style.scss";
+@import "../components/Home/latestIndustry/style.scss";
+@import "../components/mobileView/home/latestIndustryMobile/style.scss";
+
+
+// Quote Mobile
+
+@import "../components/quote-design/mobileView/header/styles.scss";
+
+// Return Policy
+
+@import "../components/refundReturnPolicy/styles.scss";
+
+// Shipping Policy
+
+@import "../components/shippingPolicy/styles.scss";
+
+// Html Sitemap
+
+@import "../components/htmlSiteMap/styles.scss";
+
+
+@import "../components/Home/chatTwo/style.scss";
+@import "../components/Home/featured/styles.scss";
+@import "../components/Home/business/styles.scss";
+@import "../components//Home//linesTwo/style.scss";
+@import "../components/Home/services/styles.scss";
+@import "../components/Home/socialSlider/style.scss";
+@import "../components/Home/brandEssentials/style.scss";
+@import "../components/Home/industry/style.scss";
+@import "../components/Home/creating/style.scss";
+@import "../components/Home/nfc/style.scss";
+@import "../components/Home/processNew/style.scss";
+@import "../components//Home/categoryNew/style.scss";
+@import "../components//Home//reviewsCustomers/style.scss";
+@import "../components/Home/Testimonial/style.scss";
+@import "../components/Home/homeContent/style.scss";
+@import "../components/Home/ourProcess/style.scss";
+
+// HOME MOBILE
+
+@import "../components/mobileView/home/processMobile/style.scss";
+@import "../components/mobileView/home/categoryMobile/style.scss";
+@import "../components/mobileView/home/brandEssentialsMobile/style.scss";
+@import "../components/mobileView/home/linesMobile/style.scss";
+@import "../components/mobileView/home/creatingMobile/style.scss";
+@import "../components/mobileView/home/categoryNewMobile/style.scss";
+@import "../components/mobileView/home/ourProcessMobile/style.scss";
+
+
+// categories
+
+@import "../components/Categories/Sidebar/style.scss";
+@import "../components/Categories/Dropdown/style.scss";
+@import "../components/Categories/Supplies/style.scss";
+@import "../components/Categories/Collections/styles.scss";
+@import "../components/Categories/Products/style.scss";
+@import "../components/Categories/CategoryBanner/style.scss";
+@import "../components/Categories/ProductsSignBanner/styles.scss";
+@import "../components/Categories/BannerSection/style.scss";
+@import "../components/Categories/ImageSection/styles.scss";
+@import "../components/Categories/FullCategory/style.scss";
+@import "../components/Categories/collectionContent/style.scss";
+
+// About
+
+@import "../components/About/Value/style.scss";
+@import "../components/About/Minute/style.scss";
+@import "../components/About/Dielines/style.scss";
+@import "../components/About/Projects/style.scss";
+@import "../components/About/AboutBannner/style.scss";
+
+// New About
+@import "../components/About/AboutBannner/style.scss";
+@import "../components/About/AboutPrint247/style.scss";
+@import "../components/About/Value247/style.scss";
+@import "../components/About/Customer247/style.scss";
+@import "../components/About/SliderAbout/style.scss";
+
+// Industies
+@import "../components/industry/industryBanner/style.scss";
+@import "../components/industry/products/style.scss";
+
+// Feature
+
+@import "../components/Featured/Featureproduct/style.scss";
+@import "../components/Featured/Featurebanner/style.scss";
+
+
+// Packaging Design
+
+@import "../components/PackagingDesign/PackageBanner/style.scss";
+@import "../components/PackagingDesign/Alcoken/style.scss";
+@import "../components/PackagingDesign/PackBox/style.scss";
+
+// Business
+
+@import "../components/SubBusinessDetail/RightCard/style.scss";
+@import "../components/SubBusinessDetail/Paper/style.scss";
+@import "../components/SubBusinessDetail/CustomizedBusiness/style.scss";
+@import "../components/SubBusinessDetail/SubFaq/style.scss";
+@import "../components/SubBusinessDetail/SubBusinessBanner/style.scss";
+
+
+// Not Found
+
+@import "../components/NotFound/style.scss";
+
+// Product Not Found
+
+@import "../components/common/ProductNotFound/style.scss";
+
+// Promotional Product
+@import "../components/SubBusinessDetail/premiemCards/styles.scss";
+
+// Detail Page
+
+@import "../components/Details/DetailSection/style.scss";
+@import "../components/Details/Description/style.scss";
+
+
+// Loader
+
+@import "../components/common/loaders/styles.scss";
+
+// Cart
+@import "react-step-progress-bar/styles.css";
+
+// Ordered Quote Page 
+
+@import "../components/OrderSummaryNew/styles.scss";
+@import "../components/OrderSummaryNew/printView/styles.scss";
+
+
+// Shopping Cart
+
+@import "../components/ShoppingCart/ShopCart/style.scss";
+
+// Detail T-shirts
+
+@import "../components/TshirtsDetail/DetailShirtSection/style.scss";
+
+
+// Detail Sticker
+
+@import "../components/StickerDetail/DetailStickerSection/style.scss";
+
+// contact
+@import "../components/contact_us/styles.scss";
+@import "../components/contact_us/contactBanner/styles.scss";
+@import "../components/contact_us/contactFaqs/styles.scss";
+
+
+// privacy policy
+@import "../components/Privacy/styles.scss";
+
+
+// Terms and Conditions
+@import "../components/conditions/styles.scss";
+
+
+// Faqs
+@import "../components/Faqs/styles.scss";
+@import "../components/Faqs/FaqsBanner/style.scss";
+
+
+// Blog
+@import "../components/Blog/OurInsight/style.scss";
+@import "../components/Blog/InsightProduct/style.scss";
+@import "../components/common/blogNewsLetter/style.scss";
+@import "../components/ReadMore/Author/style.scss";
+
+
+// Vinyl Detail
+
+@import "../components/VinylDetails/DetailvinylSection/style.scss";
+
+
+// Calender Detail
+
+@import "../components/CalendarDetail/DetailCalender/style.scss";
+
+
+// Postcard Detail
+
+@import "../components/PostcardDetail/DetailPostcard/style.scss";
+
+
+// Read More
+
+@import "../components/ReadMore/DetailReadMore/style.scss";
+@import "../components/ReadMore/Articles/style.scss";
+
+
+// Alice Carousel
+
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+// Purchase Thanks Message
+
+@import "../components/purchaseDone/styles.scss";
+
+// Packagind Detaiol
+
+@import "../components/packagingDetail/styles.scss";
+
+// Design and Logo
+
+@import "../components/DesignAndLogo/DesignLogoVideo/style.scss";
+@import "../components/DesignAndLogo/Growdesign/style.scss";
+@import "../components/DesignAndLogo/Designoption/style.scss";
+@import "../components/DesignAndLogo/Businessdesign/style.scss";
+@import "../components/DesignAndLogo/Collaborate/style.scss";
+@import "../components/DesignAndLogo/Opinion/style.scss";
+
+// unavalible
+@import "../components/unavalible/styles.scss";
+
+
+// Campign Com
+
+@import "../components/campignCom/Faqs/styles.scss";
+@import "../components/campignCom/header/styles.scss";
+@import "../components/campignCom/printingDetails/styles.scss";
+@import "../components/campignCom/printPackaging/styles.scss";
+@import "../components/campignCom/PackagingDetail/formCom/style.scss";
+@import "../components/campignCom/productDetail/styles.scss";
+@import "../components/campignCom/socialMarquee/styles.scss";
+@import "../components/campignCom/instaSlide/styles.scss";
+@import "../components/campignCom/VideoCom/styles.scss";
+@import "../components/campignCom/PackagingDetail/styles.scss";
+@import "../components/campignCom/QuoteSubmittedCam/styles.scss";
+@import "../components/campignCom//MaterialsCam/styles.scss";
+@import "../components/campignCom/ArtwokCom/style.scss";
+@import "../components/campignCom/campaignContent/style.scss";
+@import "../components/folding-carton-campaign//SingleFoldingCompaign/styles.scss";
+@import "../components/folding-carton-campaign/foldingCampaignHeader/style.scss";
+@import "../components/folding-carton-campaign/SingleFoldingCompaign/SingleFormFoldTwo/styles.scss";
+@import "../components/folding-carton-campaign/liveChat/style.scss";
+@import "../components/folding-carton-campaign/productStandFolding/style.scss";
+@import "../components/folding-carton-campaign/InspiredFolding/style.scss";
+
+
+// CUSTOM STICKER CAMPAIGN
+@import "../components/campaignCustomSticker/ArtwokComSticker/style.scss";
+@import "../components/campaignCustomSticker/InspiredSticker/style.scss";
+@import "../components/campaignCustomSticker/productStandSticker/style.scss";
+@import "../components/campaignCustomSticker/SingleStickerCompaign/styles.scss";
+@import "../components/campaignCustomSticker/SingleStickerCompaign/SingleFormSticker/styles.scss";
+@import "../components/campaignCustomSticker/stickerCampaignHeader/style.scss";
+// @import "../components/campaignCustomSticker/testingSlider/style.scss";
+@import "../components/campaignCustomSticker/mainSlider/style.scss";
+
+
+// CUSTOM MYLAR CAMPAIGN
+@import "../components/campaignMylarBags/ArtwokComMylar/style.scss";
+@import "../components/campaignMylarBags/InspiredMylar/style.scss";
+@import "../components/campaignMylarBags/liveChatMylar/style.scss";
+@import "../components/campaignMylarBags/mainSliderMylar/style.scss";
+@import "../components/campaignMylarBags/mylarCampaignHeader/style.scss";
+@import "../components/campaignMylarBags/productStandMylar/style.scss";
+@import "../components/campaignMylarBags/SingleMylarCompaign/styles.scss";
+@import "../components/campaignMylarBags/SingleMylarCompaign/SingleFormMylar/styles.scss";
+
+
+// Campign Com Two
+
+@import "../components/campignCom2/SingleProductCompaign/styles.scss";
+@import "../components/campignCom2//SingleProductCompaign/SingleFormComTwo/styles.scss";
+@import "../components/campignCom2/Inspired/style.scss";
+@import "../components/campignCom2/happyCustomers/style.scss";
+@import "../components/campignCom2/productStand/style.scss";
+
+
+// Compaign Political
+
+@import "../components/compaignPolitical/politicalBanner/style.scss";
+@import "../components//compaignPolitical/politicalSigns/style.scss";
+@import "../components//compaignPolitical/politicalHeader/style.scss";
+@import "../components/compaignPolitical/politicalDescription/style.scss";
+@import "../components/campaignProducts/campaignMayLike/style.scss";
+@import "../components/campaignProducts/campaignPoliticalProduct/style.scss";
+
+
+
+
+
+
+@import "../components/folding-carton-campaign/mainSlider/style.scss";
+
+
+// Quote Submitted
+
+@import "../components/QuoteSubmitted/style.scss";
+
+// single Product detail
+@import "../components/campignCom/singleProductDetail/styles.scss";
+@import "../components/campignCom/singleProductDetail/SingleFormCom/styles.scss";
+
+
+// Christmas
+@import "../components/christmas/christmasBanner/style.scss";
+@import "../components/christmas/christmasProducts/style.scss";
+@import "../components/christmas/christmasDescription/style.scss";
+@import "../components/christmas/christmasFaqs/style.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  font-size: 16px !important;
+  /* Set a base font size for better consistency */
+  max-width: 100% !important;
+  /* Ensure inputs don't exceed the viewport width */
+  -webkit-text-size-adjust: 100% !important;
+  /* Disable font resizing in iOS */
+}
+
+:root {
+  touch-action: pan-x pan-y;
+  height: 100%
+}
+
+@font-face {
+  font-family: "Grostek";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/RightGrotesk-CompactBlack.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nexa";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/nexa/Nexa-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nexa";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/nexa/Nexa/Commercial/Nexa_V1_2012/Nexa\ Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/montserrat/Montserrat-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/montserrat/Montserrat-Medium.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/montserrat/Montserrat-SemiBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/montserrat/Montserrat-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Graphic";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/graphik/GraphikLight.otf") format("truetype");
+}
+
+
+
+
+body {
+  font-family: "Montserrat";
+  width: 100%;
+  overflow-x: hidden;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.rt-Box {
+  justify-content: center;
+}
+
+.css-1wy0on6 {
+  display: none !important;
+}
+
+.card_hover_menu {
+  position: static !important;
+}
+
+.container {
+  width: 85%;
+  margin: auto !important;
+  margin: 0px;
+  max-width: none;
+  padding: 0px;
+
+  @media screen and (min-width:2000px) {
+    max-width: 1600px;
+    margin: auto;
+  }
+}
+
+.new_container {
+  width: 95%;
+  margin: auto !important;
+  margin: 0px;
+  max-width: none;
+  padding: 0px;
+
+  @media screen and (min-width:2000px) {
+    max-width: 1600px;
+    margin: auto;
+  }
+
+  @media screen and (max-width:912px) {
+    width: 93%;
+    margin: auto;
+  }
+
+  @media screen and (max-width:575px) {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.error_border {
+  border: 1px solid red !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.gap-adjust {
+  margin-top: 87px;
+  position: relative;
+  max-width: 100%;
+
+  @media screen and (max-width: 768px) {
+    gap: 30px !important;
+  }
+
+  @media screen and (max-width: 575px) {
+    gap: 25px !important;
+  }
+
+  @media screen and (max-width: 450px) {
+    gap: 20px !important;
+  }
+
+  @media screen and (max-width: 350px) {
+    gap: 15px !important;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+select {
+  outline: none;
+}
+
+.padding_head {
+  padding-top: 200px;
+
+  @media screen and (max-width: 575px) {
+    padding-top: 120px;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding-top: 100px;
+  }
+}
+
+
+.opacity0 {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.opacity1 {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.ant-modal-content {
+  padding: 0px !important;
+  border-radius: 30px !important;
+  margin: auto;
+}
+
+.ant-modal-close {
+  display: none !important;
+}
+
+.ant-modal-footer {
+  display: none;
+}
+
+.ant-select-selection-placeholder {
+  color: black !important;
+  font-style: italic;
+  font-size: 18px;
+  opacity: 1;
+}
+
+@media screen and (min-width: 1900px) {
+  .conatiner {
+    width: 40% !important;
+    margin: auto;
+  }
+}
+
+
+// Toastify
+
+.Toastify__toast {
+  width: 360px !important;
+}
+
+.Toastify__toast-container {
+  width: 360px !important;
+}
+
+@media screen and (max-width:1400px) {
+  .Toastify__toast {
+    width: 350px !important;
+  }
+
+  .Toastify__toast-container {
+    width: 350px !important;
+  }
+}
+
+@media screen and (max-width:1020px) {
+  .Toastify__toast {
+    width: 300px !important;
+  }
+
+  .Toastify__toast-container {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width:1020px) {
+  .Toastify__toast {
+    width: 300px !important;
+  }
+
+  .Toastify__toast-container {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .Toastify__toast {
+    width: 100% !important;
+  }
+
+  .Toastify__toast-container {
+    width: 100% !important;
+  }
+}
+
+
+// Image Gallery
+
+.image-gallery-thumbnails {
+  padding: 25px 0px 5px;
+}
+
+.ant-select-selector {
+  border: none;
+  background: #f1f1f1 !important;
+}
+
+// user profile page
+
+.cart_page {
+  display: flex;
+  height: inherit;
+  overflow: hidden;
+
+  p {
+    color: black !important;
+  }
+}
+
+.cart_main {
+  &::-webkit-scrollbar {
+    display: none !important;
+    width: 0px !important;
+  }
+}
+
+:where(.css-fpg3f5).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  background-color: transparent;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+// uploader artwork
+
+.sc-aXZVg {
+  z-index: 5 !important;
+}
+
+
+/// Redix ui radio
+
+.RadioGroupRoot {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.RadioGroupItem {
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  box-shadow: 0 2px 10px var(--black-a7);
+}
+
+.RadioGroupItem:hover {
+  background-color: var(--violet-3);
+}
+
+.RadioGroupItem:focus {
+  box-shadow: 0 0 0 2px black;
+}
+
+.RadioGroupIndicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.RadioGroupIndicator::after {
+  content: '';
+  display: block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: var(--violet-11);
+}
+
+.Label {
+  color: white;
+  font-size: 15px;
+  line-height: 1;
+  padding-left: 15px;
+}
+
+
+.image-gallery-thumbnail-image {
+  @media screen and (max-width: 768px) {
+    width: 85% !important;
+  }
+}
+
+// Print View
+@media screen {
+  .print_view {
+    height: 0 !important;
+    visibility: hidden !important;
+  }
+}
+
+
+@media screen {
+  .print_view_new {
+    height: 0 !important;
+    visibility: hidden !important;
+  }
+}
+
+// upload ant design artwork css
+
+.upload-list-inline .ant-upload-list-item {
+  float: left;
+  width: 200px;
+  margin-inline-end: 8px;
+}
+
+.ant-upload-rtl.upload-list-inline .ant-upload-list-item {
+  float: right;
+}
+
+
+/// Ant design ccs
+.ant-upload-list-item-progress {
+  display: none !important;
+}
+
+.ant-upload-list-item-name {
+  min-width: 70px;
+  max-width: fit-content;
+  width: 70px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 10% !important;
+}
+
+.ant-upload-list-item-actions {
+  position: absolute;
+  right: 3%;
+}
+
+.dieline_modal {}
+
+.react-tel-input .flag-dropdown {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  // border: none !important;
+  background-color: #ffffff !important;
+  border-right: 1px solid #cacaca !important;
+  border-top-left-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+  border-radius: 30px 0 0 30px !important;
+
+}
+
+.react-tel-input .selected-flag {
+  outline: none;
+  position: relative;
+  width: 45px;
+  height: 100%;
+  padding: 0 0 0 8px;
+  border-radius: 30px 0 0 30px !important;
+}
+
+.main_phone_field {
+  .react-tel-input .flag-dropdown {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    // border: none !important;
+    background-color: transparent !important;
+    border-right: 1px solid #dddddd !important;
+    // border: 1px solid rgb(115, 115, 115) !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-radius: 20px 0 0 20px !important;
+
+  }
+
+  .react-tel-input .selected-flag {
+    outline: none !important;
+    position: relative !important;
+    width: 55px !important;
+    height: 100% !important;
+    padding: 0 0 0 8px !important;
+    border-radius: 20px 0 0 20px !important;
+    background-color: transparent !important;
+  }
+
+  .react-tel-input .selected-flag .flag mv {
+    scale: 1.2 !important;
+  }
+
+
+}
+
+// PRODUCT PAGE ARTWORK STYLE
+.product_page_artwork {
+  .ant-upload {
+    width: 100% !important;
+
+    .ant-upload-select {
+      width: 100% !important;
+    }
+  }
+
+  .ant-btn{
+    justify-content: left !important;
+    padding: 0px 15px !important;
+    height: 0px !important;
+  }
+}
+
+/// image viwer
+
+.styles-module_wrapper__1I_qj {
+  z-index: 1000 !important;
+}
+
+.react-simple-image-viewer__next {
+  // color: red !important;
+  opacity: 0.5 !important;
+}
+
+
+.react-simple-image-viewer__previous {
+  // color: red !important;
+  opacity: 0.5 !important;
+}
+
+
+// DETAIL PAGE QUANTITY SELECT
+
+.sixth-row-detail .css-t3ipsp-control:hover {
+  border: 1px black !important;
+  border-radius: 10px !important;
+}
+
+.sixth-row-detail .css-13cymwt-control {
+  border-color: black !important;
+  background-color: transparent !important;
+}
+
+.sixth-row-detail .css-13cymwt-control {
+  border-radius: 10px !important;
+}
+
+.sixth-row-detail .react-select__control .css-13cymwt-control {
+  display: none !important;
+}
+
+.sixth-row-detail .css-13cymwt-control:hover {
+  border: 1px solid black !important;
+}
+
+.sixth-row-detail .css-t3ipsp-control {
+  border: 0px solid black !important;
+  border-radius: 10px !important;
+}
+
+
+
+
+.outer {
+  // margin: 50px;
+
+  .button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #0097e6 50%, #3bb0ef 50%);
+    background-size: 200% 100%;
+    transition: all 2s ease-out;
+    color: #fff;
+    text-decoration: none;
+    height: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    cursor: pointer;
+
+    @media screen and (max-width: 576px) {
+      height: 50px;
+    }
+  }
+
+  .text {
+    text-align: center;
+    display: block;
+    color: #ffffff;
+
+    @media screen and (max-width: 1480px) {
+      font-size: 14px;
+    }
+
+    @media screen and (max-width: 1280px) {
+      font-size: 12px;
+    }
+
+    @media screen and (max-width: 576px) {
+      font-size: 10px;
+    }
+  }
+}
+
+.styles_faq-row-wrapper__3vA1D {
+  background-color: black !important;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY .styles_icon-wrapper__2cftw svg {
+  fill: var(--arrow-color, black);
+  display: none !important;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+  border: none !important;
+}
+
+.styles_row-title__1YiiY {
+  padding: 4px 0px !important;
+}
+
+.styles_faq-row-wrapper__3vA1D h2 {
+  width: 100% !important;
+}
+
+.styles_row-title-text__1MuhU {
+  padding-right: 0px !important;
+}
+
+//categories
+.fullchild .ant-tabs {
+  width: 100%;
+}
+
+.fullchild .ant-tabs .ant-tabs-nav {
+  margin: 0px !important;
+}
+
+.fullchild .ant-tabs .ant-tabs-nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fullchild .ant-tabs .ant-tabs-tab+.ant-tabs-tab {
+  margin: 0 0 0 0px;
+}
+
+.fullchild .ant-tabs-tab {
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0px;
+  font-family: "Montserrat";
+  padding: 0px !important;
+  font-size: 16px !important;
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.88);
+
+
+
+
+}
+
+@media screen and (max-width: 1520px) {
+
+  .fullchild .ant-tabs-tab {
+    font-size: 13px !important;
+
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .fullchild .ant-tabs-tab {
+    font-size: 10px !important;
+
+  }
+
+}
+
+
+
+
+
+
+.ant-select-dropdown {
+  background-color: #FBF5ED;
+}
+
+.slider {
+  width: 100%;
+  height: 100vh;
+}
+
+.slide {
+  position: relative;
+}
+
+.imageWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes smokeEffect {
+  0% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(1.05);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.ant-select-dropdown {
+  background-color: #FBF5ED;
+}
+
+.form_Section .ant-select-selector {
+  background: transparent !important;
+  border: none !important;
+}
+
+.beforeSlide {
+  height: 100svh;
+  overflow: hidden;
+}
+
+.afterSlide {
+  height: auto;
+}
+
+
+.formGroupTwo .ant-select-selector {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+
+/// Quote Form
+
+.quote_height1 {
+  height: 65px;
+}
+
+.quote_height2 {
+  height: 45px;
+  width: 56px;
+}
+
+.custom_quote_mobile {
+  padding: 11px;
+}
+
+@media screen and (max-width: 768px) {
+  .zpcookie-message-bar {
+    p {
+      display: flow !important;
+    }
+  }
+
+  .zsiq-float-tooltip {
+    display: none !important;
+  }
+}
+
+// CAMPAIGN TESTIMONIAL SETTING
+
+.testimonial_space {
+  @media screen and (max-width:575px) {
+    margin-top: 60px;
+  }
+}

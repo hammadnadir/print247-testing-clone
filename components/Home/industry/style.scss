@@ -1,0 +1,202 @@
+.main_homeindustry {
+  margin-top: 60px;
+
+  @media screen and (max-width: 575px) {
+    margin-top: 30px;
+  }
+
+  .heading {
+    font-size: clamp(30px, 3vw, 60px);
+    font-weight: 700;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: "Montserrat";
+
+    @media screen and (max-width: 1024px) {
+      font-size: 40px;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: 575px) {
+      font-size: 25px;
+      width: 100%;
+      // max-width: 200px;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+  }
+
+  .slide_indimg {
+    padding: 0px 10px;
+    margin: auto;
+    cursor: pointer;
+    gap: 45px;
+
+    .ind_img {
+      margin: auto;
+      width: 100%;
+      height: auto;
+    }
+
+    .main_roundedInd {
+      .slider_img2 {
+        margin: auto;
+        width: 80%;
+        height: auto;
+      }
+
+      .home_rounded {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+
+        .titleInd_heading {
+          padding-left: 25px;
+          font-size: 20px;
+          font-weight: 600;
+          color: black;
+
+          @media screen and (max-width: 1320px) {
+            padding-left: 12px;
+            font-size: 18px;
+          }
+
+          @media screen and (max-width: 1100px) {
+            padding-left: 8px;
+            font-size: 17px;
+          }
+
+          @media screen and (max-width: 1024px) {
+            padding-left: 8px;
+            font-size: 20px;
+          }
+
+          @media screen and (max-width: 912px) {
+            padding-left: 8px;
+            font-size: 18px;
+          }
+
+          @media screen and (max-width: 768px) {
+            padding-left: 5px;
+            font-size: 16px;
+          }
+
+          @media screen and (max-width: 575px) {
+            padding-left: 5px;
+            font-size: 15px;
+          }
+        }
+
+        .arrowslide {
+          width: 15px;
+          height: auto;
+          margin-right: 25px;
+
+          @media screen and (max-width: 1320px) {
+            margin-right: 12px;
+          }
+
+          @media screen and (max-width: 1100px) {
+            margin-right: 8px;
+          }
+
+          @media screen and (max-width: 768px) {
+            margin-right: 5px;
+          }
+        }
+      }
+
+      .titleInd_para {
+        font-size: 16px;
+        font-weight: 400;
+        padding-top: 12px;
+        padding-left: 25px;
+        text-align: left;
+
+        @media screen and (max-width: 1320px) {
+          padding-left: 12px;
+          font-size: 14px;
+        }
+
+        @media screen and (max-width: 1100px) {
+          padding-left: 8px;
+          padding-top: 8px;
+        }
+
+        @media screen and (max-width: 1024px) {
+          padding-left: 8px;
+          font-size: 16px;
+          padding-top: 5px;
+        }
+
+        @media screen and (max-width: 768px) {
+          padding-left: 5px;
+          font-size: 14px;
+          padding-top: 0px;
+        }
+
+        @media screen and (max-width: 575px) {
+          padding-left: 5px;
+          font-size: 12px;
+          padding-top: 0px;
+        }
+      }
+    }
+  }
+
+  .slick-next:before {
+    display: none !important;
+  }
+
+  .slick-prev:before {
+    display: none !important;
+  }
+
+  .slick-dots {
+    display: none !important;
+  }
+
+  .slick-slider {
+    .slick-arrow {
+      width: 55px;
+      height: 55px;
+      z-index: 50;
+
+      @media screen and (max-width: 1320px) {
+        width: 45px;
+        height: 45px;
+      }
+
+      .titleInd_heading {
+        padding-left: 25px;
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        display: flex;
+
+        @media screen and (max-width: 575px) {
+          width: 35px;
+          height: 35px;
+        }
+
+        @media screen and (max-width: 375px) {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+
+    .slick-prev {
+      left: -6.5%;
+      top: 50%;
+    }
+
+    .slick-next {
+      right: -6.5%;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.custom_quote_header_mobile {
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  margin-bottom: 25px;
+
+  .text-field {
+    h6 {
+      font-size: 11px;
+      margin-bottom: 3px;
+      font-weight: medium;
+      text-align: center;
+      color: #504B4B;
+      // @media screen and (max-width: 540px) {
+      //     font-size: 12px;
+      // }
+      // @media screen and (max-width: 430px) {
+      //     font-size: 10px;
+      // }
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 21px;
+      color: #3498ff;
+      text-align: center;
+      margin-bottom: 3px;
+      // @media screen and (max-width: 540px) {
+      //     font-size: 15px;
+      // }
+      // @media screen and (max-width: 430px) {
+      //     font-size: 12px;
+      // }
+    }
+    p {
+      font-size: 11px;
+      margin-bottom: 0px;
+      text-align: center;
+      font-weight: 400;
+      color: #504B4B;
+      // @media screen and (max-width: 540px) {
+      //     font-size: 8px;
+      // }
+      // @media screen and (max-width: 430px) {
+      //     font-size: 7px;
+      // }
+    }
+  }
+
+  .logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 26px;
+
+    .Print247-Logo {
+        width: 109px;
+        height: 27px;
+      }
+    .social-logo{
+        gap: 8px;
+        display: flex;
+       
+          .Print247-facebook {
+            width: 28px;
+            height: 28px;
+          }
+          .Print247-linkedin {
+            width: 28px;
+            height: 28px;
+          }
+          .Print247-instagram {
+            width: 28px;
+            height: 28px;
+          }
+    }
+   
+
+  }
+  .get_custom{
+    padding: 40px 0px 0px 0px;
+    h4{
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+         @media screen and (max-width: 480px) {
+          font-size: 22px;
+      }
+      @media screen and (max-width: 430px) {
+        font-size: 20px;
+    }
+    }
+    .mobile_para{
+      display: flex;
+      justify-content: center;
+      p{
+        width: 55%;
+        font-size: 13px;
+        color: #303030;
+        text-align: center;
+        font-weight: 400;
+        @media screen and (max-width: 515px) {
+          width: 60%;
+      }
+      @media screen and (max-width: 480px) {
+        width: 65%;
+    }
+    @media screen and (max-width: 400px) {
+      width: 75%;
+  }
+  @media screen and (max-width: 350px) {
+    width: 85%;
+}
+    }
+    }
+    
+  }
+}

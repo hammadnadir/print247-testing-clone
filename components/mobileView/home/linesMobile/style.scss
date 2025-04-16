@@ -1,0 +1,140 @@
+.main_boxes_grid {
+  padding: 0 20px;
+
+  @media screen and (max-width: 575px) {
+    padding: 0 10px;
+  }
+
+  .boxes_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+    align-items: flex-start;
+    margin: 50px 0;
+    position: relative;
+
+    @media screen and (max-width: 414px) {
+      gap: 7px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      padding-bottom: 10px;
+
+      @media screen and (max-width: 414px) {
+        padding-bottom: 7px;
+      }
+    }
+
+    .img_2 {
+      @media screen and (max-width: 575px) {
+        height: 370px;
+      }
+
+      @media screen and (max-width: 480px) {
+        height: 320px;
+      }
+
+      @media screen and (max-width: 414px) {
+        height: 280px;
+      }
+
+      @media screen and (max-width: 360px) {
+        height: auto;
+      }
+    }
+
+    .mainbox_abosulte {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .box_abosulte {
+        background-color: white;
+        border-radius: 16px;
+        padding: 40px 12px;
+        width: 300px;
+
+        @media screen and (max-width: 575px) {
+          width: 240px;
+          padding: 20px 18px;
+        }
+
+        h2 {
+          font-size: 20px;
+          font-weight: 700px;
+          font-family: "Montserrat";
+          text-align: center;
+          line-height: 110%;
+        }
+
+        .line_buttonmob {
+          display: flex;
+          justify-content: center;
+          margin-top: 40px;
+
+          @media screen and (max-width: 1024px) {
+            margin-top: 10px;
+          }
+
+          @media screen and (max-width: 872px) {
+            margin-top: 5px;
+          }
+
+          @media screen and (max-width: 767px) {
+            margin-top: 25px;
+          }
+
+          @media screen and (max-width: 414px) {
+            margin-top: 20px;
+          }
+
+          @media screen and (max-width: 300px) {
+            margin-top: 4px;
+          }
+
+          button {
+            font-size: 16px;
+            padding: 13px 53px;
+            border-radius: 20px;
+            background: #141414 0% 0% no-repeat padding-box;
+            color: white;
+
+            @media screen and (max-width: 1024px) {
+              font-size: 13px;
+              padding: 10px 33px;
+            }
+
+            @media screen and (max-width: 872px) {
+              font-size: 13px;
+              padding: 9px 23px;
+            }
+
+            @media screen and (max-width: 767px) {
+              font-size: 16px;
+              padding: 9px 33px;
+            }
+
+            @media screen and (max-width: 414px) {
+              font-size: 13px;
+              padding: 9px 23px;
+            }
+
+            @media screen and (max-width: 340px) {
+              font-size: 13px;
+              padding: 5px 23px;
+            }
+
+            @media screen and (max-width: 300px) {
+              font-size: 13px;
+              padding: 5px 23px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

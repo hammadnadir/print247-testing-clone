@@ -1,0 +1,1004 @@
+.main_camapign_like{
+    padding-top: 170px;
+
+    @media screen and (max-width: 768px) {
+      padding-top: 70px;
+    }
+
+    .inner-descriptionn {
+        display: flex;
+        gap: 100px;
+        background-color: #f1f1f1f1;
+        justify-content: center;
+        padding: 0px 30px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+        .inerrs {
+            padding: 22px 0px 0px;
+            margin-bottom: 2px;
+        }
+
+        .select {
+            border-bottom: 3px solid #00A1ED;
+        }
+
+        @media screen and (max-width: 1200px) {
+            gap: 50px !important;
+        }
+
+        @media screen and (max-width: 912px) {
+            gap: 40px !important;
+        }
+
+        @media screen and (max-width: 768px) {
+            gap: 30px !important;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        h4 {
+            font-size: 22px;
+            font-weight: 500;
+            cursor: pointer;
+            padding-bottom: 5px;
+
+            @media screen and (max-width: 1200px) {
+                font-size: 18px !important;
+            }
+
+            @media screen and (max-width: 912px) {
+                font-size: 16px !important;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 14px !important;
+            }
+        }
+    }
+
+    .main-description-boxes {
+        margin-top: 50px;
+
+        .description_outside_boxes {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+
+            .description1 {
+                background-color: white;
+                width: 350px;
+                padding: 70px 30px !important;
+                text-align: center;
+
+                @media screen and (max-width: 1400px) {
+                    width: 300px !important;
+                }
+
+                @media screen and (max-width: 912px) {
+                    width: 280px !important;
+                    padding: 70px 15px !important;
+                }
+
+                @media screen and (max-width: 768px) {
+                    width: 250px !important;
+                }
+
+                @media screen and (max-width: 624px) {
+                    width: 100% !important;
+                }
+
+                h2 {
+                    font-weight: 700;
+                    font-size: 25px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 22px !important;
+                    }
+
+                    @media screen and (max-width: 912px) {
+                        font-size: 19px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 17px !important;
+                    }
+                }
+
+                h4 {
+                    font-weight: 500;
+                    font-size: 18px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 16px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 14px !important;
+                    }
+                }
+
+                h5 {
+                    font-weight: 500;
+                    font-size: 16px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 15px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 13px !important;
+                    }
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 16px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 15px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 13px !important;
+                    }
+                }
+
+                img {
+                    padding-top: 30px;
+
+                    @media screen and (max-width: 1024px) {
+                        width: 230px;
+                        height: 190px;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        width: 180px;
+                        height: 150px;
+                    }
+
+                    @media screen and (max-width: 414px) {
+                        width: 160px;
+                        height: 130px;
+                    }
+                }
+            }
+
+            .description2 {
+                background-color: #DFDFDF;
+                width: 350px;
+                padding: 70px 30px !important;
+                text-align: center;
+
+                @media screen and (max-width: 1400px) {
+                    width: 300px !important;
+                }
+
+                @media screen and (max-width: 912px) {
+                    width: 280px !important;
+                    padding: 70px 15px !important;
+                }
+
+                @media screen and (max-width: 768px) {
+                    width: 250px !important;
+                }
+
+                @media screen and (max-width: 624px) {
+                    width: 100% !important;
+                }
+
+                h2 {
+                    font-weight: 700;
+                    font-size: 25px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 22px !important;
+                    }
+
+                    @media screen and (max-width: 912px) {
+                        font-size: 19px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 18px !important;
+                    }
+                }
+
+                h4 {
+                    font-weight: 500;
+                    font-size: 18px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 16px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 14px !important;
+                    }
+                }
+
+                h5 {
+                    font-weight: 500;
+                    font-size: 16px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 15px !important;
+                    }
+                    @media screen and (max-width: 575px) {
+                        font-size: 13px !important;
+                    }
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 16px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 15px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 13px !important;
+                    }
+                }
+
+                img {
+                    padding-top: 30px;
+
+                    @media screen and (max-width: 1024px) {
+                        width: 260px;
+                        height: 190px;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        width: 180px;
+                        height: 150px;
+                    }
+
+                    @media screen and (max-width: 414px) {
+                        width: 160px;
+                        height: 130px;
+                    }
+                }
+            }
+
+            .description3 {
+                background-color: #F6E2CF;
+                width: 350px;
+                text-align: center;
+                padding: 70px 30px !important;
+
+                @media screen and (max-width: 1400px) {
+                    width: 300px !important;
+                }
+
+                @media screen and (max-width: 912px) {
+                    width: 280px !important;
+                    padding: 70px 15px !important;
+                }
+
+                @media screen and (max-width: 768px) {
+                    width: 250px !important;
+                }
+
+                @media screen and (max-width: 624px) {
+                    width: 100% !important;
+                }
+
+                h2 {
+                    font-weight: 700;
+                    font-size: 25px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 22px !important;
+                    }
+
+                    @media screen and (max-width: 912px) {
+                        font-size: 19px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 18px !important;
+                    }
+                }
+
+                h4 {
+                    font-weight: 500;
+                    font-size: 18px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 16px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 14px !important;
+                    }
+                }
+
+                h5 {
+                    font-weight: 500;
+                    font-size: 16px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 15px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 13px !important;
+                    }
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 16px;
+
+                    @media screen and (max-width: 1300px) {
+                        font-size: 15px !important;
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 13px !important;
+                    }
+                }
+
+                img {
+                    padding-top: 30px;
+
+                    @media screen and (max-width: 1024px) {
+                        width: 260px;
+                        height: 190px;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        width: 180px;
+                        height: 150px;
+                    }
+
+                    @media screen and (max-width: 414px) {
+                        width: 160px;
+                        height: 130px;
+                    }
+                }
+            }
+        }
+    }
+
+    .button-design {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        .inner-button-design {
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            width: 290px;
+            padding: 27px 0;
+            border: none !important;
+            outline: none !important;
+            text-decoration: none !important;
+            cursor: pointer;
+        }
+    }
+
+    // MAY ALSO LIKE
+
+    .main-may-like {
+        margin-top: 70px;
+        margin-bottom: 70px;
+
+        h3 {
+            font-size: 50px;
+            font-weight: 700;
+            text-align: center;
+           font-family: "Montserrat";
+
+            @media screen and (max-width: 1280px) {
+                font-size: 40px;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 30px;
+            }
+
+            @media screen and (max-width: 575px) {
+                font-size: 25px;
+            }
+        }
+
+        .main_products_envelop {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 27px;
+            justify-content: center;
+            text-align: center;
+
+            @media screen and (max-width: 1550px) {
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+
+            @media screen and (max-width: 768px) {
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+
+            @media screen and (max-width: 575px) {
+                display: grid;
+                grid-template-columns: auto;
+            }
+
+            .bottom {
+                cursor: pointer;
+
+                .head_envelop_image {
+                    position: relative;
+
+                    .btn_pop {
+                        position: absolute;
+                        top: 60px;
+                        right: 22px;
+
+                        button {
+                            padding-top: 7px;
+                            padding-bottom: 7px;
+                            padding-left: 11px;
+                            padding-right: 11px;
+                            color: white;
+                            background: #00A1ED;
+                            border-radius: 10px;
+                        }
+
+                    }
+
+                    .image_envelop {
+
+                        img {
+                            margin-top: 40px;
+
+                            @media screen and (max-width: 1660px) {
+                                width: 320px;
+                                height: 390px;
+                            }
+
+                            @media screen and (max-width: 1075px) {
+                                width: 300px;
+                                height: auto;
+                            }
+
+                            @media screen and (max-width: 1024px) {
+                                width: 270px;
+                                height: auto;
+                            }
+
+                            @media screen and (max-width: 930px) {
+                                width: 250px;
+                                height: auto;
+                            }
+
+                            @media screen and (max-width: 850px) {
+                                width: 230px;
+                                height: auto;
+                            }
+
+                            @media screen and (max-width: 800px) {
+                                width: 200px;
+                                height: auto;
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                width: 270px;
+                                height: auto;
+                            }
+
+                            @media screen and (max-width: 620px) {
+                                width: 240px;
+                                height: auto;
+                            }
+
+                            @media screen and (max-width: 575px) {
+                                width: 300px;
+                                height: auto;
+                            }
+
+                            @media screen and (max-width: 375px) {
+                                width: 230px;
+                                height: auto;
+                            }
+
+                        }
+                    }
+
+                    .headenvelop {
+                        h3 {
+                            color: #000000;
+                            padding-top: 20px;
+                            text-align: center;
+                            font-size: 23px;
+                            font-weight: 600;
+                           font-family: "Montserrat";
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 18px;
+                            }
+
+                            @media screen and (max-width: 575px) {
+                                font-size: 16px;
+                            }
+                        }
+
+                        h5 {
+                            text-align: center;
+                            font-size: 21px;
+                            font-weight: 500;
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 16px;
+                            }
+
+                            @media screen and (max-width: 575px) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // FAQS OF PRODUCT PAGES
+
+    .stickerdetail-faq {
+
+        .mainstickdetail_faq {
+            padding-top: 90px;
+            width: 90%;
+            margin: auto;
+
+            @media screen and (max-width:500px) {
+                width: 100%;
+            }
+
+            .Faqsticker_section {
+
+                hr {
+                    margin: 0px;
+                    border: 1px solid black;
+                }
+
+                h3 {
+                    text-align: center;
+                    color: black;
+                    font-size: 50px;
+                    padding-bottom: 90px;
+                    font-weight: 700;
+                   font-family: "Montserrat";
+
+                    @media screen and (max-width:1024px) {
+                        font-size: 35px;
+                    }
+
+                    @media screen and (max-width:768px) {
+                        font-size: 30px;
+                        padding-bottom: 50px;
+                    }
+
+                    @media screen and (max-width:575px) {
+                        font-size: 25px;
+                        padding-bottom: 40px;
+                    }
+                }
+
+                .faq_question1 {
+                    display: flex;
+
+                    span {
+                        padding: 25px 0px;
+                        cursor: pointer;
+                        height: min-content;
+                        line-height: 1;
+                        opacity: 0.5;
+                        font-weight: bold;
+                        font-size: 25px;
+                        margin-right: 25px;
+
+                        @media screen and (max-width:1024px) {
+                            font-size: 22px;
+                        }
+
+                        @media screen and (max-width:768px) {
+                            font-size: 20px;
+                        }
+                    }
+
+                    .accordianss {
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 7px;
+                        cursor: pointer;
+                        align-items: center;
+                        padding-top: 10px;
+
+                        .icon_style {
+                            width: 18px;
+                            height: 11px;
+
+                            img {
+                                width: fit-content;
+                                height: auto !important;
+                                position: static !important;
+                            }
+                        }
+
+                        .icon_style2 {
+                            width: 10px;
+                            height: 18px;
+
+                            img {
+                                width: fit-content;
+                                height: auto !important;
+                                position: static !important;
+                            }
+                        }
+                    }
+
+                    h4 {
+                        font-size: 25px;
+                        font-weight: 500;
+                        color: #000000;
+                        // margin-bottom: -17px;
+                        margin-bottom: -20px;
+                        padding: 25px 0px;
+
+                        @media screen and (max-width:1024px) {
+                            font-size: 19px;
+                        }
+
+                        @media screen and (max-width:768px) {
+                            font-size: 16px;
+                        }
+
+                        @media screen and (max-width:500px) {
+                            font-size: 15px;
+                        }
+                    }
+
+                    p {
+                        font-size: 20px;
+                        margin-bottom: 25px !important;
+                        padding-top: 10px;
+                        width: 88%;
+
+                        @media screen and (max-width:1024px) {
+                            font-size: 19px;
+                        }
+
+                        @media screen and (max-width:768px) {
+                            text-align: justify;
+                            font-size: 16px;
+                        }
+
+                        @media screen and (max-width:500px) {
+                            text-align: justify;
+                            font-size: 13px;
+                        }
+                    }
+
+                    .para1 {
+                        transition: all 0.8s ease-in-out;
+                        max-height: 200px;
+                        overflow: hidden;
+                    }
+
+                    .para {
+                        transition: all 0.8s ease-in-out;
+                        overflow: hidden;
+                        max-height: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    // DESCRIPTION OF PRODUCT PAGES
+
+    .main-customShirt {
+
+        .customShirt-head {
+            width: 750px;
+            margin: auto;
+            padding-top: 25px;
+
+            @media screen and (max-width:912px) {
+                width: 700px;
+            }
+
+            @media screen and (max-width:850px) {
+                width: 620px;
+            }
+
+            @media screen and (max-width:768px) {
+                width: 550px;
+            }
+
+            @media screen and (max-width:680px) {
+                width: 500px;
+            }
+
+            @media screen and (max-width:612px) {
+                width: 450px;
+            }
+
+            @media screen and (max-width:576px) {
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 50px;
+                font-weight: 700;
+                text-align: center;
+                margin-top: 40px;
+                margin-bottom: 30px;
+               font-family: "Montserrat";
+
+                @media screen and (max-width:1500px) {
+                    font-size: 42px;
+                }
+
+                @media screen and (max-width:1024px) {
+                    font-size: 35px;
+                }
+
+                @media screen and (max-width:768px) {
+                    font-size: 30px;
+                }
+
+                @media screen and (max-width:575px) {
+                    font-size: 25px;
+                }
+            }
+
+            ul {
+                li {
+                    font-size: 20px;
+
+                    @media screen and (max-width:768px) {
+                        font-size: 17px;
+                    }
+
+                    @media screen and (max-width:575px) {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .decoration-para {
+                font-size: 20px;
+
+                @media screen and (max-width:768px) {
+                    font-size: 17px;
+                }
+
+                @media screen and (max-width:575px) {
+                    font-size: 14px;
+                }
+            }
+
+            .tee-occasion {
+
+                h4 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-align: center;
+                    margin-top: 15px;
+
+                    @media screen and (max-width:768px) {
+                        font-size: 17px;
+                    }
+
+                    @media screen and (max-width:575px) {
+                        font-size: 14px;
+                    }
+                }
+
+                .tee-para {
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-align: center;
+                    margin-top: 15px;
+
+                    @media screen and (max-width:768px) {
+                        font-size: 17px;
+                    }
+
+                    @media screen and (max-width:575px) {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    // SIZE CHART TABLE
+
+    .sizechart_table {
+        margin-top: 40px;
+
+        .size_guide {
+
+            h2 {
+                font-size: 50px;
+                font-weight: 700;
+                text-align: center;
+                color: #000000;
+               font-family: "Montserrat";
+
+                @media screen and (max-width:1024px) {
+                    font-size: 35px;
+                }
+
+                @media screen and (max-width:768px) {
+                    font-size: 30px;
+                }
+
+                @media screen and (max-width:575px) {
+                    font-size: 25px;
+                }
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: 400;
+                text-align: center;
+                color: #000000;
+                margin-bottom: 30px;
+
+                @media screen and (max-width:768px) {
+                    font-size: 18px;
+                }
+
+                @media screen and (max-width:575px) {
+                    font-size: 16px;
+                }
+            }
+
+            h4 {
+                font-size: 30px;
+                font-weight: 400;
+                text-align: center;
+                color: #000000;
+
+                @media screen and (max-width:768px) {
+                    font-size: 25px;
+                }
+
+                @media screen and (max-width:575px) {
+                    font-size: 18px;
+                }
+            }
+
+            h5 {
+                font-size: 25px;
+                font-weight: 500;
+                text-align: center;
+                color: #000000;
+                margin-bottom: 20px;
+
+                @media screen and (max-width:768px) {
+                    font-size: 20px;
+                }
+
+                @media screen and (max-width:575px) {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 40%;
+            border: 1.5px solid black;
+            margin: auto;
+
+            @media screen and (max-width: 1279px) {
+                width: 50%;
+            }
+
+            @media screen and (max-width: 1024px) {
+                width: 60%;
+            }
+
+            @media screen and (max-width: 850px) {
+                width: 70%;
+            }
+
+            @media screen and (max-width: 730px) {
+                width: 85%;
+            }
+
+            @media screen and (max-width: 575px) {
+                width: 95%;
+            }
+
+            @media screen and (max-width: 510px) {
+                width: 100%;
+            }
+        }
+
+        th,
+        td {
+            border: 1.5px solid black;
+            padding: 26px 30px;
+            text-align: center;
+
+            @media screen and (max-width: 730px) {
+                font-size: 14px;
+            }
+
+            @media screen and (max-width: 485px) {
+                padding: 20px 2px;
+                font-size: 12px;
+            }
+
+            @media screen and (max-width: 320px) {
+                padding: 18px 0px;
+            }
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .head_measure {
+            margin-top: 40px;
+
+            h3 {
+                font-size: 30px;
+                font-weight: 600;
+                color: #000000;
+                text-align: center;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 20px;
+                }
+            }
+
+            .data_measure {
+                justify-content: center;
+                display: grid;
+
+                h6 {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #000000;
+                    margin: 20px 0;
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 14px;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #000000;
+
+                    @media screen and (max-width: 575px) {
+                        font-size: 14px;
+                    }
+
+                    span {
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #000000;
+
+                        @media screen and (max-width: 575px) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

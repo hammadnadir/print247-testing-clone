@@ -1,0 +1,147 @@
+.main_inspired_sticker {
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+    @media screen and (max-width: 912px) {
+        margin-top: 80px;
+    }
+
+    @media screen and (max-width: 768px) {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 575px) {
+        margin-top: 50px;
+        background-color: #EEEEF3;
+        border-radius: 26px;
+        padding: 27px 0px;
+        margin-bottom: 10px;
+    }
+
+    .inspired_data_sticker {
+        h3 {
+            font-size: 55px;
+            font-weight: 700;
+            text-align: center;
+            color: black;
+            font-family: "Montserrat";
+
+            @media screen and (max-width: 912px) {
+                font-size: 45px;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 35px;
+            }
+
+            @media screen and (max-width: 575px) {
+                font-size: 25px;
+                text-align: left;
+            }
+
+            @media screen and (max-width: 420px) {
+                font-size: 22px;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            color: black;
+            max-width: 650px;
+            margin: auto;
+            font-family: "Montserrat";
+
+            @media screen and (max-width: 768px) {
+                font-size: 16px;
+            }
+
+            @media screen and (max-width: 575px) {
+                font-size: 12px !important;
+                text-align: left !important;
+            }
+
+            @media screen and (max-width: 420px) {
+                font-size: 11px !important;
+                text-align: left !important;
+            }
+        }
+
+        .inpired_grid_boxes {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: auto;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 45px;
+
+            @media screen and (max-width: 912px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            @media screen and (max-width: 768px) {
+                gap: 10px;
+                margin-top: 35px;
+            }
+
+            @media screen and (max-width: 575px) {
+                // display: grid;
+                // grid-template-columns: 1fr 1fr 1fr 1fr;
+                display: flex;
+                gap: 7px;
+                margin-top: 30px;
+                margin-bottom: -75px;
+            }
+
+            .inner_inpired_grid_boxes {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                p {
+                    font-size: 28px;
+                    font-weight: 600;
+                    color: black;
+                    text-align: center;
+                    padding-top: 20px;
+                }
+            }
+
+        }
+
+
+        .inner_inpired_marquee {
+            margin-right: 10px;
+            margin-top: 20px;
+
+            @media screen and (max-width: 420px) {
+                margin-right: 7px;
+            }
+
+            img {
+                max-width: 220px;
+                height: auto;
+                border-radius: 33px;
+
+                @media screen and (max-width: 420px) {
+                    max-width: 180px;
+                }
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: 600;
+                color: black;
+                text-align: center;
+                padding-top: 10px;
+                margin: auto !important;
+                justify-content: center !important;
+                display: flex !important;
+            }
+        }
+    }
+}

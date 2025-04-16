@@ -1,0 +1,179 @@
+.exective_css {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 0px;
+
+  @media screen and (max-width: 575px) {
+    font-size: 13px;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 10px;
+  }
+}
+
+.dieline_modal {
+  padding: 30px 30px;
+  z-index: 8777777777777777777777777777777777777;
+
+  @media screen and (max-width: 575px) {
+    padding: 0px 15px;
+  }
+
+  pre {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+    @media screen and (max-width: 575px) {
+      font-size: 25px;
+    }
+  }
+
+  .main-contact-inp {
+    margin-top: 45px;
+
+    @media screen and (max-width: 575px) {
+      margin-top: 25px;
+    }
+
+    h2 {
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: 20px;
+
+      @media screen and (max-width: 575px) {
+        font-size: 18px;
+      }
+    }
+
+    .contact_text_field {
+      input {
+        font-size: 14px;
+        border: 1px solid black;
+      }
+    }
+
+    .contact_two_fields {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      width: 100%;
+      justify-content: space-between;
+
+      @media screen and (max-width: 575px) {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .contact_text_field {
+        input {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .contact-checkbox {
+      display: flex;
+      align-items: center !important;
+
+      label {
+        margin-left: 20px;
+        width: 90%;
+        font-size: 16px;
+
+        @media screen and (max-width: 575px) {
+          width: 85%;
+          font-size: 14px;
+        }
+      }
+
+      span {
+        color: #1592e6;
+      }
+    }
+
+    .contact-submit {
+      button {
+        width: 195px;
+        padding-top: 15px;
+        padding-bottom: 15px !important;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        background-color: black;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+      }
+    }
+
+    p {
+      text-align: center;
+      margin-top: 15px;
+
+      @media screen and (max-width: 575px) {
+        margin-top: 10px;
+      }
+    }
+  }
+
+
+  // .error_b {
+  //   border: 1px solid red !important;
+  // }
+}
+
+.error_b {
+  border: 1px solid red !important;
+  border-radius: 25px;
+}
+
+.btn_data {
+  background-color: black;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 20px;
+  width: 180px;
+  padding: 10px 0;
+  outline: none;
+  border: none !important;
+  outline: none !important;
+  text-decoration: none !important;
+  cursor: pointer;
+
+  @media screen and (max-width: 1350px) {
+    width: 238px;
+    padding: 22px 0;
+  }
+
+  @media screen and (max-width: 720px) {
+    width: 220px;
+    padding: 19px 0;
+  }
+
+  // @media screen and (max-width: 575px) {
+  //   width: 100%;
+  //   padding: 19px 0;
+  // }
+}
+
+.ant-modal-content {
+  width: 70%;
+}

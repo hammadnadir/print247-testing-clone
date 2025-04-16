@@ -1,0 +1,122 @@
+.banner_section_image {
+    overflow: hidden;
+    margin-top: 130px;
+
+    .background_imge {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        .bannersection_detail {
+            padding: 150px 0px;
+
+            @media screen and (max-width: 420px) {
+                padding: 100px 0px;
+            }
+
+            h1 {
+                color: #FFFFFF;
+                font-size: clamp(30px, 3vw, 70px);
+                margin-bottom: 19px;
+                font-weight: 700;
+                width: 40%;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 25px;
+                    text-align: center;
+                    color: black;
+                    width: 100%;
+                    margin: auto;
+                    margin-bottom: 15px;
+                }
+
+                @media screen and (max-width: 480px) {
+                    width: 100%;
+                    font-size: 22px;
+                }
+
+                @media screen and (max-width: 375px) {
+                    width: 100%;
+                    font-size: 19px;
+                }
+            }
+
+            p {
+                color: white;
+                font-size: clamp(15px, 2vw, 20px);
+                margin-bottom: 35px;
+                width: 35%;
+                font-weight: 300;
+
+                @media screen and (max-width: 1355px) {
+                    width: 45%;
+                }
+
+                @media screen and (max-width: 1024px) {
+                    width: 55%;
+                }
+
+                @media screen and (max-width: 575px) {
+                    width: 100%;
+                    margin: auto;
+                    text-align: center;
+                    color: black;
+                }
+
+                @media screen and (max-width: 480px) {
+                    width: 100%;
+                    font-size: 14px;
+                }
+
+                @media screen and (max-width: 375px) {
+                    width: 100%;
+                    font-size: 12px;
+                }
+            }
+
+            .bannersection_btn {
+                width: 190px;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+                text-decoration: none;
+                outline: none;
+                padding: 16px 0;
+                color: white;
+                background-color: black;
+
+                @media screen and (max-width: 1200px) {
+                    width: 150px;
+                    padding: 12px 0;
+                    font-size: 14px;
+                }
+
+                @media screen and (max-width: 850px) {
+                    width: 130px;
+                    padding: 10px 0;
+                    font-size: 12px;
+                }
+
+                @media screen and (max-width: 680px) {
+                    width: 110px;
+                    padding: 8px 0;
+                    font-size: 12px;
+                }
+
+                @media screen and (max-width: 575px) {
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 20px;
+                }
+
+                @media screen and (max-width: 540px) {
+                    width: 90px;
+                    padding: 6px 0;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

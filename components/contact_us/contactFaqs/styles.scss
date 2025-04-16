@@ -1,0 +1,253 @@
+.contact_faqs {
+    margin-top: 70px;
+    margin-bottom: 130px;
+
+    .popular-question {
+
+        h3 {
+            text-align: center;
+            color: black;
+            font-size: 60px;
+            font-weight: 700;
+            padding-bottom: 49px;
+
+            @media screen and (max-width:1024px) {
+                font-size: 32px;
+            }
+
+            @media screen and (max-width:768px) {
+                font-size: 25px;
+                padding-bottom: 43px;
+            }
+
+            @media screen and (max-width:575px) {
+                font-size: 22px;
+                padding-bottom: 40px;
+            }
+        }
+
+        h5 {
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+
+            @media screen and (max-width:768px) {
+                font-size: 25px;
+            }
+
+            @media screen and (max-width:575px) {
+                font-size: 22px;
+            }
+        }
+
+        .main_contactsection {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 70px;
+            align-items: flex-start;
+
+
+            @media screen and (max-width: 768px) {
+                flex-direction: column;
+            }
+
+            .para1_contact {
+                padding-bottom: 30px;
+            }
+
+            .para_contact {
+                overflow: hidden;
+                height: 0px;
+            }
+
+            .Faq_contactsectionOne {
+                width: 100%;
+                justify-content: center;
+
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                }
+
+                hr {
+                    margin: 0px;
+                    border: 1px solid black;
+                    width: 100%;
+
+                    @media screen and (max-width: 768px) {
+                        width: 100%;
+                    }
+                }
+
+                .faq_question1 {
+                    display: flex;
+
+                    .faq-width {
+                        width: 80%;
+
+                        @media screen and (max-width: 768px) {
+                            width: 100%;
+                        }
+
+                    }
+
+
+                    .accordianss {
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 7px;
+                        cursor: pointer;
+                        align-items: center;
+                        padding: 30px 0px;
+
+                        .icon_style {
+                            transform: rotate(-90deg);
+                        }
+
+                        .icon_style2 {
+                            transform: rotate(0deg);
+                        }
+                    }
+
+                    h4 {
+                        font-size: 23px;
+                        font-weight: 500;
+                        color: #000000;
+                        margin-bottom: 0px;
+
+                        @media screen and (max-width:1300px) {
+                            font-size: 21px;
+                        }
+
+                        @media screen and (max-width:1024px) {
+                            font-size: 18px;
+                        }
+
+                        @media screen and (max-width:768px) {
+                            font-size: 16px;
+                        }
+
+                        @media screen and (max-width:500px) {
+                            font-size: 15px;
+                        }
+                    }
+
+                    p {
+                        font-size: 20px;
+                        width: 100%;
+                        font-weight: 400;
+
+                        @media screen and (max-width:1024px) {
+                            font-size: 19px;
+                        }
+
+                        @media screen and (max-width:768px) {
+                            text-align: justify;
+                            font-size: 16px;
+                        }
+
+                        @media screen and (max-width:500px) {
+                            text-align: justify;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+
+            .Faq_contactsection_Two {
+                width: 100%;
+                justify-content: center;
+
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                }
+
+                hr {
+                    margin: 0px;
+                    border: 1px solid black;
+                    width: 100%;
+
+                    @media screen and (max-width: 768px) {
+                        width: 100%;
+                    }
+                }
+
+                .faq_question1 {
+                    display: flex;
+
+                    .faq-width {
+                        width: 80%;
+
+                        @media screen and (max-width: 768px) {
+                            width: 100%;
+                        }
+                    }
+
+                    .accordianss {
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 7px;
+                        cursor: pointer;
+                        align-items: center;
+                        padding: 30px 0px;
+
+                        .icon_style {
+                            transform: rotate(-90deg);
+                            // transition: all 0.5s ease-in-out;
+                        }
+
+                        .icon_style2 {
+                            // transition: all 0.5s ease-in-out;
+                            transform: rotate(0deg);
+                        }
+                    }
+
+                    h4 {
+                        font-size: 23px;
+                        font-weight: 500;
+                        color: #000000;
+                        margin-bottom: 0px;
+
+                        @media screen and (max-width:1300px) {
+                            font-size: 21px;
+                        }
+
+                        @media screen and (max-width:1024px) {
+                            font-size: 18px;
+                        }
+
+                        @media screen and (max-width:768px) {
+                            font-size: 16px;
+                        }
+
+                        @media screen and (max-width:500px) {
+                            font-size: 15px;
+                        }
+                    }
+
+                    p {
+                        font-size: 20px;
+                        width: 100%;
+                        font-weight: 400;
+
+                        @media screen and (max-width:1024px) {
+                            font-size: 19px;
+                        }
+
+                        @media screen and (max-width:768px) {
+                            text-align: justify;
+                            font-size: 16px;
+                        }
+
+                        @media screen and (max-width:500px) {
+                            text-align: justify;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,43 @@
+.political-description {
+    padding: 60px 0;
+    border-radius: 8px;
+    color: #333;
+    line-height: 1.6;
+    width: 70%;
+    margin: auto;
+
+    @media screen and (max-width: 912px) {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 30px;
+        color: #00A1ED;
+        margin-bottom: 20px !important;
+        padding-bottom: 5px;
+        // border-bottom: 2px solid #00A1ED;
+        width: fit-content;
+        text-align: center;
+        margin: auto;
+        font-weight: 600;
+
+        @media screen and (max-width: 575px) {
+            font-size: 25px;
+        }
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #555;
+        text-align: center;
+
+        @media screen and (max-width: 575px) {
+            font-size: 16px;
+        }
+
+        &:last-of-type {
+            margin-bottom: 20px;
+        }
+    }
+}

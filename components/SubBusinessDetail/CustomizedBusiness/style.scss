@@ -1,0 +1,80 @@
+.Customized_Business {
+    overflow: hidden;
+    margin-top: 130px;
+
+    .background {
+        width: 100%;
+        background-image: url('/image/SquareBus.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        .CustomizedBusiness_detail {
+            padding: 150px 0px;
+
+            @media screen and (max-width: 420px) {
+                padding: 100px 0px;
+            }
+
+            .heading {
+                color: #FFFFFF;
+                font-size: clamp(30px, 3vw, 70px);
+                margin-bottom: 19px;
+                font-weight: 700;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 25px;
+                }
+                @media screen and (max-width: 480px) {
+                    width: 100%;
+                    font-size: 22px;
+                }
+                @media screen and (max-width: 375px) {
+                    width: 100%;
+                    font-size: 19px;
+                }
+            }
+
+            p {
+                color: white;
+                font-size: clamp(15px, 2vw, 20px);
+                margin-bottom: 35px;
+                width: 62%;
+                font-weight: 300;
+
+                @media screen and (max-width: 600px) {
+                    width: 80%;
+                }
+                @media screen and (max-width: 480px) {
+                    width: 100%;
+                    font-size: 14px;
+                }
+                @media screen and (max-width: 375px) {
+                    width: 100%;
+                    font-size: 12px;
+                }
+            }
+
+            button.customized_btn {
+                border-radius: 20px;
+                background-color: black;
+                width: 306px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 30px;
+                padding-right: 30px;
+                color: #ffffff;
+                border: none;
+                cursor: pointer;
+
+                @media screen and (max-width: 575px) {
+                    font-size: 14px;
+                }
+                @media screen and (max-width: 480px) {
+                    width: 100%;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

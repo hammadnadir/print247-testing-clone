@@ -1,0 +1,77 @@
+.custom_quote_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    .Print247-Logo{
+        width: 185px;
+        height: 45px;
+        @media screen and (max-width: 540px) {
+            width: 150px;
+            height: 40px;
+        }
+        @media screen and (max-width: 430px) {
+            width: 130px;
+            height: 35px;
+        }
+    }
+    .text-field{
+        p{
+            margin: 0px;
+        }
+       
+    }
+    .custom_quote_header_text{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        .quote-image{
+            width: 40px;
+            height: 40px;
+            @media screen and (max-width: 540px) {
+                width: 35px;
+            height: 35px;
+            }
+            @media screen and (max-width: 430px) {
+                width: 30px;
+            height: 30px;
+            }
+        }
+        .text-field{
+            
+            h6{
+                font-size: 16px;
+                margin-bottom: 3px;
+                font-weight: medium;
+                @media screen and (max-width: 540px) {
+                    font-size: 12px;
+                }
+                @media screen and (max-width: 430px) {
+                    font-size: 10px;
+                }
+            }
+            h3{
+                font-weight: bold;
+                font-size: 21px;
+                color: #3498ff;
+                margin-bottom: 3px;
+                @media screen and (max-width: 540px) {
+                    font-size: 15px;
+                }
+                @media screen and (max-width: 430px) {
+                    font-size: 12px;
+                }
+            }
+            p{
+                font-size: 11px;
+                margin-bottom: 0px;
+                @media screen and (max-width: 540px) {
+                    font-size: 8px;
+                }
+                @media screen and (max-width: 430px) {
+                    font-size: 7px;
+                }
+            }
+        }
+    }
+}

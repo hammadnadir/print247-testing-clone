@@ -1,0 +1,139 @@
+.main_banner_christmas {
+    position: relative;
+
+    .back_image_christmas {
+        img {
+            width: 100%;
+            height: 85vh;
+
+            @media screen and (min-width: 1025px) and (max-width: 1300px) {
+                // height: 87vh;
+                height: 78vh;
+            }
+
+            @media screen and (min-width: 913px) and (max-width: 1024px) {
+                height: 75vh;
+            }
+
+            @media screen and (max-width: 912px) {
+                height: 65vh;
+            }
+
+            @media screen and (max-width: 768px) {
+                height: 90vh;
+            }
+
+            @media screen and (max-width: 575px) {
+                // height: 80vh;
+                height: 90vh;
+            }
+        }
+    }
+
+    .top_section_christmas {
+        width: 100%;
+        z-index: 20;
+        position: absolute;
+        top: 49%;
+
+        @media screen and (max-width: 912px) {
+            top: 40%;
+        }
+
+        @media screen and (max-width: 768px) {
+            // top: 45%;
+            top: 17%;
+        }
+
+        @media screen and (max-width: 635px) {
+            // top: 44%;
+            top: 15%;
+        }
+
+        @media screen and (max-width: 575px) {
+            // top: 23%;
+            top: 18%;
+        }
+
+        .main_christmas_banner {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+
+            .white_color_christmas1 {
+                fill: none;
+                color: black;
+                font-size: clamp(30px, 3vw, 60px);
+                margin-bottom: 10px;
+                font-weight: 700 !important;
+                font-family: "Montserrat";
+
+                @media screen and (max-width: 1100px) {
+                    font-size: 30px;
+                }
+
+                @media screen and (max-width: 768px) {
+                    text-align: center;
+                    max-width: 100%;
+                    font-size: 30px;
+                }
+
+                @media screen and (max-width: 400px) {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .white_color_christmas {
+                color: black;
+                font-weight: 700 !important;
+                font-family: "Montserrat";
+                font-size: clamp(30px, 3vw, 55px);
+                max-width: 800px;
+
+                @media screen and (max-width: 1100px) {
+                    font-size: 30px;
+                }
+
+                @media screen and (max-width: 768px) {
+                    text-align: center;
+                    max-width: 100%;
+                    font-size: 30px;
+                }
+
+                @media screen and (max-width: 575px) {
+                    margin-bottom: 0px;
+                }
+
+                @media screen and (max-width: 400px) {
+                    font-size: 25px;
+                }
+            }
+
+            small {
+                color: #4e0404;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: 600;
+                color: black;
+                padding-top: 120px;
+                margin-bottom: 0px !important;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+
+                @media screen and (max-width: 1700px) {
+                    font-size: 17px;
+                }
+                // @media screen and (max-width: 1534px) {
+                //     display: none;
+                // }
+            }
+        }
+    }
+
+}

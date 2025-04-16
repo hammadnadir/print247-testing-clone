@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /*?search=
+Disallow: /*&search=
+Disallow: /api
+Allow: /
+
+Sitemap: https://print247.us/sitemap.xml
