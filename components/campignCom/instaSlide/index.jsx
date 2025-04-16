@@ -56,7 +56,7 @@ function InstaSlides() {
                     <p>Indeed, you are just a call away from us. Hence, you set the new trends of packaging products with us. Because we think “Beautiful”. We think “Revolutionary”. For You!</p>
                 </div>
 
-                <div className="main_boxes">
+                {/* <div className="main_boxes">
                     <Marquee pauseOnHover direction="right">
                         {instaData.map((vid, i) => (
                             <div key={i}>
@@ -68,7 +68,7 @@ function InstaSlides() {
                             </div>
                         ))}
                     </Marquee>
-                </div>
+                </div> */}
 
             </div>
         </div>

@@ -71,7 +71,7 @@ function Creating() {
             </p>
           </div>
         </Container>
-        <div className="main_boxes">
+        {/* <div className="main_boxes">
           <Marquee pauseOnHover direction="right">
             {instaData.map((vid, i) => (
               <div key={i}>
@@ -88,7 +88,7 @@ function Creating() {
               </div>
             ))}
           </Marquee>
-        </div>
+        </div> */}
       </div>
     </div>
   );

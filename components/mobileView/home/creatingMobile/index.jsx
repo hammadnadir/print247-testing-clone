@@ -84,7 +84,7 @@ function CreatingMobile() {
           <div>
             <h2>Set the Trends</h2>
             <p>Indeed, you are just a call away from us. Hence, you set the new trends of packaging products with us. Because we think “Beautiful”. We think “Revolutionary”. For You!</p>
-            <div className="main_boxesMobile">
+            {/* <div className="main_boxesMobile">
               <Marquee direction="right">
                 {instaData.map((vid, i) => (
                   <a href={vid.link} key={i} target="_blank" rel="noopener noreferrer">
@@ -97,7 +97,7 @@ function CreatingMobile() {
                   </a>
                 ))}
               </Marquee>
-            </div>
+            </div> */}
           </div>
         </Container>
       </div>
