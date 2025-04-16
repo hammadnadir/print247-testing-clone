@@ -38,7 +38,7 @@ function Footer() {
       title: 'Support',
       links: [
         { href: 'tel:13462461639', label: '+1 (346) 246-1639', icon: '/image/phone.png' },
-        { href: 'mailto:Support@print247.us', label: 'Support@print247.us', icon: '/image/mail.png' },
+        { href: 'mailto:Support@print247-testing-clone.vercel.app', label: 'Support@print247-testing-clone.vercel.app', icon: '/image/mail.png' },
         {
           href: 'https://www.google.com/maps/place/1631+Cottonwood+School+Rd,+Rosenberg,+TX+77471,+USA',
           label: '1631 Cottonwood School Rd, Rosenberg, TX 77471, USA',
@@ -197,8 +197,8 @@ function Footer() {
               </li>
               <li>
                 <Image className="margin-icons" src="/image/mail.png" width={22} height={18} alt="mail icon" />
-                <a href="mailto: Support@print247.us">
-                  Support@print247.us
+                <a href="mailto: Support@print247-testing-clone.vercel.app">
+                  Support@print247-testing-clone.vercel.app
                 </a>
               </li>
               <li style={{ display: "flex" }}>
@@ -275,10 +275,10 @@ function Footer() {
           <hr />
           <div className="follow_section">
             <div className="main-social">
-              <a href="https://www.facebook.com/officialprint247.us" onMouseEnter={() => setData("1")} onMouseLeave={() => setData("")} target="_blank">
+              <a href="https://www.facebook.com/officialprint247-testing-clone.vercel.app" onMouseEnter={() => setData("1")} onMouseLeave={() => setData("")} target="_blank">
                 {data !== "1" ? <Image className="social-icon" src="/image/fb.png" width={44} height={44} alt="socail icon" /> : <Image className="social-icon" src="/image/whitefb.png" width={44} height={44} alt="socail icon" />}
               </a>
-              <a href="https://www.instagram.com/print247.us/" onMouseEnter={() => setData("2")} onMouseLeave={() => setData("")} target="_blank">
+              <a href="https://www.instagram.com/print247-testing-clone.vercel.app/" onMouseEnter={() => setData("2")} onMouseLeave={() => setData("")} target="_blank">
                 {data !== "2" ? <Image className="social-icon" src="/image/footinsta.png" width={44} height={44} alt="socail icon" /> : <Image className="social-icon" src="/image/whiteinsta.png" width={44} height={44} alt="socail icon" />}
               </a>
               <a href="https://www.linkedin.com/company/print247-us" onMouseEnter={() => setData("4")} onMouseLeave={() => setData("")} target="_blank">
@@ -292,7 +292,7 @@ function Footer() {
       <div className="container">
         <div className="main_copyright">
           <div className="copyright">
-            <p>Print247.us © {currentYear}. All Rights Reserved.</p>
+            <p>print247-testing-clone.vercel.app © {currentYear}. All Rights Reserved.</p>
           </div>
           <div className="inner_copyright">
             <p>We accept all major credit cards</p>

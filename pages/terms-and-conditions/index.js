@@ -43,7 +43,7 @@ function Terms() {
             `,
           }}
         />
-        <link rel="canonical" href={`https://print247.us/terms-and-conditions`} />
+        <link rel="canonical" href={`https://print247-testing-clone.vercel.app/terms-and-conditions`} />
         <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/print247FavIcon.png" />

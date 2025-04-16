@@ -231,7 +231,7 @@ function ContactModal({ modalOpen, setModalOpen }) {
               <input name="agree" checked={agree} type="checkbox" />
 
               <label>
-                I agree to Print247.us recording calls as described in their{" "}
+                I agree to print247-testing-clone.vercel.app recording calls as described in their{" "}
                 <Link href="/privacy-policy">
                   <span>Privacy</span>
                 </Link>

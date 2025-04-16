@@ -11,7 +11,7 @@ function Privacy() {
               <h1>Privacy Policy</h1>
               <p>
                 Welcome to{" "}
-                <span style={{ fontWeight: "700" }}> Print247.us</span>, where
+                <span style={{ fontWeight: "700" }}> print247-testing-clone.vercel.app</span>, where
                 we transform your ideas into vibrant prints, thank you for
                 choosing us for your packaging, boxes, and printing needs. We
                 are safeguarding your privacy and ensuring the confidentiality
@@ -63,12 +63,12 @@ function Privacy() {
                         third-party partners like shipping companies.
                       </p>
                       <h2>Communication</h2>
-                      {/* <p>We may send you order updates, marketing communications, and other information about <span style={{fontWeight: "700"}}> Print247.us</span> that you'll find interesting. But don't worry, you can always opt out of these communications. No mobile information will be shared with third parties/ affiliates for
+                      {/* <p>We may send you order updates, marketing communications, and other information about <span style={{fontWeight: "700"}}> print247-testing-clone.vercel.app</span> that you'll find interesting. But don't worry, you can always opt out of these communications. No mobile information will be shared with third parties/ affiliates for
                       marketing/promotional purposes</p> */}
                       <p>
                         We'll keep you in the loop with updates on your orders,
                         exclusive promotions, and other exciting news from
-                        Print247.us. If you'd rather not receive these messages,
+                        print247-testing-clone.vercel.app. If you'd rather not receive these messages,
                         you can easily opt out at any time. Rest assured, we'll
                         never share your mobile information with third parties
                         or affiliates for marketing or promotional purposes.
@@ -129,7 +129,7 @@ function Privacy() {
                   <div className="bottom_subdata">
                     <div className="headsubdata">
                       <p>
-                        <span style={{ fontWeight: "700" }}> Print247.us</span>{" "}
+                        <span style={{ fontWeight: "700" }}> print247-testing-clone.vercel.app</span>{" "}
                         secure your information is a top priority. If we
                         identify a data vulnerability, we will make every effort
                         within reasonable economic means. Promptly address and
@@ -210,7 +210,7 @@ function Privacy() {
                       </p>
                       <p>
                         Thank you for trusting{" "}
-                        <span style={{ fontWeight: "700" }}> Print247.us</span>{" "}
+                        <span style={{ fontWeight: "700" }}> print247-testing-clone.vercel.app</span>{" "}
                         with your printing needs. We value your privacy and are
                         providing a secure and user-friendly experience.{" "}
                       </p>

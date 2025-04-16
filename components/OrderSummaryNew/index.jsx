@@ -356,7 +356,7 @@ function OrderSummaryNew({ componentRef }) {
             </div>
             <div className="img_data">
               <img src="/image/cartmail.png" width={23} height={18} alt='mail icon'/>
-              <a href='mailto: Support@print247.us'><p>Support@print247.us</p></a>
+              <a href='mailto: Support@print247-testing-clone.vercel.app'><p>Support@print247-testing-clone.vercel.app</p></a>
             </div>
             <div className="img_data">
               <img src="/image/carthtc.png" width={18} height={19} alt='cart icon' />

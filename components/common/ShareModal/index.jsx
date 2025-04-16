@@ -19,7 +19,7 @@ function ShareModal({ shareModal, setShareModal }) {
     setCopied(false)
   };
 
-  const TextToCopy = `https://print247.us` + router?.asPath;
+  const TextToCopy = `https://print247-testing-clone.vercel.app` + router?.asPath;
 
   return (
     <div>

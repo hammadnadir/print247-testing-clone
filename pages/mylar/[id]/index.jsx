@@ -42,7 +42,7 @@ function Mylar() {
       <Head>
         <title>{detailData?.meta_title}</title>
         <meta name="description" content={detailData?.meta_desc} />
-        <link rel="canonical" href={`https://www.print247.us/${router?.asPath}`} />
+        <link rel="canonical" href={`https://www.print247-testing-clone.vercel.app/${router?.asPath}`} />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
 

@@ -45,7 +45,7 @@ function OrderQuoteView() {
                     }}
                 />
                 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-                <link rel="canonical" href={`https://print247.us${router?.asPath}`} />
+                <link rel="canonical" href={`https://print247-testing-clone.vercel.app${router?.asPath}`} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/image/print247FavIcon.png" />
                 {/* <link rel="icon" href="/images/biotech.png" /> */}

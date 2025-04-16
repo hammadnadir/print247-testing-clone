@@ -273,7 +273,7 @@ function Contact() {
             <div className="email">
               <h3>Email</h3>
               <span>
-                <a href="mailto: Support@print247.us">Support@print247.us</a>
+                <a href="mailto: Support@print247-testing-clone.vercel.app">Support@print247-testing-clone.vercel.app</a>
               </span>
             </div>
 

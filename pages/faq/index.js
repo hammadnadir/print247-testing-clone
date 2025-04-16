@@ -41,7 +41,7 @@ function Faq() {
             `,
           }}
         />
-        <link rel="canonical" href={`https://print247.us/faq`} />
+        <link rel="canonical" href={`https://print247-testing-clone.vercel.app/faq`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/print247FavIcon.png" />
         {/* <link rel="icon" href="/images/biotech.png" /> */}

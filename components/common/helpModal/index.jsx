@@ -110,7 +110,7 @@ function HelpModal({ helpModal, setIsHelpModal }) {
             Lead_Source: "Ecommerce",
             tags: ["Website Need Help Quote!"],
             // Lead_Source: "Website Need Help Quote!",
-            Description: JSON.stringify({Interest: `https://print247.us/${router?.query?.id}`})
+            Description: JSON.stringify({Interest: `https://print247-testing-clone.vercel.app/${router?.query?.id}`})
          
           }))
         dispatch(HelpSubmitRequest(payload)).then((res) => {

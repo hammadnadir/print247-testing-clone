@@ -58,7 +58,7 @@ function QuoteSubmit() {
       <Head>
         <link
           rel="canonical"
-          href={`https://print247.us${router?.asPath}`}
+          href={`https://print247-testing-clone.vercel.app${router?.asPath}`}
         />
         <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
       </Head>

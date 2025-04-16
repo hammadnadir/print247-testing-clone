@@ -19,11 +19,11 @@ const ReturnRefundPolicy = () => {
 
           </p>
           <p className="refund_policy_para">
-          To initiate the return process, you can contact us at  <a href="mailto: support@print247.us"> Support@print247.us.</a> If your return is accepted, we will send you instructions on how and where to ship your package. Items sent back to us without first requesting the return will not be accepted.
+          To initiate the return process, you can contact us at  <a href="mailto: support@print247-testing-clone.vercel.app"> Support@print247-testing-clone.vercel.app.</a> If your return is accepted, we will send you instructions on how and where to ship your package. Items sent back to us without first requesting the return will not be accepted.
       
           </p>
           <p className="refund_policy_para">
-          You can always contact us for any return questions at  <a href="mailto: support@print247.us">Support@print247.us </a>
+          You can always contact us for any return questions at  <a href="mailto: support@print247-testing-clone.vercel.app">Support@print247-testing-clone.vercel.app </a>
 
          </p>
           <p className="refund_policy_para">

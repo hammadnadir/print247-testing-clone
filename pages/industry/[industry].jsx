@@ -67,7 +67,7 @@ function Industries({notFound }) {
                 />
                 <link
                     rel="canonical"
-                    href={`https://print247.us${router?.asPath}`}
+                    href={`https://print247-testing-clone.vercel.app${router?.asPath}`}
                 />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/image/print247FavIcon.png" />

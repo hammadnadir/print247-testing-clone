@@ -17,10 +17,10 @@ function SocialMarquee() {
               <p>Follow</p>
             </div>
             <div className="inner_social_marquee">
-            <a href="https://www.facebook.com/officialprint247.us" onMouseEnter={() => setData("1")} onMouseLeave={() => setData("")} target="_blank">
+            <a href="https://www.facebook.com/officialprint247-testing-clone.vercel.app" onMouseEnter={() => setData("1")} onMouseLeave={() => setData("")} target="_blank">
               <img src="/image/fac-cam.png" width="13px" height="24px" alt="facebook icon" />
               </a>
-              <a href="https://www.instagram.com/print247.us/" onMouseEnter={() => setData("2")} onMouseLeave={() => setData("")} target="_blank">
+              <a href="https://www.instagram.com/print247-testing-clone.vercel.app/" onMouseEnter={() => setData("2")} onMouseLeave={() => setData("")} target="_blank">
               <img src="/image/lin-cam.png" width="24px" height="24px" alt="instagram icon" />
               </a>
               <a href="https://www.linkedin.com/company/print247-us" onMouseEnter={() => setData("4")} onMouseLeave={() => setData("")} target="_blank">

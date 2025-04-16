@@ -52,7 +52,7 @@ function BlogPage() {
             `,
           }}
         />
-        <link rel="canonical" href={`https://print247.us/post`} />
+        <link rel="canonical" href={`https://print247-testing-clone.vercel.app/post`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/print247FavIcon.png" />
         {/* <link rel="icon" href="/images/biotech.png" /> */}

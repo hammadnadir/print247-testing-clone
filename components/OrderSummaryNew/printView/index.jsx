@@ -222,7 +222,7 @@ function PrintOrderSummary() {
             </div>
             <div className="imgg_data">
               <img src="/image/cartmail.png" width={20} height={16} alt='mail icon'/>
-              <a href='mailto: Support@print247.us'><p>Support@print247.us</p></a>
+              <a href='mailto: Support@print247-testing-clone.vercel.app'><p>Support@print247-testing-clone.vercel.app</p></a>
             </div>
             <div className="imgg_data">
               <img src="/image/carthtc.png" width={16} height={17} alt='cart icon'/>

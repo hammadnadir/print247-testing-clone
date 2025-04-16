@@ -48,7 +48,7 @@ const RefundReturnPolicy = () => {
         />
         <link
           rel="canonical"
-          href={`https://print247.us/return-policy`}
+          href={`https://print247-testing-clone.vercel.app/return-policy`}
         />
         <meta
           name="robots"

@@ -26,14 +26,14 @@ function QuoteHeaderMobile() {
         alt="print247 logo"
       />
       <div className="social-logo">
-      <a rel="" target="_blank" href="https://www.facebook.com/officialprint247.us"  >
+      <a rel="" target="_blank" href="https://www.facebook.com/officialprint247-testing-clone.vercel.app"  >
       <Image
         className="Print247-facebook"
         src="/customQuote/Icons/facebook.svg"
         alt="print247 logo"
       />
       </a>
-       <a rel="" target="_blank" href="https://www.instagram.com/print247.us/" >
+       <a rel="" target="_blank" href="https://www.instagram.com/print247-testing-clone.vercel.app/" >
       <Image
         className="Print247-instagram"
         src="/customQuote/Icons/instagram.svg"
@@ -52,7 +52,7 @@ function QuoteHeaderMobile() {
         <div className="get_custom" >
           <h4>Get a Custom Quote</h4>
           <div className="mobile_para">
-          <p>As we are Print247.us we are available 24/7 to assist  and guide you. You just have to inform us about the  packaging and we will create an instant quote for you.</p>
+          <p>As we are print247-testing-clone.vercel.app we are available 24/7 to assist  and guide you. You just have to inform us about the  packaging and we will create an instant quote for you.</p>
           </div>
         </div>
       

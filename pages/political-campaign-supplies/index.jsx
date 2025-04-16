@@ -23,7 +23,7 @@ export default function PoliticalCompaignSupplies() {
                 <title>Custom Political Campaign Supplies</title>
                 <link
                     rel="canonical"
-                    href={`https://print247.us${router?.asPath}`}
+                    href={`https://print247-testing-clone.vercel.app${router?.asPath}`}
                 />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/image/print247FavIcon.png" />

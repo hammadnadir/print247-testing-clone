@@ -33,7 +33,7 @@ function Value() {
     return (
         <div className='main_value'>
             <Container>
-                <h1>Print247.us Core Values</h1>
+                <h1>print247-testing-clone.vercel.app Core Values</h1>
                 <div>
                     <Row>
                         {valuesData.map((value, index) => (

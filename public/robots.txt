@@ -4,4 +4,4 @@ Disallow: /*&search=
 Disallow: /api
 Allow: /
 
-Sitemap: https://print247.us/sitemap.xml
+Sitemap: https://print247-testing-clone.vercel.app/sitemap.xml

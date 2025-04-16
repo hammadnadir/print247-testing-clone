@@ -31,8 +31,8 @@ function DetailReadMore() {
                 <div className='main-readMore'>
                     <div className='readmore-width'>
                         <div className='readMore-social'>
-                            <a href="https://www.facebook.com/officialprint247.us" target="_blank"><Image src="/image/facebookiconn.png" width={42} height={42} alt="social icons" /></a>
-                            <a href="https://www.instagram.com/print247.us/" target="_blank"><Image src="/image/inst.png" width={42} height={42} alt="social icons" /></a>
+                            <a href="https://www.facebook.com/officialprint247-testing-clone.vercel.app" target="_blank"><Image src="/image/facebookiconn.png" width={42} height={42} alt="social icons" /></a>
+                            <a href="https://www.instagram.com/print247-testing-clone.vercel.app/" target="_blank"><Image src="/image/inst.png" width={42} height={42} alt="social icons" /></a>
                             <a href="https://www.pinterest.com/officialprint247us/" target="_blank"><Image src="/image/pinterestblog.png" width={42} height={42} alt="social icons" /></a>
                             <a href="https://www.linkedin.com/company/print247-us/" target="_blank"><Image src="/image/linkediniconn.png" width={42} height={42} alt="social icons" /></a>
 

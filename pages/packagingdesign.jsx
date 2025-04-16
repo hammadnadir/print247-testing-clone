@@ -39,7 +39,7 @@ function Packagingdesign() {
             `,
           }}
         />
-        <link rel="canonical" href={`https://print247.us/packagingdesign`} />
+        <link rel="canonical" href={`https://print247-testing-clone.vercel.app/packagingdesign`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/logow.png" />
         {/* <link rel="icon" href="/images/biotech.png" /> */}

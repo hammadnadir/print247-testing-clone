@@ -139,8 +139,8 @@ function DetailsPage({ notFound }) {
     };
   }, []);
 
-  const canonicalUrl = router?.query?.id === 'custom-floor-decals' ? 'https://print247.us/floor-graphics'
-    : `https://print247.us${router?.asPath}`;
+  const canonicalUrl = router?.query?.id === 'custom-floor-decals' ? 'https://print247-testing-clone.vercel.app/floor-graphics'
+    : `https://print247-testing-clone.vercel.app${router?.asPath}`;
 
 
   return (
@@ -175,7 +175,7 @@ function DetailsPage({ notFound }) {
 
         <link
           rel="canonical"
-          // href={`https://print247.us${router?.asPath}`}
+          // href={`https://print247-testing-clone.vercel.app${router?.asPath}`}
           href={canonicalUrl}
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -85,7 +85,7 @@ function Services() {
                                     </div>
                                     {/* <h2>{homeData?.homepage && homeData?.homepage[0]?.description4}</h2>
                                     <p>{homeData?.homepage && homeData?.homepage[0]?.heading6}</p> */}
-                                    <h2>I love Print247.us! They do great quality prints and are very punctual in their delivery time. Our shipping products turned out great and Print247.us is my go-to printing company.  As, they are in an excellent quality!!!. The box was in perfect condition as expected.</h2>
+                                    <h2>I love print247-testing-clone.vercel.app! They do great quality prints and are very punctual in their delivery time. Our shipping products turned out great and print247-testing-clone.vercel.app is my go-to printing company.  As, they are in an excellent quality!!!. The box was in perfect condition as expected.</h2>
                                     <p>Dylan Bonell // CEO</p>
                                 </div>
                             </div>
@@ -106,7 +106,7 @@ function Services() {
                                     </div>
                                     {/* <h2>{homeData?.homepage && homeData?.homepage[0]?.description4}</h2>
                                     <p>{homeData?.homepage && homeData?.homepage[0]?.heading6}</p> */}
-                                    <h2>Print247.us is a fantastic company to work with! We trust them with our brands and our clients brands. Amazing attention to detail, quick service at a great price. And their customer service is one of the best PEO I have ever worked with (in any industry).</h2>
+                                    <h2>print247-testing-clone.vercel.app is a fantastic company to work with! We trust them with our brands and our clients brands. Amazing attention to detail, quick service at a great price. And their customer service is one of the best PEO I have ever worked with (in any industry).</h2>
                                     <p>Barry Vuong // CEO</p>
                                 </div>
                             </div>
@@ -171,7 +171,7 @@ function Services() {
                                     {/* <h2>{homeData?.homepage && homeData?.homepage[0]?.description4}</h2>
                                     <p>{homeData?.homepage && homeData?.homepage[0]?.heading6}</p> */}
                                     <h2>Amazing quality work and very courteous service and totally affordable.
-                                        Exactly what i needed. I will look forward to working on future projects with her and Print247.us in general.</h2>
+                                        Exactly what i needed. I will look forward to working on future projects with her and print247-testing-clone.vercel.app in general.</h2>
                                     <p>Gregory Balotin // CEO</p>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@ function Services() {
                                     </div>
                                     {/* <h2>{homeData?.homepage && homeData?.homepage[0]?.description4}</h2>
                                     <p>{homeData?.homepage && homeData?.homepage[0]?.heading6}</p> */}
-                                    <h2>These stickers i received were absolutely beautiful and the team worked well for my needs! I{"’"}m so excited about order. Love the quality, corporative team, fast shipping will definitely be using Print247.us for all my business needs!</h2>
+                                    <h2>These stickers i received were absolutely beautiful and the team worked well for my needs! I{"’"}m so excited about order. Love the quality, corporative team, fast shipping will definitely be using print247-testing-clone.vercel.app for all my business needs!</h2>
                                     <p>Ali Naseer // CEO</p>
                                 </div>
                             </div>

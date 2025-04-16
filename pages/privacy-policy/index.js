@@ -42,7 +42,7 @@ function Privacypolicies() {
             `,
           }}
         />
-        <link rel="canonical" href={`https://print247.us/privacy-policy`} />
+        <link rel="canonical" href={`https://print247-testing-clone.vercel.app/privacy-policy`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/print247FavIcon.png" />
         {/* <link rel="icon" href="/images/biotech.png" /> */}

@@ -4,7 +4,7 @@ import { blogDataRequest } from "@/redux/blog";
 import { siteMapDataRequest } from "@/redux/sitemap";
 import { wrapper } from "@/store";
 
-const EXTERNAL_DATA_URL = 'https://print247.us';
+const EXTERNAL_DATA_URL = 'https://print247-testing-clone.vercel.app';
 
 function generateSiteMap(siteMapData, blogData) {
     const allIndustries = Object.keys(industries)?.map((data) => data?.toLowerCase())

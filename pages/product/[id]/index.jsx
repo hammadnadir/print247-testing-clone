@@ -41,7 +41,7 @@
 //         <title>{detailData?.meta_title}</title>
 //         <meta name="description" content={detailData?.meta_desc} />
 //         <meta name="robots" content="noindex, nofollow" />
-//         <link rel="canonical" href={`https://print247.us${router?.asPath}`} />
+//         <link rel="canonical" href={`https://print247-testing-clone.vercel.app${router?.asPath}`} />
 //         <meta
 //           name="robots"
 //           content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
@@ -236,7 +236,7 @@ function DetailsPage() {
         <title>{detailData?.meta_title}</title>
         <meta name="description" content={detailData?.meta_desc} />
         <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href={`https://print247.us${router?.asPath}`} />
+        <link rel="canonical" href={`https://print247-testing-clone.vercel.app${router?.asPath}`} />
       </Head>
       <main>
         <div className={router?.query?.id !== "custom-mylar-bags-a" && isDesktopBelow ? isSlideUpHeight ? "afterSlide" : "beforeSlide" : ""}>

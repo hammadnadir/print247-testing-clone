@@ -9,7 +9,7 @@ function Opinion() {
                 <Container>
                     <div className='inner_opinion'>
                         <h4>Opinions Matter</h4>
-                        <p>Organizations of all sizes and in many industries have used Print247.us for high-quality
+                        <p>Organizations of all sizes and in many industries have used print247-testing-clone.vercel.app for high-quality
                             printing to increase their productivity.</p>
                         <div className='main_box'>
                             <div className='images_box'>
@@ -21,7 +21,7 @@ function Opinion() {
                             </div>
                             <div className='main_box2'>
                                 <div className='main_box_data'>
-                                    <h6>Print247.us is a platform with a good name and a very good service…</h6>
+                                    <h6>print247-testing-clone.vercel.app is a platform with a good name and a very good service…</h6>
                                     <p>Where entrepreneurs can easily find the right design for their company. The book cover for us was a very important part of the success of the book. Therefore, we entrusted this to experts and ended up being very happy with the result.</p>
                                     <div className='right_data'>
                                         <span>Haywire <br /><small>Coffee Roaster</small></span>

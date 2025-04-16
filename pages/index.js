@@ -70,7 +70,7 @@ export default function Home() {
               "@type": "Organization",
               "@id": "",
               "name": "Print247",
-              "url": "https://print247.us/",
+              "url": "https://print247-testing-clone.vercel.app/",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Lancaster",
@@ -81,23 +81,23 @@ export default function Home() {
               "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "7252688276",
-                "url": "https://print247.us/contact-us/",
+                "url": "https://print247-testing-clone.vercel.app/contact-us/",
                 "contactType": "Customer Support"
               },
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://print247.us/wp-content/uploads/2023/01/Print247-Logo.png",
+                "url": "https://print247-testing-clone.vercel.app/wp-content/uploads/2023/01/Print247-Logo.png",
                 "width": 114,
                 "height": 85,
-                "@id": "https://print247.us/wp-content/uploads/2023/01/Print247-Logo.png/#logo"
+                "@id": "https://print247-testing-clone.vercel.app/wp-content/uploads/2023/01/Print247-Logo.png/#logo"
               }
             }
           `}
         </script>
-        <link rel="canonical" href="https://print247.us" />
+        <link rel="canonical" href="https://print247-testing-clone.vercel.app" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://print247.us/" />
+        <meta property="og:url" content="https://print247-testing-clone.vercel.app/" />
         <meta property="og:image" content="/image/print247FavIcon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/print247FavIcon.png" />

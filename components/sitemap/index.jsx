@@ -1,5 +1,5 @@
 const generateSitemap = (siteMapData) => {
-    const baseUrl = 'https://print247.us';
+    const baseUrl = 'https://print247-testing-clone.vercel.app';
 
     const lastmod = '2023-08-21'; // You can set this as needed.
     const products = siteMapData?.catgeory ? siteMapData?.catgeory : []

@@ -394,9 +394,9 @@ function PoliticalHeader({ isWhiteColor = false }) {
             </a>
             <div className="info_contact">
               <Link id="lets-talk3" className="info_num" href="tel: 13462461639">+1 (346) 246-1639</Link> <br />
-              <a className="info_mail" href="mailto: Support@print247.us">Support@print247.us</a>
+              <a className="info_mail" href="mailto: Support@print247-testing-clone.vercel.app">Support@print247-testing-clone.vercel.app</a>
             </div>
-            <Link target="_blank" href="https://www.instagram.com/print247.us/"> <span style={{ display: "block" }}>Watch our showreel</span></Link>
+            <Link target="_blank" href="https://www.instagram.com/print247-testing-clone.vercel.app/"> <span style={{ display: "block" }}>Watch our showreel</span></Link>
           </div>
 
         </div>
